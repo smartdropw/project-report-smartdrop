@@ -265,6 +265,32 @@ A continuación se resume, en formato tabular, una comparación sintetizada entr
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
 
+A partir del análisis competitivo realizado, SmartDrop plantea las siguientes estrategias y tácticas para diferenciarse y posicionarse en el mercado:
+
+### Estrategias principales
+
+- **Diferenciación por amplitud**: mientras competidores como INYT se enfocan en la industria y AIoT4All en temas ambientales, SmartDrop se posiciona como una plataforma integral capaz de gestionar múltiples líquidos (agua, combustibles, bebidas) tanto en hogares como en PYMEs.
+- **Accesibilidad y usabilidad**: ofrecer precios más bajos y un modelo SaaS flexible, acompañado de interfaces simples y predicciones inteligentes, lo que permite captar clientes que buscan soluciones fáciles y económicas.
+- **Presencia local**: reforzar el soporte técnico y la atención cercana en la región, donde competidores internacionales suelen ser menos accesibles.
+
+### Tácticas preliminares
+
+1. **Pilotos estratégicos** en PYMEs y hogares para validar casos de uso reales y demostrar beneficios de ahorro.
+2. **Campañas digitales educativas** que comuniquen el valor de monitorear líquidos, enfocándose en sostenibilidad y reducción de costos.
+3. **Alianzas con municipalidades y empresas de servicios**, aprovechando la tendencia hacia la digitalización y la gestión eficiente de recursos.
+4. **Modelo freemium**: funciones básicas gratuitas (monitoreo de consumo) y planes pagos con predicción de consumo, alarmas avanzadas y reportes.
+5. **Desarrollo modular** de sensores que permita ampliar funcionalidades (ej. calidad del agua, temperatura, caudal), adaptándose mejor a distintos sectores.
+
+Con estas acciones, SmartDrop busca **aprovechar las debilidades** de los competidores (enfoque limitado, alto costo, poca presencia en hogares) y **potenciar las oportunidades** del mercado, posicionándose como la opción más flexible y accesible en la región.
+
+---
+
+## 2.2. Entrevistas
+
+### 2.2.1. Diseño de entrevistas
+
+### Segmento 1: Hogares con tanques/cisternas de agua
+
 | Bloque | Preguntas |
 |--------|-----------|
 | Perfil del entrevistado | ¿Cuál es tu nombre y edad? <br> ¿Dónde vives (ciudad, tipo de vivienda: casa, departamento, etc.)? <br> ¿Cuántas personas viven en tu hogar? <br> ¿Tienen cisterna o tanque de agua? ¿De qué capacidad aproximada? <br> ¿Quién se encarga habitualmente de revisar o controlar el agua en casa? |
@@ -275,9 +301,7 @@ A continuación se resume, en formato tabular, una comparación sintetizada entr
 
 ---
 
-## 2.2. Entrevistas
-
-### 2.2.1. Diseño de entrevistas
+### Segmento 2: PYMEs de bebidas/producción
 
 | Bloque | Preguntas |
 |--------|-----------|
@@ -286,7 +310,6 @@ A continuación se resume, en formato tabular, una comparación sintetizada entr
 | Problemas y frustraciones | ¿Han tenido pérdidas por falta de control en insumos líquidos? <br> ¿Qué aspectos de la gestión actual generan más dolores de cabeza? |
 | Necesidades y motivaciones | ¿Qué mejoras serían más valiosas para su negocio (reportes, trazabilidad, alertas)? <br> ¿Qué impacto tendría una mejor gestión de líquidos en sus costos y productividad? |
 | Tecnología y disposición | ¿Usan actualmente software de gestión o solo registros manuales? <br> ¿Qué características necesitaría una solución digital para que ustedes confíen en adoptarla? |
-
 
 ### 2.2.2. Registro de entrevistas
 
@@ -352,7 +375,7 @@ A continuación, se presenta el registro de entrevistas realizadas a usuarios po
 
 - **Sexo:** [rellenar]
 - **Edad:** [rellenar]
-- **Ubicación de la empresa:** [rellenar], [rellenar]]
+- **Ubicación de la empresa:** [rellenar], [rellenar]
 - **Nombre de la empresa:** [rellenar]
 - **Sector:** [rellenar]
 - **Rol:** [rellenar]
@@ -500,21 +523,21 @@ Los hogares se enfocan en la eficiencia y el ahorro en el consumo diario, mientr
 
 ### 2.3.3. User Journey Mapping
 
-En esta sección, hemos creado los mapas de recorrido del usuario para cada tipo de cliente de **Fluix** (**hogares** y **PYMEs de bebidas**).
+En esta sección, hemos creado los mapas de recorrido del usuario para cada tipo de cliente de **SmartDrop** (**hogares** y **PYMEs de bebidas**).
 
-Para el **usuario residencial**, el proceso comienza con la búsqueda de una solución confiable para monitorear el nivel de agua en su tanque, continúa con la evaluación de la plataforma Fluix, el registro en la página web, y la configuración inicial del sistema. Después, el cliente accede al dashboard para revisar consumos, recibe notificaciones preventivas y consulta reportes periódicos que le permiten controlar mejor su gasto y evitar quedarse sin suministro. Este recorrido refleja las metas, preocupaciones y oportunidades de mejora en la gestión del agua doméstica.
+Para el **usuario residencial**, el proceso comienza con la búsqueda de una solución confiable para monitorear el nivel de agua en su tanque, continúa con la evaluación de la plataforma SmartDrop, el registro en la página web, y la configuración inicial del sistema. Después, el cliente accede al dashboard para revisar consumos, recibe notificaciones preventivas y consulta reportes periódicos que le permiten controlar mejor su gasto y evitar quedarse sin suministro. Este recorrido refleja las metas, preocupaciones y oportunidades de mejora en la gestión del agua doméstica.
 
-Por otro lado, desde la perspectiva de la **PYME de bebidas**, el proceso se centra en identificar pérdidas o ineficiencias en la producción, evaluar soluciones tecnológicas que ofrezcan trazabilidad y reportes, e implementar Fluix en sus procesos de almacenamiento y control de lotes. A partir de ahí, la administradora consulta métricas en el dashboard, genera reportes descargables y utiliza los datos para justificar decisiones estratégicas en su negocio. El objetivo es optimizar la producción, reducir desperdicios y generar confianza en que Fluix se convierte en un aliado clave para el crecimiento de la empresa.
+Por otro lado, desde la perspectiva de la **PYME de bebidas**, el proceso se centra en identificar pérdidas o ineficiencias en la producción, evaluar soluciones tecnológicas que ofrezcan trazabilidad y reportes, e implementar SmartDrop en sus procesos de almacenamiento y control de lotes. A partir de ahí, la administradora consulta métricas en el dashboard, genera reportes descargables y utiliza los datos para justificar decisiones estratégicas en su negocio. El objetivo es optimizar la producción, reducir desperdicios y generar confianza en que SmartDrop se convierte en un aliado clave para el crecimiento de la empresa.
 
 ##### User Journey mapping para hogares con cisterna/tanque de agua
 
-Este **User Journey Mapping** muestra las etapas que un usuario residencial atraviesa al interactuar con Fluix, desde descubrir la plataforma hasta evaluar su consumo de agua en el tiempo. Identifica los **puntos de contacto** (página web y dashboard), los **problemas** (falta de control y confianza inicial) y las **oportunidades** (alertas predictivas y reportes de ahorro) que mejoran la gestión del agua en el hogar.
+Este **User Journey Mapping** muestra las etapas que un usuario residencial atraviesa al interactuar con SmartDrop, desde descubrir la plataforma hasta evaluar su consumo de agua en el tiempo. Identifica los **puntos de contacto** (página web y dashboard), los **problemas** (falta de control y confianza inicial) y las **oportunidades** (alertas predictivas y reportes de ahorro) que mejoran la gestión del agua en el hogar.
 
 ![User Journey Map](/assets/chapter2/Customer%20journey%20map%201%20(1).png)
 
 ##### User Journey mapping para Pymes de bebidas
 
-Este **User Journey Mapping** muestra las etapas que una administradora de una cervecería recorre al implementar Fluix, desde conocer la solución hasta usar los reportes en su negocio. Señala los **puntos de contacto** (plataforma web y reportes descargables), los **problemas** (pérdidas en inventario y curva de aprendizaje) y las **oportunidades** (dashboards personalizables y predicción de demanda) que fortalecen la trazabilidad y eficiencia en la producción.
+Este **User Journey Mapping** muestra las etapas que una administradora de una cervecería recorre al implementar SmartDrop, desde conocer la solución hasta usar los reportes en su negocio. Señala los **puntos de contacto** (plataforma web y reportes descargables), los **problemas** (pérdidas en inventario y curva de aprendizaje) y las **oportunidades** (dashboards personalizables y predicción de demanda) que fortalecen la trazabilidad y eficiencia en la producción.
 
 ![User Journey Map](/assets/chapter2/Customer%20journey%20map%202%20(1).png)
 ---
