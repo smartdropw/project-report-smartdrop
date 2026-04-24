@@ -394,6 +394,43 @@ El prefijo de categorías se define de la siguiente forma:
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
+En esta sección se definen las convenciones de nombres y codificación adoptadas por el equipo para los lenguajes utilizados en el proyecto: HTML, CSS, JavaScript, TypeScript y Java. El idioma estándar para todo el código (nombres de variables, funciones, clases, archivos, etc.) es el **inglés**.
+
+#### Principios generales
+
+- **Idioma estándar:** Todo el código fuente está escrito en inglés, incluyendo nombres de archivos, clases, variables y funciones.
+- **Legibilidad ante todo:** Se prioriza el uso de nombres descriptivos y claros por encima de abreviaciones o tecnicismos innecesarios.
+- **Formato consistente:** Se aplica un estilo uniforme en todo el equipo y en todos los lenguajes, reforzado por herramientas automáticas.
+- **Nombres semánticos:** Se usan **sustantivos** para clases, componentes y archivos, y **verbos** para funciones o métodos.
+- **Indentación:** 2 espacios para HTML, CSS, JS.
+
+#### HTML y CSS
+
+**HTML**
+- Archivos terminan en `.html`.
+- Se utilizan etiquetas semánticas como `<header>`, `<section>`, `<nav>`, `<footer>`, etc.
+- Se incluye `alt` en imágenes y atributos `aria-*` para accesibilidad.
+- Atributos con comillas dobles (`"`).
+- Indentación: 2 espacios.
+
+**CSS**
+- Archivos terminan en `.css`.
+- Los selectores y clases se nombran en minúsculas y guiones medios `.form-container`, `.btn-enviar`.
+- Se agrupan estilos relacionados y se separan con comentarios.
+- Se define una paleta de colores base en variables CSS para mantener consistencia.
+
+#### JavaScript
+
+**JS**
+- Archivos terminan en `.js`.
+- Las variables se escriben en minúsculas con guiones bajos: `datos_usuario`, `correo_valido`.
+- Se evita el uso de var y let, priorizando const para mayor seguridad.
+- Se emplea indentación de 4 espacios para bloques de código.
+- Se prefiere la declaración explícita de funciones en lugar de funciones flecha para mayor legibilidad
+
+Basado en:
+- [Guía de estilo JavaScript de Airbnb](https://github.com/airbnb/javascript)
+
 ### 5.1.4. Software Deployment Configuration
 
 ## 5.2. Landing Page, Services & Applications Implementation
