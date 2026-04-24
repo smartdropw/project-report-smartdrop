@@ -424,6 +424,49 @@ Los enlaces también están disponibles en la sección de anexos.
 - **Repositorio del informe:** [https://github.com/smartdropw/project-report-smartdrop](https://github.com/smartdropw/project-report-smartdrop)
 - **Repositorio de la Landing Page:** [https://github.com/smartdropw/LandingPage-SmartDrop](https://github.com/smartdropw/LandingPage-SmartDrop)
 
+#### Modelo de ramificación: GitFlow
+
+Para el modelo de desarrollo, se decidió usar GitFlow como modelo de ramificación. Este modelo permite una gestión eficiente de las ramas y facilita la colaboración entre los desarrolladores.
+
+Para el repositorio del informe se crearon las siguientes ramas:
+- **main:** Rama principal de desarrollo, donde se integrarán todas las características y correcciones de errores.
+- **develop:** Rama de desarrollo, donde se realizarán las integraciones de las características antes de ser fusionadas a main.
+- **caratula:** Rama para el desarrollo de la carátula del informe.
+- **chapter1:** Rama para el desarrollo del capítulo 1 del informe.
+- **chapter2:** Rama para el desarrollo del capítulo 2 del informe.
+- **chapter3:** Rama para el desarrollo del capítulo 3 del informe.
+- **chapter4:** Rama para el desarrollo del capítulo 4 del informe.
+- **chapter5:** Rama para el desarrollo del capítulo 5 del informe.
+
+Para el repositorio de Landing Page se crearon las siguientes ramas:
+
+- Features
+1. header
+2. hero
+3. about-us
+4. solutions
+5. subscriptions
+6. contact-sales
+7. faq
+8. footer
+9. product
+
+#### Estilo de commits: Conventional Commits
+Para asegurar mensajes de commits claros y estandarizados, se seguirá la convención [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/). Algunos ejemplos:
+
+- feat: add search by name functionality
+- fix: correct form validation error
+- docs: update installation instructions
+- refactor: simplify calculation logic
+
+El prefijo de categorías se define de la siguiente forma:
+- feat: A new feature
+- fix: A bug fix
+- docs: Documentation only changes
+- style: Changes that do not affect the meaning of the code (formatting, missing semicolons, etc.)
+- refactor: A code change that neither fixes a bug nor adds a feature
+- test: Adding missing tests or correcting existing ones
+- chore: Changes to the build process or auxiliary tools
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
