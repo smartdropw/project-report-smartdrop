@@ -432,6 +432,33 @@ Basado en:
 - [Guía de estilo JavaScript de Airbnb](https://github.com/airbnb/javascript)
 
 ### 5.1.4. Software Deployment Configuration
+Con el propósito de garantizar la disponibilidad de nuestra landing page para todos los usuarios, se procedió a su publicación como sitio web a través de la plataforma GitHub Pages. El proceso contempló las siguientes etapas:
+
+#### Despliegue de Landing Page
+
+**1. Registro en la plataforma GitHub**  
+Se efectuó la creación de una cuenta en GitHub, lo que permitió disponer de un espacio de gestión y control de repositorios para el proyecto.
+
+**2. Creación del repositorio**  
+Mediante la opción *New repository*, se generó un repositorio denominado **“Fluix-Landing-Page”**, asociado a la organización **Fluix**.
+
+**3. Configuración inicial del repositorio**  
+Se estableció que el repositorio fuese público, con el propósito de asegurar el acceso por parte de los usuarios.
+
+**4. Incorporación de los archivos**  
+Una vez creado el repositorio, se añadieron los archivos de la *landing page*.
+
+**5. Implementación de GitHub Pages**  
+Finalmente, en la sección *Settings* del repositorio, apartado *GitHub Pages*, se habilitó la publicación del proyecto, lo que permitió poner el sitio a disposición de todos los usuarios.
+
+**6. Verificación del sitio web**  
+Tras unos minutos de habilitar GitHub Pages, el sitio queda disponible en la dirección: https://github.com/smartdropw/LandingPage-SmartDrop. Para corroborar su funcionamiento, se accede a dicha URL desde el navegador, lo que permite confirmar que la página se encuentra activa.
+
+**7. Actualización del sitio**  
+En caso de requerir modificaciones, basta con realizar los correspondientes commits y efectuar nuevamente la acción de merge siguiendo el mismo procedimiento descrito. Los cambios aplicados se reflejan de manera automática en la versión en línea del sitio web.
+
+**Repositorio:** [https://github.com/smartdropw/LandingPage-SmartDrop](https://github.com/smartdropw/LandingPage-SmartDrop)<br>
+**URL desplegada:** [https://smartdropw.github.io/LandingPage-SmartDrop/](https://smartdropw.github.io/LandingPage-SmartDrop/)<br>
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
