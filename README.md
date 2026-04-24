@@ -183,7 +183,7 @@ del ABET – EAC \- Student Outcome 3\.
 ## 1.1. Startup Profile
 
 ### 1.1.1. Descripción de la Startup
-SmartDrop es una startup tecnológica orientada al desarrollo de soluciones digitales que optimizan la gestión de líquidos para hogares y empresas en América Latina. Esta iniciativa surge como respuesta a dos problemáticas urgentes y cuantificables: por un lado, la profunda falta de fiabilidad en el suministro de agua potable que afecta a la mayoría de la población urbana, obligándola a depender de sistemas de almacenamiento privados ineficientes y riesgosos; y por otro, la marcada brecha de digitalización en pymes del sector de bebidas, como las microcervecerías, que limita su capacidad de garantizar la calidad, reducir mermas y escalar de manera competitiva. Para abordar directamente estos puntos de dolor, nuestro producto principal es Droplet, una plataforma de hardware y software diseñada para permitir a los usuarios llevar un control eficiente, centralizado y en tiempo real de sus líquidos críticos.
+SmartDrop es una startup tecnológica orientada al desarrollo de soluciones digitales que optimizan la gestión de líquidos para hogares y empresas en América Latina. Esta iniciativa surge como respuesta a dos problemáticas urgentes y cuantificables: por un lado, la profunda falta de fiabilidad en el suministro de agua potable que afecta a la mayoría de la población urbana, obligándola a depender de sistemas de almacenamiento privados ineficientes y riesgosos; y por otro, la marcada brecha de digitalización en pymes del sector de bebidas, como las microcervecerías, que limita su capacidad de garantizar la calidad, reducir mermas y escalar de manera competitiva. Para abordar directamente estos puntos de dolor, nuestro producto principal es SmartDrop, una plataforma de hardware y software diseñada para permitir a los usuarios llevar un control eficiente, centralizado y en tiempo real de sus líquidos críticos.
 
 * **Misión:** Proporcionar a hogares y empresas una plataforma digital integral que facilite el control de sus recursos líquidos, contribuyendo a una gestión más segura, sostenible y rentable.
 
@@ -349,7 +349,7 @@ SmartDrop es una startup tecnológica orientada al desarrollo de soluciones digi
 * Creemos que un sistema de detección temprana de anomalías, como caídas bruscas de nivel, ayudará a los hogares a reducir el desperdicio de agua y los sobrecostos, y sabremos que hemos tenido éxito cuando el consumo promedio ajustado en nuestro piloto disminuya entre un 15% y un 25% en 3 meses.
 
 
-* Creemos que un proceso de onboarding guiado y plantillas de configuración por caso de uso harán que Droplet sea fácil de adoptar, y sabremos que hemos tenido éxito cuando la tasa de activación de funcionalidades clave alcance el 60% en los primeros 14 días y la satisfacción promedio del usuario sea de 4.5/5.
+* Creemos que un proceso de onboarding guiado y plantillas de configuración por caso de uso harán que SmartDrop sea fácil de adoptar, y sabremos que hemos tenido éxito cuando la tasa de activación de funcionalidades clave alcance el 60% en los primeros 14 días y la satisfacción promedio del usuario sea de 4.5/5.
 
 
 #### 1.2.2.4 Lean UX Canvas
