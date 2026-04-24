@@ -417,6 +417,14 @@ Se clasificará en el siguiente orden:
 ### 5.1.2. Source Code Management
 
 
+Para la gestión del código fuente, se utilizará GitHub como plataforma central de control de versiones y colaboración entre los miembros del equipo. Se han creado repositorios separados para los distintos productos del proyecto.
+Los enlaces también están disponibles en la sección de anexos.
+
+- **Organización en GitHub:** [https://github.com/smartdropw](https://github.com/smartdropw)
+- **Repositorio del informe:** [https://github.com/smartdropw/project-report-smartdrop](https://github.com/smartdropw/project-report-smartdrop)
+- **Repositorio de la Landing Page:** [https://github.com/smartdropw/LandingPage-SmartDrop](https://github.com/smartdropw/LandingPage-SmartDrop)
+
+
 ### 5.1.3. Source Code Style Guide & Conventions
 
 ### 5.1.4. Software Deployment Configuration
