@@ -516,7 +516,7 @@ Con el propósito de garantizar la disponibilidad de nuestra landing page para t
 Se efectuó la creación de una cuenta en GitHub, lo que permitió disponer de un espacio de gestión y control de repositorios para el proyecto.
 
 **2. Creación del repositorio**  
-Mediante la opción *New repository*, se generó un repositorio denominado **“Fluix-Landing-Page”**, asociado a la organización **Fluix**.
+Mediante la opción *New repository*, se generó un repositorio denominado **“SmartDrop-Landing-Page”**, asociado a la organización **SmartDrop**.
 
 **3. Configuración inicial del repositorio**  
 Se estableció que el repositorio fuese público, con el propósito de asegurar el acceso por parte de los usuarios.
@@ -557,10 +557,6 @@ En caso de requerir modificaciones, basta con realizar los correspondientes comm
 
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
-
-              
-
-#### 5.4. Video About-the-Product
 
 
 # Conclusiones
