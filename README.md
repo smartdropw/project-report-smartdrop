@@ -524,7 +524,7 @@ informativas sobre soluciones por segmento (residencial y empresarial). Al final
 un formulario de contacto especializado en necesidades de gestión de líquidos, junto
 con enlaces legales en el pie de página.
 
-![SystemContext.png](assets/chapter4/DropletWireframe.png)
+![SystemContext.png](assets/chapter4/SmartDrop_Wireframe.png)
 ### 4.3.2. Landing Page Mock-up
 El Landing Page Mock-up de Droplet muestra un diseño limpio y organizado,
 con una estructura intuitiva que guía a los usuarios a través de la plataforma.
@@ -586,13 +586,13 @@ Módulos principales:
 
 
 ### 4.6.1. Software Architecture Context Diagram
-
+    
 
 ### 4.6.2. Software Architecture Container Diagrams
-
+![Mapa1](assets/chapter4/Diagrama_ContextoSystemContext-dark.png)
 
 ## 4.7. Software Object-Oriented Design
-
+![Mapa2](assets/chapter4/Diagrama_ContainerContainerDiagram-dark%20(1).png)
 ### 4.7.1. Class Diagrams
 
 ## 4.8. Database Design
