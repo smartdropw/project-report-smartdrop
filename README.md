@@ -387,6 +387,33 @@ del ABET – EAC \- Student Outcome 3\.
 
 ## 5.1. Software Configuration Management
 ### 5.1.1. Software Development Environment Configuration
+
+En esta sección, se incluirá los productos de software que se usaron en el proyecto.
+
+Se clasificará en el siguiente orden:
+- Producto UX/UI Design.
+- Software Development.
+- Software Deployment.
+
+**Producto UX/UI Design:**<br>
+- [Figma](https://www.figma.com/) - Herramienta de diseño colaborativo para crear prototipos y maquetas de interfaces de usuario.
+- [Lucidchart](https://lucid.app/) - Herramienta de diagramación para crear diagramas de flujo, wireframes y otros elementos visuales.
+- [Uxpressia](https://uxpressia.com/) - Herramienta de diseño centrada en el usuario para crear mapas de empatía y customer journey maps.
+- [Structurizr](https://structurizr.com/) - Herramienta de modelado de software para crear diagramas de arquitectura y diseño orientado a dominios.
+- [Miro](https://miro.com/) - Plataforma de pizarra colaborativa en línea que permite a equipos trabajar juntos en tiempo real para crear mapas mentales, flujos de usuarios y planificaciones de producto.
+- [Vertabelo](https://vertabelo.com/) - Herramienta de modelado de bases de datos que permite diseñar esquemas visuales, generar scripts SQL y colaborar en tiempo real con tu equipo.
+- [Trello](https://trello.com/) - Herramienta visual de gestión de proyectos basada en tableros y tarjetas que facilita la organización, seguimiento y colaboración en tareas dentro de equipos de trabajo.
+
+**Software Development:**<br>
+- [IntelliJ IDEA](https://www.jetbrains.com/idea/) - Entorno de desarrollo integrado (IDE) para Java y otros lenguajes de programación.
+- [Github](https://www.github.com/) - Plataforma de control de versiones y colaboración para el desarrollo de software.
+- [Visual Studio Code](https://code.visualstudio.com/) - Editor de código fuente ligero y potente para varios lenguajes de programación.
+- [HTML](https://www.w3.org/TR/html52/) - Lenguaje de marcado para la creación de páginas web.
+- [CSS](https://www.w3.org/Style/CSS/) - Lenguaje de estilo para la presentación de documentos HTML.
+
+**Software Deployment:**<br>
+- GitHub Pages - Servicio de alojamiento web para proyectos estáticos.
+
 ### 5.1.2. Source Code Management
 
 
@@ -415,55 +442,6 @@ del ABET – EAC \- Student Outcome 3\.
 
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
-
-### 5.2.2. Sprint 2
-
-#### 5.2.2.1. Sprint Planning 2\.
-
-#### 5.2.2.2. Aspect Leaders and Collaborators.
-
-#### 5.2.2.3. Sprint Backlog 2\.
-
-#### 5.2.2.4. Development Evidence for Sprint Review.
-
-#### 5.2.2.5. Execution Evidence for Sprint Review.
-
-#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
-
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
-
-#### 5.2.2.8. Team Collaboration Insights during Sprint.
-
-### 5.2.3. Sprint 3
-
-#### 5.2.3.1. Sprint Planning 3
-
-#### 5.2.3.2. Aspect Leaders and Collaborators
-
-#### 5.2.3.3. Sprint Backlog 3
-
-#### 5.2.3.4. Development Evidence for Sprint Review
-
-
-#### 5.2.3.5. Execution Evidence for Sprint Review
-
-
-#### 5.2.3.6. Services Documentation Evidence for Sprint Review
-
-
-
-#### 5.2.3.7. Software Deployment Evidence for Sprint Review
-
-#### 5.2.3.8. Team Collaboration Insights during Sprint
-
-#### 5.3. Validation Interviews
-
-#### 5.3.1. Diseño de Entrevistas
-
-
-#### 5.3.2. Registro de Entrevistas
-
-#### 5.3.3. Evaluaciones según heurísticas
 
               
 
