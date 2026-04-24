@@ -546,7 +546,7 @@ clientes, detalles sobre la empresa y un formulario para contactar con el area d
 ### 4.4.3. Web Applications User Flow Diagrams
 
 ## 4.5. Web Applications Prototyping
-En esta sección, se presentan los prototipos de la aplicación web de Droplet.
+En esta sección, se presentan los prototipos de la aplicación web de SmartDrop.
 Estos prototipos son representaciones interactivas que permiten a los usuarios explorar y experimentar con
 la interfaz antes de su desarrollo final. Proporcionan una visión clara de la navegación, la disposición de
 los elementos y la funcionalidad general de la aplicación.
