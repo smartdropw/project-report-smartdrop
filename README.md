@@ -598,6 +598,29 @@ SUPPORT WIREFRAME:
   ![WF_usergoal_24,25.jpg](assets/chapter4/WF_usergoal_24,25.jpg)
 
 ### 4.4.2. Web Applications Mock-ups
+- LOGIN MOCK-UP:
+  ![Login_mockup.jpg](assets/chapter4/Login_mockup.jpg)
+
+- REGISTER MOCK-UP:
+  ![Register_mockup.jpg](assets/chapter4/Register_mockup.jpg)
+
+- MAIN DASHBOARD MOCK-UP:
+  ![Dashboard_mockup.jpg](assets/chapter4/Dashboard_mockup.jpg)
+
+- ALERTS MOCK-UP:
+  ![Alerts_mockup.jpg](assets/chapter4/Alerts_mockup.jpg)
+
+- REPORTS MOCK-UP:
+  ![Report_mockup.jpg](assets/chapter4/Report_mockup.jpg)
+
+- BILLING MOCK-UP:
+  ![Billing_mockup.jpg](assets/chapter4/Billing_mockup.jpg)
+
+- INVENTORY & FEATURES MOCK-UP:
+  ![Inventory_mockup.jpg](assets/chapter4/Inventory_mockup.jpg)
+
+- SUPPORT MOCK-UP:
+  ![Support_mockup.jpg](assets/chapter4/Support_mockup.jpg)
 
 ### 4.4.3. Web Applications User Flow Diagrams
 
