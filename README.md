@@ -247,7 +247,7 @@ del ABET – EAC \- Student Outcome 3\.
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
-En esta sección, se presentan las pautas de estilo y diseño que guiarán la creación de la página web y la aplicación de Droplet. Estas pautas buscan asegurar una experiencia de usuario coherente, clara y atractiva, transmitiendo confianza y accesibilidad, en línea con la identidad de la marca y los objetivos del proyecto.
+En esta sección, se presentan las pautas de estilo y diseño que guiarán la creación de la página web y la aplicación de SmartDrop. Estas pautas buscan asegurar una experiencia de usuario coherente, clara y atractiva, transmitiendo confianza y accesibilidad, en línea con la identidad de la marca y los objetivos del proyecto.
 
 ### 4.1.1. General Style Guidelines
 
@@ -302,7 +302,7 @@ Desarrollaremos una plataforma digital que pueda usarse en cualquier dispositivo
 **Componentes Implementados:**
 
 **Header:**
-- Logo Droplet prominente en la esquina izquierda
+- Logo SmartDrop prominente en la esquina izquierda
 - Navegación horizontal con: Product, About Us, Team, Solutions, Liquids, Features, Testimonials, Pricing, FAQ
 - Botón CTA "Contact Sales" destacado con fondo blanco
 - Selector de idioma (EN) en la esquina derecha
@@ -334,13 +334,13 @@ Desarrollaremos una plataforma digital que pueda usarse en cualquier dispositivo
 - **Others:** "And more liquids across industries"
 
 **About Us:**
-- Descripción: "At Droplet we build sensor and software technology to provide total visibility of liquid usage. We believe in precise data, useful alerts and operational simplicity"
+- Descripción: "At SmartDrop we build sensor and software technology to provide total visibility of liquid usage. We believe in precise data, useful alerts and operational simplicity"
 - Tres pilares con iconos distintivos en cards individuales:
     - **Mission (ícono objetivo rojo):** "Make liquid management predictable and efficient"
     - **Reliability (ícono candado amarillo):** "Certified sensors and a platform with 99.9% uptime"
     - **Customer focus (ícono persona azul):** "Human support, guided onboarding and continuous improvements"
 
-**Our team:** "Five pillars powering Droplet:"
+**Our team:** "Five pillars powering SmartDrop:"
 - Cinco perfiles en layout de cuadrícula 2x3 (5 personas total)
 - **Primer perfil completo visible:** YNGA AMADO, JAFETH WORREN - Ingeniería de Software, con foto real
 - **Cuatro perfiles adicionales:** Muestran placeholders azules con "foto" indicando espacios para imágenes del equipo
@@ -363,10 +363,10 @@ Desarrollaremos una plataforma digital que pueda usarse en cualquier dispositivo
 - **Enterprise Custom:** Unlimited tanks and sites, Integrations and SLAs, Exports and audits, 24/7 support - Botón "Choose Plan" outline azul
 
 **What our customers say:** Sección de testimonios con tres cards de clientes en layout horizontal:
-- **Laura P. (LP) - Facilities Lead:** "Droplet cut unplanned downtime by 27% and paid for itself in 8 weeks. Our ops team sleeps better." - 5 estrellas
+- **Laura P. (LP) - Facilities Lead:** "SmartDrop cut unplanned downtime by 27% and paid for itself in 8 weeks. Our ops team sleeps better." - 5 estrellas
 - **Daniel R. (DR) - Operations Manager:** "From fuel to syrup, one dashboard unifies everything. Forecasts are spot-on and alerts are timely." - 5 estrellas
 - **María G. (MG) - Plant Supervisor:** "Inventory variance dropped 22% and replenishment logistics finally make sense." - 5 estrellas
-- Subtítulo: "Real stories from teams using Droplet for liquids"
+- Subtítulo: "Real stories from teams using SmartDrop for liquids"
 - Avatars circulares con iniciales en colores distintivos (LP azul, DR azul, MG azul)
 - Diseño de cards con bordes suaves y rating de 5 estrellas prominente en cada una
 
@@ -386,8 +386,8 @@ Desarrollaremos una plataforma digital que pueda usarse en cualquier dispositivo
     - **Get Help:** FAQ, Progress, Advisors, Payment Options
     - **Community:** Our Story, Developers, Events
     - **Follow Us:** Íconos de redes sociales (Facebook, Twitter, Instagram, YouTube)
-- Copyright notice: "© 2025 Droplet. All rights reserved."
-- Logo "Droplet" en la esquina inferior izquierda
+- Copyright notice: "© 2025 SmartDrop. All rights reserved."
+- Logo "SmartDrop" en la esquina inferior izquierda
 
 **Interacciones:**
 - Hover effects en botones con transiciones suaves
@@ -445,7 +445,7 @@ Se emplean etiquetas claras, simples y orientadas al usuario para identificar ca
 
 ### 4.2.3. SEO Tags and Meta Tags
 
-**Title:** Droplet – Monitoreo Inteligente de Líquidos para Hogares y Empresas
+**Title:** SmartDrop – Monitoreo Inteligente de Líquidos para Hogares y Empresas
 
 **Description:** Monitorea sistemas de líquidos con sensores IoT. Rastrea volumen, presión, densidad y temperatura de gasolina, cerveza, miel, melaza, químicos y más líquidos en tiempo real con alertas claras e informes para una gestión óptima.
 
@@ -512,7 +512,7 @@ desde el primer contacto.
 
 ### 4.3.1. Landing Page Wireframe
 
-El wireframe de la página de inicio de Droplet organiza los elementos clave para
+El wireframe de la página de inicio de SmartDrop organiza los elementos clave para
 ofrecer una navegación intuitiva. Incluye un encabezado con el logo y un menú de
 navegación, seguido de una propuesta de valor clara con botones de acción destacados
 como "Contact Sales" y "Get Started". La página cuenta con secciones que presentan
@@ -526,7 +526,7 @@ con enlaces legales en el pie de página.
 
 ![SystemContext.png](assets/chapter4/SmartDrop_Wireframe.png)
 ### 4.3.2. Landing Page Mock-up
-El Landing Page Mock-up de Droplet muestra un diseño limpio y organizado,
+El Landing Page Mock-up de SmartDrop muestra un diseño limpio y organizado,
 con una estructura intuitiva que guía a los usuarios a través de la plataforma.
 Incluye una propuesta de valor destacada en la parte superior, seguida de secciones
 clave como las funcionalidades clave, los beneficios para empresas y hogares,
@@ -537,13 +537,13 @@ clientes, detalles sobre la empresa y un formulario para contactar con el area d
 ![SystemContext.png](assets/chapter4/Mockup_SmartDrop.jpeg)
 ## 4.4. Web Applications UX/UI Design
 
-En esta sección, se presentan los wireframes y mock-ups de la aplicación web de Droplet. Así como también,
+En esta sección, se presentan los wireframes y mock-ups de la aplicación web de SmartDrop. Así como también,
 los wireflow y user flow diagrams. Estos diseños son esenciales para establecer la estructura y funcionalidad de la plataforma,
 asegurando una experiencia de usuario intuitiva y eficiente.
 
 ### 4.4.1. Web Applications Wireframes
 
-Los wireframes de la plataforma web Droplet muestran la estructura funcional pensada para ayudar a
+Los wireframes de la plataforma web SmartDrop muestran la estructura funcional pensada para ayudar a
 propietarios y gestores a mantener un control eficiente sobre su agua con sensores inteligentes.
 
 LOGIN WIREFRAME:
@@ -602,7 +602,7 @@ SUPPORT WIREFRAME:
   ![Login_mockup.jpg](assets/chapter4/Login_mockup.jpg)
 
 - REGISTER MOCK-UP:
-  ![Register_mockup.jpg](assets/chapter4/Register_mockup.jpg)
+  ![Register_mockup.jpg](assets/chapter4/register_mockup.jpg)
 
 - MAIN DASHBOARD MOCK-UP:
   ![Dashboard_mockup.jpg](assets/chapter4/Dashboard_mockup.jpg)
@@ -623,6 +623,30 @@ SUPPORT WIREFRAME:
   ![Support_mockup.jpg](assets/chapter4/Support_mockup.jpg)
 
 ### 4.4.3. Web Applications User Flow Diagrams
+
+- **Usergoal 15,16,28** : Alertas de anomalías en consumo, Alertas de fallas IoT, Notificaciones configurables
+  ![WF_usergoal_15,16,28.jpg](assets/chapter4/WF_usergoal_15,16,28.jpg)
+
+- **Usergoal 8,9,10,27** : Ver preguntas frecuentes (FAQ), Contactar ventas, Visualizar informacion de los integrantes del equipo, Soporte técnico
+  ![UF_usergoal_8,9,10,27.jpg](assets/chapter4/UF_usergoal_8,9,10,27.jpg)
+
+- **Usergoal 20,21,22,23** : Historial de facturación, Proyección de consumo y costo, Comparación de consumo, Reportes personalizados
+  ![UF_usergoal_20,21,22,23.jpg](assets/chapter4/UF_usergoal_20,21,22,23.jpg)
+
+- **Usergoal 3,4,5,12,13,17,18,19,26** : Monitoreo en Tiempo Real, Seguimiento de presión, Control de temperatura, Monitoreo por habitación, Detección de patrones de uso, Recomendaciones personalizadas, Consejos de sostenibilidad, Metas de consumo, Integración de dispositivos IoT
+  ![UF_usergoal_3,4,5,12,13,17,18,19,26.jpg](assets/chapter4/UF_usergoal_3,4,5,12,13,17,18,19,26.jpg)
+
+- **Usergoal 6** : Gestión de volumen
+  ![UF_usergoal_6.jpg](assets/chapter4/UF_usergoal_6.jpg)
+
+- **Usergoal 7,29,30** : Ver y selección de planes de suscripción, Pago con tarjeta de crédito, Pago con billetera digital
+  ![UF_usergoal_7,29,30.jpg](assets/chapter4/UF_usergoal_7,29,30.jpg)
+
+- **Usergoal 11** : Acceder a la Web App desde la landing page
+  ![UF_usergoal_11.jpg](assets/chapter4/UF_usergoal_11.jpg)
+
+- **Usergoal 24,25** : Inventario de agua en tanques, Predicciones de reabastecimiento
+  ![UF_usergoal_24,25.jpg](assets/chapter4/UF_usergoal_24,25.jpg)
 
 ## 4.5. Web Applications Prototyping
 En esta sección, se presentan los prototipos de la aplicación web de SmartDrop.
