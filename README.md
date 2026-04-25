@@ -318,22 +318,25 @@ A continuación, se presenta el registro de entrevistas realizadas a usuarios po
 ### Formato de registro
 ### Segmento objetivo #1: Hogares (Usuarios residenciales)
 
-**Entrevistado N°1:** [rellenar]
+**Entrevistado N°1:** Robert Otiniano Rodriguez
 
-- **Sexo:** [rellenar]
-- **Edad:** [rellenar]
-- **Ubicación en la que vive:** [rellenar], [rellenar]
+- **Sexo:** Masculino
+- **Edad:** 39 años.
+- **Ubicación en la que vive:** Trujillo, Trujillo
 
 **Acerca de la entrevista:**
 
-- **Link:** [rellenar]
-- **Instante en el que inicia:** [00:00]
-- **Duración:** [00:00]
+- **Link:** https://youtu.be/SjMXJEQgEJ0
+- **Instante en el que inicia:** 00:00
+- **Duración:** 03:26
 
 **Resumen:**  
 
+El entrevistado Robert Otiniano, de 39 años y residente en Trujillo, gestiona un hogar de cinco personas con un sistema de cisterna de $5m^3$ y un tanque elevado de 500 litros. Actualmente, carece de herramientas de monitoreo y su control es puramente visual y reactivo ante cortes de agua, lo que ha provocado episodios de desabastecimiento y fugas no detectadas a tiempo. Robert manifiesta una necesidad clara de conocer los niveles de almacenamiento en tiempo real y visualizar su consumo diario en metros cúbicos para proyectar sus gastos mensuales. Dada su familiaridad con aplicaciones digitales de seguridad y banca, muestra una disposición positiva a pagar por una solución como SmartDrop, siempre que el costo sea proporcional al beneficio de asegurar el suministro familiar.
+
 **Captura de pantalla:**
 
+![Preview entrevista](/assets/chapter2/entrevista1A.png)
 
 **Entrevistado N°2:** [rellenar]
 
