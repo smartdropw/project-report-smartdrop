@@ -537,7 +537,32 @@ clientes, detalles sobre la empresa y un formulario para contactar con el area d
 ![SystemContext.png](assets/chapter4/Mockup_SmartDrop.jpeg)
 ## 4.4. Web Applications UX/UI Design
 
+En esta sección, se presentan los wireframes y mock-ups de la aplicación web de Droplet. Así como también,
+los wireflow y user flow diagrams. Estos diseños son esenciales para establecer la estructura y funcionalidad de la plataforma,
+asegurando una experiencia de usuario intuitiva y eficiente.
+
 ### 4.4.1. Web Applications Wireframes
+
+Los wireframes de la plataforma web Droplet muestran la estructura funcional pensada para ayudar a
+propietarios y gestores a mantener un control eficiente sobre su agua con sensores inteligentes.
+
+LOGIN WIREFRAME:
+![Login_Drop.jpg](assets/chapter4/Login_Drop.jpg)
+
+REGISTER WIREFRAME:
+![Register_Drop.jpg](assets/chapter4/Register_Drop.jpg)
+
+MAIN DASHBOARD WIREFRAME:
+![Dashboard_Drop.jpg](assets/chapter4/Dashboard_Drop.jpg)
+
+ALERTS WIREFRAME:
+![Alerts_Drop.jpg](assets/chapter4/Alerts_Drop.jpg)
+
+INVENTORY & FEATURES WIREFRAME:
+![Inventory_Drop.jpg](assets/chapter4/Inventory_Drop.jpg)
+
+SUPPORT WIREFRAME:
+![Support_Drop.jpg](assets/chapter4/Support_Drop.jpg)
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
@@ -586,13 +611,13 @@ Módulos principales:
 
 
 ### 4.6.1. Software Architecture Context Diagram
-    
-
-### 4.6.2. Software Architecture Container Diagrams
 ![Mapa1](assets/chapter4/Diagrama_ContextoSystemContext-dark.png)
 
-## 4.7. Software Object-Oriented Design
+### 4.6.2. Software Architecture Container Diagrams
 ![Mapa2](assets/chapter4/Diagrama_ContainerContainerDiagram-dark%20(1).png)
+
+## 4.7. Software Object-Oriented Design
+
 ### 4.7.1. Class Diagrams
 
 ## 4.8. Database Design
