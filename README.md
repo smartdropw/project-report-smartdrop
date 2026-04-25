@@ -469,7 +469,6 @@ A continuación las siguientes imágenes sirven de referencia para evidenciar la
 
 ![landing1.jpg](assets/chapter5/Landing1.jpg)
 ![landing2.jpg](assets/chapter5/Landing2.jpg)
-![landing3.jpg](assets/chapter5/Landing3.jpg)
 ![landing4.jpg](assets/chapter5/Landing4.jpg)
 ![landing5.jpg](assets/chapter5/Landing5.jpg)
 ![landing6.jpg](assets/chapter5/Landing6.jpg)
