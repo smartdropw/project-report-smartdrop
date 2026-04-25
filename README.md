@@ -462,6 +462,22 @@ En caso de requerir modificaciones, basta con realizar los correspondientes comm
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
+En esta sección se detalla y evidencia la implementación de cada entregable de Droplet.
+
+**Landing page:** La landing page fue realizada de manera grupal y desplegada debidamente con la herramienta GitHub Pages.
+A continuación las siguientes imágenes sirven de referencia para evidenciar la implementación de la Landing Page.
+
+![landing1.jpg](assets/chapter5/Landing1.jpg)
+![landing2.jpg](assets/chapter5/Landing2.jpg)
+![landing3.jpg](assets/chapter5/Landing3.jpg)
+![landing4.jpg](assets/chapter5/Landing4.jpg)
+![landing5.jpg](assets/chapter5/Landing5.jpg)
+![landing6.jpg](assets/chapter5/Landing6.jpg)
+![landing7.jpg](assets/chapter5/Landing7.jpg)
+![landing8.jpg](assets/chapter5/Landing8.jpg)
+![landing9.jpg](assets/chapter5/Landing9.jpg)
+![landing10.jpg](assets/chapter5/Landing10.jpg)
+
 ### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1
 
