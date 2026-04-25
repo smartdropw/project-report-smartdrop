@@ -624,22 +624,28 @@ Módulos principales:
 ### 4.6.1. Design-Level Event Storming
 ### 4.6.2. Software Architecture Context Diagram
 
-#### **Person:**
+El sistema SmartDrop actúa como el núcleo de procesamiento que transforma la telemetría de sensores físicos en información accionable tanto para la economía familiar como para la precisión industrial cervecera.
 
-**Transportista:** Conduce el camión y usa la app móvil para ver rutas, registrar inicio/fin de viaje y recibir alertas de impacto.
+**Personas:**
+* **Jefe de Hogar:** Usuario que busca evitar el desabastecimiento y sobrecostos. Interactúa con el sistema para visualizar niveles de cisterna, recibir alertas de fugas y predicciones de consumo.
+ 
+* **Maestro Cervecero**: Usuario técnico que busca consistencia en su producto. Supervisa variables críticas (temperatura, densidad) y gestiona el inventario de insumos líquidos para evitar paradas de producción.
+ 
+* **Técnico de Instalación / Soporte:** Personal encargado de configurar los gateways y calibrar los sensores ultrasónicos y de temperatura en sitio.
+ 
+* **Administrador de SmartDrop:** Personal interno de la startup que gestiona suscripciones, monitorea la salud de los dispositivos IoT y analiza datos agregados para mejora del servicio.
 
-**Distribuidor:** Supervisa los envíos desde oficinas. Revisa dashboard web, descarga reportes. **Dueño de Negocio:** Cliente final que quiere saber si su pedido llegará a tiempo y sin roturas. **Administrador RPG:** Personal de la startup para gestión interna, soporte y mantenimiento.
+**Sistemas Externos (External Systems):**
 
-#### **Software System:**
+* **SmartDrop System (Centro):** Plataforma integral que incluye el motor de reglas para alertas, el procesamiento de series temporales de datos y los módulos de predicción de consumo.
+ 
+* **Sensores & Gateways IoT (Dispositivos):** El hardware instalado en tanques y fermentadores. Envía datos de nivel, temperatura y densidad mediante protocolos de bajo consumo (ej. MQTT o HTTP).
 
-**GlassGo:** Sistema central que ofrece la trazabilidad, optimización de rutas y monitoreo.
+* **Servicio de Mapas (Google Maps):** Utilizado por el módulo de planificación para calcular rutas óptimas de instalación y mantenimiento de sensores.
 
-**Google Maps:** Plataforma que ofrece una REST API de información geo referencial.
-
-**PayPal :** Pasarela de pagos para cobrar las membresías.
-
-**Twilio:** Servicio de notificaciones para el envío de SMS, emails o notificaciones push.
-
+* **Pasarela de Pagos (Paypal)**: Gestiona el modelo SaaS (suscripción mensual) mediante la integración de una API externa, permitiendo el procesamiento de pagos y la generación automática de facturas para los diferentes planes de usuario.
+ 
+* **Servicio de Notificaciones (Twilio / Firebase):** Gestiona el envío multicanal (Push, SMS, WhatsApp) de alertas críticas y recordatorios del sistema.
 
 ### 4.6.1. Software Architecture Context Diagram
 ![Mapa1](assets/chapter4/Diagrama_ContextoSystemContext-dark.png)
