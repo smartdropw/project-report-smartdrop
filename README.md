@@ -622,9 +622,75 @@ El sistema SmartDrop actúa como el núcleo de procesamiento que transforma la t
 ### 4.6.2. Software Architecture Container Diagrams
 ![Mapa2](assets/chapter4/Diagrama_ContainerContainerDiagram-dark%20(1).png)
 
+### 4.6.2. Software Architecture Components Diagrams
+
+* **Web Application Component Diagram:**
+
+![Mapa3](assets/chapter4/WebApplication_ComponentDiagram.png)
+
+* **Identity Access Component Diagram:**
+ 
+![Mapa4](assets/chapter4/IdentityAccess_ComponentDiagram.png)
+
+* **Profiles Preferences Component Diagram:**
+
+![Mapa5](assets/chapter4/ProfilesPreferences_ComponentDiagram.png)
+
+* **Payments Subscriptions Component Diagram:**
+
+![Mapa6](assets/chapter4/PaymentsSubscriptions_ComponentDiagram.png)
+
+* **Consumption Inventory Component Diagram:**
+ 
+![Mapa7](assets/chapter4/ConsumptionInventory_ComponentDiagram.png)
+
+* **Service Monitoring Alerts Component Diagram:**
+ 
+![Mapa8](assets/chapter4/ServiceMonitoringAlerts_ComponentDiagram.png)
+
+* **Dashboard Analytics Component Diagram:**
+ 
+![Mapa9](assets/chapter4/DashboardAnalytics_ComponentDiagram.png)
+
+* **Support Notifications Component Diagram:**
+
+![Mapa10](assets/chapter4/SupportNotifications_ComponentDiagram.png)
+
+* **System Administration Component Diagram:**
+
+![Mapa11](assets/chapter4/SystemAdministration_ComponentDiagram.png)
+
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams
+
+* **Identity Access Class Diagram:**
+
+![Mapa12](assets/chapter4/IdentityAccess_ClassDiagram.png)
+ 
+* **Profiles Preferences Class Diagram:**
+ 
+![Mapa12](assets/chapter4/ProfilesPreferences_ClassDiagram.png)
+
+* **Payments Subscriptions Class Diagram:**
+
+![Mapa13](assets/chapter4/PaymentsSubscriptions_ClassDiagram.png)
+
+* **Support Notifications Class Diagram:**
+
+![Mapa14](assets/chapter4/SupportNotifications_ClassDiagram.png)
+
+* **Service Monitoring Alerts Class Diagram:**
+
+![Mapa15](assets/chapter4/ServiceMonitoringAlerts_ClassDiagram.png)
+ 
+* **Dashboard Analytics Class Diagram:**
+
+![Mapa16](assets/chapter4/DashboardAnalytics_ClassDiagram.png)
+ 
+* **System Administration Class Diagram:**
+
+![Mapa17](assets/chapter4/SystemAdministration_ClassDiagram.png)
 
 ## 4.8. Database Design
 
