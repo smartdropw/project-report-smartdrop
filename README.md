@@ -433,6 +433,16 @@ El entrevistado Robert Otiniano, de 39 años y residente en Trujillo, gestiona u
 
 ### 2.2.3. Análisis de entrevistas
 
+Con el objetivo de comprender las necesidades reales de los usuarios, se realizaron entrevistas a representantes de los dos segmentos definidos: hogares con tanques de agua y PYMEs que gestionan líquidos (bebidas y lácteos).
+
+#### Segmento Hogares
+De las tres entrevistas realizadas, se identifican los siguientes patrones:
+- **Monitoreo manual:** El 100% de los entrevistados controla el agua de manera visual o a través del recibo mensual, sin herramientas digitales.
+- **Problemas frecuentes:** El 67% ha experimentado cortes de agua o dificultades de suministro, lo que genera preocupación por quedarse sin agua en momentos críticos.
+- **Percepción de valor:** El 100% considera útil recibir alertas cuando el nivel del tanque esté bajo, como una forma de anticiparse a problemas.
+- **Disposición al pago:** Dos de cada tres entrevistados estarían dispuestos a pagar por una solución, siempre que sea sencilla y con un costo accesible.
+
+**Insight clave:** Los hogares valoran la **tranquilidad** que les otorgaría un sistema de alertas predictivas, más que un control exhaustivo del consumo.
 
 
 ## 2.3. Needfinding
