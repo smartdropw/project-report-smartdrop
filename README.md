@@ -27,7 +27,7 @@
 | Nombre                        |   Código   |
 | ----------------------------  | ---------- |
 |                               |            |
-|Barrenechea Bustamante Rafael  | u202417417 |
+|                               |            |
 |Uribe Linares Francisco Javier | U20211B686 |
 |Pariona Chacca, Angel Jose     | u202320613 |
 
