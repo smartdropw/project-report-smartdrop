@@ -338,42 +338,27 @@ El entrevistado Robert Otiniano, de 39 años y residente en Trujillo, gestiona u
 
 ![Preview entrevista](/assets/chapter2/entrevista1A.png)
 
-**Entrevistado N°2:** Martin Perez
+**Entrevistado N°2:** Carlos Mendoza Simeon
 
 - **Sexo:** Masculino
-- **Edad:** 20 años
-- **Ubicación en la que vive:** Lima, Puente Piedra
-
-**Acerca de la entrevista:** 
-
-- **Link:** [https://www.youtube.com/watch?v=yECqt05TC5w]
-- **Instante en el que inicia:** [00:00]
-- **Duración:** [3:56]
-
-**Resumen:**  Martín Pérez, de 20 años y residente de Puente Piedra, vive en un hogar de siete personas donde monitorean de forma manual y visual una cisterna de 700 litros. Recientemente sufrieron una grave fuga que los dejó sin agua por varios días y representó un fuerte golpe económico imprevisto que los obligó a "ajustar cuentas". Ante este problema, Martín consideró "muy conveniente" la propuesta de una aplicación de monitoreo diario para tener certeza y tranquilidad, confirmando además su total disposición a pagar una suscripción por el servicio; lo percibe como una "gran oferta" si esto le garantiza evitar los altísimos costos de futuras fugas y proteger la economía de su familia, validando así perfectamente el modelo de negocio de SmartDrop.
-    
-**Captura de pantalla:**
-![Preview entrevista](/assets/chapter2/Martin.jpeg)
-
-
-**Entrevistado N°3:** Griselda Ramirez
-
-- **Sexo:** Femenino
-- **Edad:** 26
-- **Ubicación en la que vive:** Lima, Ventanilla
+- **Edad:** 35 años.
+- **Ubicación en la que vive:** Jesús María, Lima.
 
 **Acerca de la entrevista:**
 
-- **Link:** https://www.youtube.com/watch?v=DR-pz6XQt_Y
-- **Instante en el que inicia:** [00:00]
-- **Duración:** [2:31]
+- **Link:** https://youtu.be/C1wwL219tbI
+- **Instante en el que inicia:** 00:00
+- **Duración:** 04:09
 
-**Resumen:**  Grisel, de 26 años y residente de Ventanilla, vive con seis personas en una casa equipada con un tanque de agua. Actualmente, el control del nivel hídrico es 100% visual, obligando a su abuelo y a su padrino —ambas personas mayores— a subir físicamente al techo para revisarlo, lo cual representa una incomodidad y un riesgo. Su mayor preocupación es sufrir fugas inadvertidas que disparen el costo del recibo a fin de mes. Al plantearle una solución, expresó un fuerte deseo por contar con una herramienta digital en el celular para monitorear la capacidad del tanque, confirmando que sí estaría dispuesta a pagar por este servicio. Para ella, la suscripción se justifica plenamente por el control de gastos y, sobre todo, por la seguridad y comodidad de tener la información "en la palma de la mano", evitando exponer a sus familiares al tener que subir al techo.
+**Resumen:**  
+
+El entrevistado Carlos, de 42 años y residente en Jesús María, gestiona un hogar de cuatro personas que cuenta con un tanque elevado de 1100 litros. Actualmente, carece de herramientas digitales de monitoreo y su control es puramente visual y reactivo, obligándolo a subir al techo para revisar el nivel. Esta falta de visibilidad ha provocado episodios de desabastecimiento prolongado ante cortes en su zona y fugas nocturnas no detectadas a tiempo, impactando negativamente en su facturación mensual. Carlos manifiesta una necesidad clara de recibir alertas preventivas en su dispositivo móvil y conocer el nivel de almacenamiento sin esfuerzo físico. Dada su alta familiaridad con aplicaciones móviles de uso diario, muestra una disposición muy positiva a pagar por una solución como SmartDrop, valorando principalmente la tranquilidad y el ahorro en el hogar.
 
 **Captura de pantalla:**
-![Preview entrevista](/assets/chapter2/Griselda.jpeg)
+![Preview entrevista](/assets/chapter2/eduardo.jpeg)
 
-**Entrevistado N°4:** Alvaro Montes
+
+**Entrevistado N°3:** Alvaro Montes
 
 - **Sexo:** Masculino
 - **Edad:** 20
@@ -382,32 +367,47 @@ El entrevistado Robert Otiniano, de 39 años y residente en Trujillo, gestiona u
 **Acerca de la entrevista:**
 
 - **Link:** https://www.youtube.com/watch?v=Bzd4sCZ0EIs
-- **Instante en el que inicia:** [00:00]
-- **Duración:** [2:20]
+- **Instante en el que inicia:** 00:00
+- **Duración:** 2:20
 
-**Resumen:** Álvaro, de 20 años y residente de Ventanilla, vive en un hogar de cinco personas que se abastece mediante un tanque de agua de 600 litros. Actualmente no utilizan ninguna herramienta tecnológica para el control del agua, siendo su padre el encargado exclusivo de realizar las revisiones de forma manual. El problema que más les afecta y preocupa es la constante intermitencia del servicio público, ya que sufren cortes repentinos durante el día y temen quedarse totalmente desabastecidos. Para mejorar esta situación, Álvaro considera vital poder recibir alertas proactivas cuando el nivel del tanque esté bajo, evitando así agotar su reserva a ciegas, y confirmó que estarían dispuestos a pagar por un servicio que les brinde esta capacidad de prevención.
+**Resumen:**  Álvaro, de 20 años y residente de Ventanilla, vive en un hogar de cinco personas que se abastece mediante un tanque de agua de 600 litros. Actualmente no utilizan ninguna herramienta tecnológica para el control del agua, siendo su padre el encargado exclusivo de realizar las revisiones de forma manual. El problema que más les afecta y preocupa es la constante intermitencia del servicio público, ya que sufren cortes repentinos durante el día y temen quedarse totalmente desabastecidos. Para mejorar esta situación, Álvaro considera vital poder recibir alertas proactivas cuando el nivel del tanque esté bajo, evitando así agotar su reserva a ciegas, y confirmó que estarían dispuestos a pagar por un servicio que les brinde esta capacidad de prevención.
 
 **Captura de pantalla:**
 ![Preview entrevista](/assets/chapter2/Alvaro.jpeg)
 
-**Entrevistado N°4:** Carlos Viñeda
+**Entrevistado N°4:** Martin Perez
 
 - **Sexo:** Masculino
-- **Edad:** 30
-- **Ubicación en la que vive:** Lima, Jesus maria
+- **Edad:** 20
+- **Ubicación en la que vive:** Lima, Puente Piedra
 
 **Acerca de la entrevista:**
 
-- **Link:** https://www.youtube.com/watch?v=C1wwL219tbI
-- **Instante en el que inicia:** [00:00]
-- **Duración:** [4:03]
+- **Link:**https://www.youtube.com/watch?v=yECqt05TC5w
+- **Instante en el que inicia:** 00:00
+- **Duración:** 3:36
 
-**Resumen:** Carlos, de 30 años y residente de Jesús María (Lima), vive con su familia de cuatro personas en una casa equipada con un tanque elevado de 1100 litros. Su método actual de control es totalmente reactivo y manual: solo sube al techo con una linterna cuando nota baja presión de agua. Esta falta de visibilidad ya le ha causado problemas graves, como quedarse sin agua por dos días tras un corte zonal imprevisto y sufrir desbordes nocturnos por fallas en el tanque. Sus mayores temores son la falta de agua en horarios críticos (mañanas) y el impacto económico de los recibos de Sedapal inflados por fugas. Siendo un usuario muy digitalizado que maneja pagos, delivery y domótica básica desde su celular, considera vital tener una app que le envíe alertas de nivel bajo. Validó fuertemente el modelo de negocio al confirmar que pagaría con gusto una suscripción mensual (comparándola con servicios como Netflix o Spotify) si el precio es razonable, concluyendo que el ahorro en frustraciones y cobros excesivos justifica plenamente la inversión.
+**Resumen:** Martín Pérez, de 20 años y residente de Puente Piedra, vive en un hogar de siete personas donde monitorean de forma manual y visual una cisterna de 700 litros. Recientemente sufrieron una grave fuga que los dejó sin agua por varios días y representó un fuerte golpe económico imprevisto que los obligó a "ajustar cuentas". Ante este problema, Martín consideró "muy conveniente" la propuesta de una aplicación de monitoreo diario para tener certeza y tranquilidad, confirmando además su total disposición a pagar una suscripción por el servicio; lo percibe como una "gran oferta" si esto le garantiza evitar los altísimos costos de futuras fugas y proteger la economía de su familia, validando así perfectamente el modelo de negocio de SmartDrop.
 
 **Captura de pantalla:**
-![Preview entrevista](/assets/chapter2/eduardo.jpeg)
+![Preview entrevista](/assets/chapter2/Martin.jpeg)
 
+**Entrevistado N°5:** Griselda Ramirez
 
+- **Sexo:** Femenino
+- **Edad:** 26
+- **Ubicación en la que vive:** Lima, Ventanilla
+
+**Acerca de la entrevista:**
+
+- **Link:**https://www.youtube.com/watch?v=DR-pz6XQt_Y
+- **Instante en el que inicia:** 00:00
+- **Duración:** 2:30
+
+**Resumen:** Grisel, de 26 años y residente de Ventanilla, vive con seis personas en una casa equipada con un tanque de agua. Actualmente, el control del nivel hídrico es 100% visual, obligando a su abuelo y a su padrino —ambas personas mayores— a subir físicamente al techo para revisarlo, lo cual representa una incomodidad y un riesgo. Su mayor preocupación es sufrir fugas inadvertidas que disparen el costo del recibo a fin de mes. Al plantearle una solución, expresó un fuerte deseo por contar con una herramienta digital en el celular para monitorear la capacidad del tanque, confirmando que sí estaría dispuesta a pagar por este servicio. Para ella, la suscripción se justifica plenamente por el control de gastos y, sobre todo, por la seguridad y comodidad de tener la información "en la palma de la mano", evitando exponer a sus familiares al tener que subir al techo.
+
+**Captura de pantalla:**
+![Preview entrevista](/assets/chapter2/Griselda.jpeg)
 ### Segmento objetivo #2: PYMEs de Bebidas
 
 **Entrevistado N°1:** [rellenar]
@@ -427,13 +427,20 @@ El entrevistado Robert Otiniano, de 39 años y residente en Trujillo, gestiona u
 
 **Resumen:**  
 
-**Captura de pantalla:**
-
-
-
 ### 2.2.3. Análisis de entrevistas
 
+Con el objetivo de comprender las necesidades reales de los usuarios, se realizaron entrevistas a representantes de los dos segmentos definidos: hogares con tanques de agua y PYMEs que gestionan líquidos (bebidas y lácteos).
 
+#### Segmento Hogares
+De las tres entrevistas realizadas, se identifican los siguientes patrones:
+- **Monitoreo manual:** El 100% de los entrevistados controla el agua de manera visual o a través del recibo mensual, sin herramientas digitales.
+- **Problemas frecuentes:** El 67% ha experimentado cortes de agua o dificultades de suministro, lo que genera preocupación por quedarse sin agua en momentos críticos.
+- **Percepción de valor:** El 100% considera útil recibir alertas cuando el nivel del tanque esté bajo, como una forma de anticiparse a problemas.
+- **Disposición al pago:** Dos de cada tres entrevistados estarían dispuestos a pagar por una solución, siempre que sea sencilla y con un costo accesible.
+
+**Insight clave:** Los hogares valoran la **tranquilidad** que les otorgaría un sistema de alertas predictivas, más que un control exhaustivo del consumo.
+
+---
 
 ## 2.3. Needfinding
 
