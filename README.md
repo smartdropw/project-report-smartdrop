@@ -24,13 +24,13 @@
 
 #### Relación de integrantes
 
-| Nombre                       | Código     |
-| ---------------------------- | ---------- |
-| Barrenechea Bustamante, Rafael  |U202417417 |
-| Flores Rios, Juan Diego  | u202412124 |
-| Otiniano Rosales, Camila Alizée| u202419547 |
-| Pariona Chacca, Angel Jose   | u202320613 |
-| Uribe Linares, Francisco Javier |U20211B686 |
+| Nombre                          | Código       |
+|---------------------------------|--------------|
+| Barrenechea Bustamante, Rafael  | U202417417   |
+| Flores Rios, Juan Diego         | u202412124   |
+| Otiniano Rosales, Camila Alizée | u202419547   |
+| Pariona Chacca, Angel Jose      | u202320613   |
+| Uribe Linares, Francisco Javier | U20211B686   |
 
 <br>
 
@@ -41,36 +41,36 @@
 ---
 # Registro de Versiones
 
-| Versión  | Fecha | Autor | Descripción de modificación |
-|:--------:|:-----:|:-----:|-----------------------------|
-| TB1      |     25/04/2026  |  Juan      | Incorporación del Startup Profile y Perfiles de Integrantes |
-|          |      25/04/2026  |  Juan        | Desarrollo del Solution Profile y Antecedentes |
-|          |      25/04/2026  |  Juan        | Incorporación del Lean UX Process y Segmentos objetivos |
-|          |      25/04/2026  |  Juan        | Desarrollo del Análisis competitivo |
-|          |      25/04/2026  |  Angel Pariona        | Incorporación de Estrategias y tácticas frente a competidores |
-|          |      25/04/2026  |  Angel Pariona     | Desarrollo del Diseño, Registro y Análisis de entrevistas |
-|          |      25/04/2026  |  Angel Pariona     | Incorporación del Needfinding y Ubiquitous Language || Incorporación del Landing Page UI Design |
-|          |      25/04/2026  |  Angel Pariona     | Desarrollo de To-Be Scenario Mapping, User Stories e Impact Mapping |
-|          |      25/04/2026  |  Uribe Linares Francisco      | Incorporación de General y Web Style Guidelines || Incorporación del Landing Page UI Design |
-|          |      25/04/2026  |   Uribe Linares Francisco     | Desarrollo del Information Architecture |
-|          |      25/04/2026  |  Uribe Linares Francisco      | Incorporación del Landing Page Wireframe y Mock-up || Incorporación del Landing Page UI Design |
-|          |      25/04/2026  |  Rafael Barrenechea     | Incorporación del Web Applications Wireframes y Wireflow Diagrams |
-|          |      25/04/2026  |  Rafael Barrenechea     | Incorporación del Web Applications Mock-ups y User Flow || Incorporación del Landing Page UI Design |
-|          |      25/04/2026  |  Rafael Barrenechea     | Desarrollo del Web Applications Prototyping |
-|          |      25/04/2026  |   Camila Otiniano     | Desarrollo del Software Architecture Context Diagrams  |
-|          |      25/04/2026  |  Camila Otiniano      | Desarrollo del Software Architecture Container  |
-|          |      25/04/2026  |  Camila Otiniano      | Desarrollo del Software Architecture Container Diagrams  |
-|          |      25/04/2026  |  Camila Otiniano      | Desarrollo del Software Object-Oriented Desing  |
-|          |      25/04/2026  | Camila Otiniano       | Desarrollo del Database Desing  | tb2 |                            |            |                                                                                                                             |
-|  |                            |            |                                                                                                                             |
-|  |                            |            |                                                                                                                             |
-|  |                            |            |                                                                                                                             |
-|  |                            |            |                                                                                                                             |
-| tf1 |                            |            |                                                                                                                             |
-|  |                            |            |                                                                                                                             |
-|  |                            |            |                                                                                                                             |
-|  |                            |            |                                                                                                                             |
-|  |                            |            |                                                                                                                             |
+| Versión |   Fecha    |          Autor          | Descripción de modificación |
+|:-------:|:----------:|:-----------------------:|-----------------------------|
+|   TB1   | 25/04/2026 |          Juan           | Incorporación del Startup Profile y Perfiles de Integrantes |
+|         | 25/04/2026 |          Juan           | Desarrollo del Solution Profile y Antecedentes |
+|         | 25/04/2026 |      Juan               | Incorporación del Lean UX Process y Segmentos objetivos |
+|         | 25/04/2026 |          Juan           | Desarrollo del Análisis competitivo |
+|         | 25/04/2026 |      Angel Pariona      | Incorporación de Estrategias y tácticas frente a competidores |
+|         | 25/04/2026 |      Angel Pariona      | Desarrollo del Diseño, Registro y Análisis de entrevistas |
+|         | 25/04/2026 |      Angel Pariona      | Incorporación del Needfinding y Ubiquitous Language || Incorporación del Landing Page UI Design |
+|         | 25/04/2026 |      Angel Pariona      | Desarrollo de To-Be Scenario Mapping, User Stories e Impact Mapping |
+|         | 25/04/2026 | Uribe Linares Francisco | Incorporación de General y Web Style Guidelines | | Incorporación del Landing Page UI Design |
+|         | 25/04/2026 | Uribe Linares Francisco | Desarrollo del Information Architecture |
+|         | 25/04/2026 | Uribe Linares Francisco | Incorporación del Landing Page Wireframe y Mock-up || Incorporación del Landing Page UI Design |
+|         | 25/04/2026 |   Rafael Barrenechea    | Incorporación del Web Applications Wireframes y Wireflow Diagrams |
+|         | 25/04/2026 |   Rafael Barrenechea    | Incorporación del Web Applications Mock-ups y User Flow || Incorporación del Landing Page UI Design |
+|         | 25/04/2026 |   Rafael Barrenechea    | Desarrollo del Web Applications Prototyping |
+|         | 25/04/2026 |     Camila Otiniano     | Desarrollo del Software Architecture Context Diagrams  |
+|         | 25/04/2026 |     Camila Otiniano     | Desarrollo del Software Architecture Container  |
+|         | 25/04/2026 |     Camila Otiniano     | Desarrollo del Software Architecture Container Diagrams  |
+|         | 25/04/2026 |     Camila Otiniano     | Desarrollo del Software Object-Oriented Desing  |
+|         | 25/04/2026 |     Camila Otiniano     | Desarrollo del Database Desing  | tb2  |                             |            |                                                                                                                             |
+|         |            |                         |                                                                                                                             |
+|         |            |                         |                                                                                                                             |
+|         |            |                         |                                                                                                                             |
+|         |            |                         |                                                                                                                             |
+|   tf1   |            |                         |                                                                                                                             |
+|         |            |                         |                                                                                                                             |
+|         |            |                         |                                                                                                                             |
+|         |            |                         |                                                                                                                             |
+|         |            |                         |                                                                                                                             |
 # Project Report Collaboration Insights
 
 Repositorio del informe del proyecto  
