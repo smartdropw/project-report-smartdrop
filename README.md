@@ -684,98 +684,347 @@ A continuación, se presenta un **glosario de términos del dominio de SmartDrop
 
 ## 5.1. Software Configuration Management
 ### 5.1.1. Software Development Environment Configuration
+
+En esta sección, se incluirá los productos de software que se usaron en el proyecto.
+
+Se clasificará en el siguiente orden:
+- Producto UX/UI Design.
+- Software Development.
+- Software Deployment.
+
+**Producto UX/UI Design:**<br>
+- [Figma](https://www.figma.com/) - Herramienta de diseño colaborativo para crear prototipos y maquetas de interfaces de usuario.
+- [Lucidchart](https://lucid.app/) - Herramienta de diagramación para crear diagramas de flujo, wireframes y otros elementos visuales.
+- [Uxpressia](https://uxpressia.com/) - Herramienta de diseño centrada en el usuario para crear mapas de empatía y customer journey maps.
+- [Structurizr](https://structurizr.com/) - Herramienta de modelado de software para crear diagramas de arquitectura y diseño orientado a dominios.
+- [Miro](https://miro.com/) - Plataforma de pizarra colaborativa en línea que permite a equipos trabajar juntos en tiempo real para crear mapas mentales, flujos de usuarios y planificaciones de producto.
+- [Vertabelo](https://vertabelo.com/) - Herramienta de modelado de bases de datos que permite diseñar esquemas visuales, generar scripts SQL y colaborar en tiempo real con tu equipo.
+- [Trello](https://trello.com/) - Herramienta visual de gestión de proyectos basada en tableros y tarjetas que facilita la organización, seguimiento y colaboración en tareas dentro de equipos de trabajo.
+
+**Software Development:**<br>
+- [IntelliJ IDEA](https://www.jetbrains.com/idea/) - Entorno de desarrollo integrado (IDE) para Java y otros lenguajes de programación.
+- [Github](https://www.github.com/) - Plataforma de control de versiones y colaboración para el desarrollo de software.
+- [Visual Studio Code](https://code.visualstudio.com/) - Editor de código fuente ligero y potente para varios lenguajes de programación.
+- [HTML](https://www.w3.org/TR/html52/) - Lenguaje de marcado para la creación de páginas web.
+- [CSS](https://www.w3.org/Style/CSS/) - Lenguaje de estilo para la presentación de documentos HTML.
+
+**Software Deployment:**<br>
+- GitHub Pages - Servicio de alojamiento web para proyectos estáticos.
+
 ### 5.1.2. Source Code Management
 
 
+Para la gestión del código fuente, se utilizará GitHub como plataforma central de control de versiones y colaboración entre los miembros del equipo. Se han creado repositorios separados para los distintos productos del proyecto.
+Los enlaces también están disponibles en la sección de anexos.
+
+- **Organización en GitHub:** [https://github.com/smartdropw](https://github.com/smartdropw)
+- **Repositorio del informe:** [https://github.com/smartdropw/project-report-smartdrop](https://github.com/smartdropw/project-report-smartdrop)
+- **Repositorio de la Landing Page:** [https://github.com/smartdropw/LandingPage-SmartDrop](https://github.com/smartdropw/LandingPage-SmartDrop)
+
+#### Modelo de ramificación: GitFlow
+
+Para el modelo de desarrollo, se decidió usar GitFlow como modelo de ramificación. Este modelo permite una gestión eficiente de las ramas y facilita la colaboración entre los desarrolladores.
+
+Para el repositorio del informe se crearon las siguientes ramas:
+- **main:** Rama principal de desarrollo, donde se integrarán todas las características y correcciones de errores.
+- **develop:** Rama de desarrollo, donde se realizarán las integraciones de las características antes de ser fusionadas a main.
+- **caratula:** Rama para el desarrollo de la carátula del informe.
+- **chapter1:** Rama para el desarrollo del capítulo 1 del informe.
+- **chapter2:** Rama para el desarrollo del capítulo 2 del informe.
+- **chapter3:** Rama para el desarrollo del capítulo 3 del informe.
+- **chapter4:** Rama para el desarrollo del capítulo 4 del informe.
+- **chapter5:** Rama para el desarrollo del capítulo 5 del informe.
+
+Para el repositorio de Landing Page se crearon las siguientes ramas:
+
+- Features
+1. header
+2. hero
+3. about-us
+4. solutions
+5. subscriptions
+6. contact-sales
+7. faq
+8. footer
+9. product
+
+#### Estilo de commits: Conventional Commits
+Para asegurar mensajes de commits claros y estandarizados, se seguirá la convención [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/). Algunos ejemplos:
+
+- feat: add search by name functionality
+- fix: correct form validation error
+- docs: update installation instructions
+- refactor: simplify calculation logic
+
+El prefijo de categorías se define de la siguiente forma:
+- feat: A new feature
+- fix: A bug fix
+- docs: Documentation only changes
+- style: Changes that do not affect the meaning of the code (formatting, missing semicolons, etc.)
+- refactor: A code change that neither fixes a bug nor adds a feature
+- test: Adding missing tests or correcting existing ones
+- chore: Changes to the build process or auxiliary tools
+
 ### 5.1.3. Source Code Style Guide & Conventions
 
+En esta sección se definen las convenciones de nombres y codificación adoptadas por el equipo para los lenguajes utilizados en el proyecto: HTML, CSS, JavaScript, TypeScript y Java. El idioma estándar para todo el código (nombres de variables, funciones, clases, archivos, etc.) es el **inglés**.
+
+#### Principios generales
+
+- **Idioma estándar:** Todo el código fuente está escrito en inglés, incluyendo nombres de archivos, clases, variables y funciones.
+- **Legibilidad ante todo:** Se prioriza el uso de nombres descriptivos y claros por encima de abreviaciones o tecnicismos innecesarios.
+- **Formato consistente:** Se aplica un estilo uniforme en todo el equipo y en todos los lenguajes, reforzado por herramientas automáticas.
+- **Nombres semánticos:** Se usan **sustantivos** para clases, componentes y archivos, y **verbos** para funciones o métodos.
+- **Indentación:** 2 espacios para HTML, CSS, JS.
+
+#### HTML y CSS
+
+**HTML**
+- Archivos terminan en `.html`.
+- Se utilizan etiquetas semánticas como `<header>`, `<section>`, `<nav>`, `<footer>`, etc.
+- Se incluye `alt` en imágenes y atributos `aria-*` para accesibilidad.
+- Atributos con comillas dobles (`"`).
+- Indentación: 2 espacios.
+
+**CSS**
+- Archivos terminan en `.css`.
+- Los selectores y clases se nombran en minúsculas y guiones medios `.form-container`, `.btn-enviar`.
+- Se agrupan estilos relacionados y se separan con comentarios.
+- Se define una paleta de colores base en variables CSS para mantener consistencia.
+
+#### JavaScript
+
+**JS**
+- Archivos terminan en `.js`.
+- Las variables se escriben en minúsculas con guiones bajos: `datos_usuario`, `correo_valido`.
+- Se evita el uso de var y let, priorizando const para mayor seguridad.
+- Se emplea indentación de 4 espacios para bloques de código.
+- Se prefiere la declaración explícita de funciones en lugar de funciones flecha para mayor legibilidad
+
+Basado en:
+- [Guía de estilo JavaScript de Airbnb](https://github.com/airbnb/javascript)
+
 ### 5.1.4. Software Deployment Configuration
+Con el propósito de garantizar la disponibilidad de nuestra landing page para todos los usuarios, se procedió a su publicación como sitio web a través de la plataforma GitHub Pages. El proceso contempló las siguientes etapas:
+
+#### Despliegue de Landing Page
+
+**1. Registro en la plataforma GitHub**  
+Se efectuó la creación de una cuenta en GitHub, lo que permitió disponer de un espacio de gestión y control de repositorios para el proyecto.
+
+**2. Creación del repositorio**  
+Mediante la opción *New repository*, se generó un repositorio denominado **“SmartDrop-Landing-Page”**, asociado a la organización **SmartDrop**.
+
+**3. Configuración inicial del repositorio**  
+Se estableció que el repositorio fuese público, con el propósito de asegurar el acceso por parte de los usuarios.
+
+**4. Incorporación de los archivos**  
+Una vez creado el repositorio, se añadieron los archivos de la *landing page*.
+
+**5. Implementación de GitHub Pages**  
+Finalmente, en la sección *Settings* del repositorio, apartado *GitHub Pages*, se habilitó la publicación del proyecto, lo que permitió poner el sitio a disposición de todos los usuarios.
+
+**6. Verificación del sitio web**  
+Tras unos minutos de habilitar GitHub Pages, el sitio queda disponible en la dirección: https://github.com/smartdropw/LandingPage-SmartDrop. Para corroborar su funcionamiento, se accede a dicha URL desde el navegador, lo que permite confirmar que la página se encuentra activa.
+
+**7. Actualización del sitio**  
+En caso de requerir modificaciones, basta con realizar los correspondientes commits y efectuar nuevamente la acción de merge siguiendo el mismo procedimiento descrito. Los cambios aplicados se reflejan de manera automática en la versión en línea del sitio web.
+
+**Repositorio:** [https://github.com/smartdropw/LandingPage-SmartDrop](https://github.com/smartdropw/LandingPage-SmartDrop)<br>
+**URL desplegada:** [https://smartdropw.github.io/LandingPage-SmartDrop/](https://smartdropw.github.io/LandingPage-SmartDrop/)<br>
 
 ## 5.2. Landing Page, Services & Applications Implementation
+
+En esta sección se detalla y evidencia la implementación de cada entregable de SmartDrop.
+
+**Landing page:** La landing page fue realizada de manera grupal y desplegada debidamente con la herramienta GitHub Pages.
+A continuación las siguientes imágenes sirven de referencia para evidenciar la implementación de la Landing Page.
+
+![landing1.jpg](assets/chapter5/Landing1.jpg)
+![landing2.jpg](assets/chapter5/Landing2.jpg)
+![landing4.jpg](assets/chapter5/Landing4.jpg)
+![landing5.jpg](assets/chapter5/Landing5.jpg)
+![landing6.jpg](assets/chapter5/Landing6.jpg)
+![landing7.jpg](assets/chapter5/Landing7.jpg)
+![landing8.jpg](assets/chapter5/Landing8.jpg)
+![landing9.jpg](assets/chapter5/Landing9.jpg)
+![landing10.jpg](assets/chapter5/Landing10.jpg)
 
 ### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1
 
+A continuación, se presenta la planificación del sprint. En esta sección se expone la reunión inicial correspondiente, en la cual se establecieron los objetivos, se definieron los acuerdos y se revisaron los aspectos fundamentales que orientarían el desarrollo del sprint.
+
+| **Sprint #**                       | **Sprint 1**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**     | En el sprint decidimos reunirnos para verificar el progreso de cada uno de los participantes y el progreso desde el punto de vista grupal, luego de ello buscamos formas y acciones de mejora.                                                                                                                                                                                                                                                                                                                                                              |
+| **Date**                           | 13/09/25                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Time**                           | 21:00 horas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Location**                       | Reunión virtual – Zoom                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Prepared By**                    | Angel Pariona Chacca                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Attendees**                      | Angel Jose Pariona Chacca, Camila Alizée Otiniano Rosales, Juan Diego Flores Rios                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Sprint 1 Review Summary**        | Se analizaron los *business goals* planteados para **SmartDrop**, verificando que la primera versión de la landing page cumpliera con el objetivo principal de comunicar la propuesta de valor de **SmartDrop**. Asimismo, se discutieron las *user stories* implementadas y se brindó retroalimentación tanto a nivel individual como grupal. Finalmente, se identificaron riesgos potenciales relacionados con la optimización visual, la integración de analítica y la escalabilidad de la página, los cuales serán considerados en los próximos sprints. |
+| **Sprint 1 Retrospective Summary** | Se concluyó que es necesario mejorar la comunicación dentro del equipo y organizar con mayor anticipación tanto las tareas grupales como las individuales, evitando dejarlas para último momento. También se destacó la relevancia de mantener las reuniones interdiarias de seguimiento.                                                                                                                                                                                                                                                                   |
+| **Sprint Goal & User Stories**     | US27 ,US28, US29, US30, US31, US31                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Sprint 1 Goal**                  | Nuestro enfoque está en desarrollar la Landing Page de **SmartDrop**, ofreciendo a los nuevos usuarios una interfaz clara, informativa y fácil de navegar que comunique los beneficios, servicios y características de la solución. Creemos que esto permitirá a los usuarios comprender de manera sencilla el valor que aporta, generando una primera experiencia positiva y sentando las bases para futuras funcionalidades.                                                                                                                              |
+| **Sprint 1 Velocity**              | 21                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Sum of Story Points**            | 21                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 #### 5.2.1.2. Aspect Leaders and Collaborators
+
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Landing Page Leader (L) / Collaborator (C)** | **Documentation Leader (L) / Collaborator (C)** | **Epics Leader (L) / Collaborator (C)** |
+|-----------------------------------------|---------------------|------------------------------------------------|-------------------------------------------------|-----------------------------------------|
+| Camila Alizée Otiniano Rosales          | CamilaaAlizee       | C                                              | L                                               | C                                       |
+| Juan Diego Flores Rios                  | YopoFlores          | C                                              | C                                               | L                                       |
+|                                         |                     |                                                |                                                 |                                         |
+| Pariona Chacca, Angel Jose              | angelitoso-opp      | L                                              | C                                               | C                                       |
+|                                         |                     |                                                |                                                 |                                         |
 
 #### 5.2.1.3. Sprint Backlog 1
 
+Sprint # | Sprint 1 |     |                                                   |                                                                         |                    |                      |        |
+---------|----------|-----|---------------------------------------------------|-------------------------------------------------------------------------|--------------------|----------------------|--------|
+User Story | Work-Item / Task |     |                                                   |                                                                         |                    |                      |        | |  
+ID | Title | ID  | Title                                             | Description                                                             | Estimation (Hours) | Assigned To          | Status 
+US27 | Visualización de la misión y visión de SmartDrop | T01 | Implementación de la sección “Misión y Visión”    | Diseñar y maquetar el bloque con la misión y visión de la startup       | 4                  | Angel Jose Pariona            | Done   
+US28 | Información clara de la propuesta de valor | T02 | Implementación de la sección “Propuesta de Valor” | Redactar y estructurar la propuesta de valor en la landing page         | 5                  | Angel Jose Pariona         | Done   
+US29 | Mostrar beneficios de SmartDrop a potenciales clientes | T03 | Implementación de la sección “Beneficios”         | Diseñar tarjetas/íconos con beneficios principales para hogares y pymes | 3                  | Angel Jose Pariona   | Done   
+US30 | Sección de contacto para interesados | T04 | Implementación de formulario de contacto          | Crear formulario con validaciones básicas y envío simulado              | 4                  | Angel Jose Pariona  | Done   
+US31 | Mejora de la interfaz visual y navegación | T05 | Implementación del header y barra de navegación   | Implementar header con logotipo, menú y enlaces internos                | 3                  | Angel Jose Pariona                     | Done   
+US31 | Mejora de la interfaz visual y navegación | T06 | Publicación en GitHub Pages y pruebas             | Configurar el repositorio y desplegar la landing page en GitHub Pages   | 2                  | Angel Jose Pariona   | Done   
+
+
 #### 5.2.1.4. Development Evidence for Sprint Review
+
+| Repository                                                                     | Branch         | Commit ID | Commit Message     | Commit Message Body | Committed on (Date) |
+|--------------------------------------------------------------------------------|----------------|-----------|--------------------|---------------------|---------------------|
+| [Landing Page SmartDrop](https://github.com/smartdropw/LandingPage-SmartDrop)  | Feature/main   |           | Update README.md   | -                   | 25/04/26            |
+|                                                                                | Feature/main   |           | Update README.md   | -                   | 25/04/26            |
+|                                                                                | Feature/main   |           | Update README.md   | -                   | 25/04/26            |
+|                                                                                | Feature/main   |           | Update README.md   | -                   | 25/04/26            |
+|                                                                                | Feature/main   |           | Update README.md   | -                   | 25/04/26            |
 
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
+Después de finalizar el Sprint 1, hemos logrado implementar todas las secciones de nuestra Landing Page, aunque con algunos desperfectos en cuanto a diseño. A continuación, te invitamos a explorar nuestros avances a través de imágenes que muestran el resultado obtenido.
 
+1. Seccion header: Aqui mostramos la barra de navegacion de nuestro sitio web.
+
+![lp-1.PNG](assets/chapter5/lp-1.PNG)
+
+2. Seccion de monitoreo: Demostramos el monitoreo inteligente de liquidos en hogares y empresas.
+
+![lp-2.PNG](assets/chapter5/lp-2.PNG)
+
+3. Seccion de visibilidad de liquidos: Monitorea tanques y tuberías de líquidos, midiendo volumen, presión y temperatura con paneles claros y alertas configurables.
+
+![lp-3.PNG](assets/chapter5/lp-3.PNG)
+
+4. Seccion de Nosotros y Equipo de trabajo: Se visualiza el proposito del producto y presenta a los desarrolladores del grupo.
+
+![lp-4.PNG](assets/chapter5/lp-4.PNG)
+![lp-5.PNG](assets/chapter5/lp-5.PNG)
+
+5. Seccion de soluciones: Mostramos las soluciones por cada segmento, en este caso residencias y negocios.
+
+![lp-5.PNG](assets/chapter5/lp-6.PNG)
+
+6. Seccion de liquid: Mostramos los liquidos a los que podemos que tenemos soporte.
+
+![lp-6.PNG](assets/chapter5/lp-7.PNG)
+
+7. Seccion de funcionalidades: Descubre las interesantes funcionalidades de esta empresa.
+
+![lp-7.PNG](assets/chapter5/lp-8.PNG)
+
+8. Seccion de comentarios de clientes: Historias reales de equipos que usan Droplet para líquidos.
+
+![lp-8.PNG](assets/chapter5/lp-9.PNG)
+
+9. Seccion de subscripcion: Presentamos los planes de subscripcion del producto.
+
+![lp-9.PNG](assets/chapter5/lp-10.PNG)
+
+10. Seccion de preguntas frecuentes: Detallamos algunas dudas antes de que optes en utilizar el producto.
+
+![lp-10.PNG](assets/chapter5/lp-11.PNG)
+
+11. Seccion de contactar: Si necesitas ayuda, no dudes en dejar un mensaje.
+
+![lp-11.PNG](assets/chapter5/lp-12.PNG)
+
+12. Seccion footer: La parte final del sitio web.
+
+![lp-12.PNG](assets/chapter5/lp-13.PNG)
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-
+**Esta sección no aplica para esta entrega.**
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
+Se desplegó la landing page usando el servicio de GitHub Pages. Se configuró para utilizar la rama main como base del proyecto a desplegar.
+
+![deploy.jpg](assets/chapter5/deploy.jpeg)
+
+URL de Landing Page Desplegada: https://smartdropw.github.io/LandingPage-SmartDrop/
 
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+La meta de este sprint fue la implementación de la Landing Page. Para llevar a
+cabo este objetivo, hicimos uso de diversas herramientas como GitHub, Visual Studio
+Code, HTML, CSS y JavaScript. Como evidencias del trabajo realizado tenemos los
+diagramas de flujo que representan los commits realizados por cada miembro del equipo
+SmartDrop.
 
-### 5.2.2. Sprint 2
-
-#### 5.2.2.1. Sprint Planning 2\.
-
-#### 5.2.2.2. Aspect Leaders and Collaborators.
-
-#### 5.2.2.3. Sprint Backlog 2\.
-
-#### 5.2.2.4. Development Evidence for Sprint Review.
-
-#### 5.2.2.5. Execution Evidence for Sprint Review.
-
-#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
-
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
-
-#### 5.2.2.8. Team Collaboration Insights during Sprint.
-
-### 5.2.3. Sprint 3
-
-#### 5.2.3.1. Sprint Planning 3
-
-#### 5.2.3.2. Aspect Leaders and Collaborators
-
-#### 5.2.3.3. Sprint Backlog 3
-
-#### 5.2.3.4. Development Evidence for Sprint Review
-
-
-#### 5.2.3.5. Execution Evidence for Sprint Review
-
-
-#### 5.2.3.6. Services Documentation Evidence for Sprint Review
-
-
-
-#### 5.2.3.7. Software Deployment Evidence for Sprint Review
-
-#### 5.2.3.8. Team Collaboration Insights during Sprint
-
-#### 5.3. Validation Interviews
-
-#### 5.3.1. Diseño de Entrevistas
-
-
-#### Preguntas para Segmento #1:
-
-#### Preguntas para Segmento #2:
-
-
-#### 5.3.2. Registro de Entrevistas
-
-#### 5.3.3. Evaluaciones según heurísticas
-
-              
-
-#### 5.4. Video About-the-Product
-
+![insigths.jpeg](assets/chapter5/insights.jpeg)
 
 # Conclusiones
+Durante el proceso de creación y desarrollo de este trabajo pudimos llegar a las siguientes conclusiones:
 
+### 1. Trabajo en equipo y colaboración
+El éxito de este proyecto demuestra la importancia del trabajo en equipo y la colaboración efectiva entre los miembros del grupo.
+La sinergia, comunicación constante y distribución de roles permitieron integrar diferentes perspectivas y habilidades,
+logrando un desarrollo más robusto y eficiente.
+
+### 2. Planificación y organización en el desarrollo de software
+Una adecuada planificación y organización fueron clave para el cumplimiento de los objetivos del proyecto.
+La metodología empleada (como Agile o SCRUM) facilitó la gestión de tareas, la priorización de funcionalidades y la entrega
+de resultados en los tiempos establecidos, asegurando un producto de calidad.
+
+### 3. Tecnología y herramientas aplicadas a la realidad
+El uso de tecnologías modernas y herramientas innovadoras permitió desarrollar una solución alineada con las necesidades
+reales del sector. La integración de frameworks ágiles, bases de datos eficientes y sistemas en la nube garantizó un producto
+escalable, seguro y adaptable al contexto peruano.
+
+### 4. Solución rentable y sostenible contra el desperdicio alimentario
+Este proyecto se consolida como una solución rentable y sostenible para reducir el desperdicio de alimentos en Perú,
+especialmente en el sector restaurantero. Al conectar a establecimientos con consumidores, se optimiza el uso de excedentes,
+generando un impacto económico, social y ambiental positivo.
 
 # Bibliografía
+Conne, M(2024). _The Markdown Guide_. MarkdownGuide. Recuperado de: https://www.markdownguide.org/
+
+- Conventional Commits. (n.d.). *Conventional commits v1.0.0.* Retrieved from https://www.conventionalcommits.org/en/v1.0.0/
+
+- BrowserStack. (n.d.). Responsive Web Design: A Complete Guide. Recuperado de https://www.browserstack.com/guide/responsive-web-design
+
+- Spring Boot. (n.d.). Spring Boot Documentation. Retrieved from https://docs.spring.io/spring-boot/documentation.html#documentation.web
+
+- Modyo. (n.d.). Domain-Driven Design (DDD) - Patrones de arquitectura. Retrieved from https://docs.modyo.com/es/architecture/patterns/ddd.html
+
+- Pivotal Software (2024). Spring Boot Reference Documentation (v3.2.4). https://docs.spring.io/spring-boot/docs/current/reference/html/
+
+- Evans, E. (2004). Domain-Driven Design: Tackling Complexity in the Heart of Software. Addison-Wesley. https://www.domainlanguage.com/ddd/
+
+- Eser, A. (2025, 30 de mayo). *Marketing in the Water Industry Statistics*. ZipDo Education Reports. Recuperado de https://zipdo.co/marketing-in-the-water-industry-statistics/
+
+- América Noticias. (2025). *Sunass: cierre de brechas en agua y saneamiento requiere cerca de 95 mil millones inversión*. América TV. Recuperado de https://www.americatv.com.pe/noticias/actualidad/sunass-cierre-brechas-agua-y-saneamiento-requiere-cerca-s-95-mil-millones-inversion-n468439
+
+- Ministerio de Vivienda, Construcción y Saneamiento. (2024, 9 de agosto). *Más de 500 mil peruanos accederán a servicios de agua potable y saneamiento con obras que el Ministerio de Vivienda concluirá al 2025*. Gobierno del Perú. Recuperado de https://www.gob.pe/institucion/vivienda/noticias/1000795-mas-de-500-mil-peruanos-accederan-a-servicios-de-agua-potable-y-saneamiento-con-obras-que-el-ministerio-de-vivienda-concluira-al-2025
 
 
 # Anexos
+**GITHUB:**
+
+| Título | Descripción | Enlace                                                                                                     |
+| :---- | :---- |:-----------------------------------------------------------------------------------------------------------|
+| Reporte | Enlace al repositorio del reporte | [https://github.com/smartdropw/project-report-smartdrop](https://github.com/smartdropw/project-report-smartdrop) |
+| Landing Page | Enlace al repositorio del Landing Page | [https://github.com/smartdropw/LandingPage-SmartDrop](https://github.com/smartdropw/LandingPage-SmartDrop)                      |
+| Landing Page Desplegada | Enlace de Landing Page Desplegada | [https://smartdropw.github.io/LandingPage-SmartDrop/](https://smartdropw.github.io/LandingPage-SmartDrop/)                      |
