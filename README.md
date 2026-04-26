@@ -707,6 +707,38 @@ El sistema SmartDrop actúa como el núcleo de procesamiento que transforma la t
 ## 4.8. Database Design
 
 ### 4.8.1. Database Diagrams
+* **Visión Global:**
+
+  ![Mapa21](assets/chapter4/Mapa21.jpg)
+
+
+* **Vistas Específicas por Bounded Context:**
+    * **Identity Access DataBase Diagram:**  
+      ![Mapa22](assets/chapter4/Mapa22.jpg)
+
+    * **Profiles Preferences DataBase Diagram:**  
+      ![Mapa23](assets/chapter4/Mapa23.jpg)
+
+    * **Payments Subscriptions DataBase Diagram:**  
+      ![Mapa24](assets/chapter4/Mapa24.jpg)
+
+    * **Consumption Inventory DataBase Diagram:**  
+      ![Mapa25](assets/chapter4/Mapa25.jpg)
+
+    * **Service Monitoring Alerts DataBase Diagram:**  
+      ![Mapa26](assets/chapter4/Mapa26.jpg)
+
+    * **Dashboard Analytics DataBase Diagram:**  
+      ![Mapa27](assets/chapter4/Mapa27.jpg)
+
+    * **Support Notifications DataBase Diagram:**
+
+      ![Mapa28](assets/chapter4/Mapa28.jpg)
+
+
+* **System Administration DataBase Diagram:**  
+  ![Mapa28](assets/chapter4/Mapa28.jpg)
+
 
 
 
