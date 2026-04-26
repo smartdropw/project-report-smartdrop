@@ -24,12 +24,12 @@
 
 #### Relación de integrantes
 
-| Nombre                        |   Código   |
-| ----------------------------  | ---------- |
-|                               |            |
-|                               |            |
-|Uribe Linares Francisco Javier | U20211B686 |
-|Pariona Chacca, Angel Jose     | u202320613 |
+| Nombre                       | Código     |
+| ---------------------------- | ---------- |
+|                              |            |
+|                              |            |
+|                              |            |
+| Pariona Chacca, Angel Jose   | u202320613 |
 
 <br>
 
