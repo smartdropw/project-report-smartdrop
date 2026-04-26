@@ -774,6 +774,46 @@ El sistema SmartDrop actúa como el núcleo de procesamiento que transforma la t
 
 ### 4.8.1. Database Diagrams
 
+**Visión global:**
+
+![Mapa18](assets/chapter4/DataBase_Diagram.png)
+
+* **Identity Access Database Diagram:**
+
+![Mapa19](assets/chapter4/Identity_DB.png)
+
+* **Profiles Preferences Database Diagram:**
+
+![Mapa20](assets/chapter4/Profile_DB.png)
+
+* **Payments Subscriptions Database Diagram:**
+
+![Mapa21](assets/chapter4/Payment_DB.png)
+![Mapa22](assets/chapter4/Payment2_DB.png)
+![Mapa23](assets/chapter4/Payment3_DB.png)
+
+* **Consumption Inventory Database Diagram:**
+
+![Mapa24](assets/chapter4/Consumption_DB.png)
+![Mapa25](assets/chapter4/Consumption2_DB.png)
+
+* **Service Monitoring Alerts Database Diagram:**
+
+![Mapa25](assets/chapter4/Monitoring_DB.png)
+![Mapa26](assets/chapter4/Monitoring2_DB.png)
+![Mapa27](assets/chapter4/Monitoring3_DB.png)
+
+* **Dashboard Analytics Database Diagram:**
+
+![Mapa28](assets/chapter4/Report_DB.png)
+
+* **Support Notifications Database Diagram:**
+
+![Mapa29](assets/chapter4/Notification_DB.png)
+
+* **System Administration Database Diagram:**
+
+![Mapa30](assets/chapter4/System_DB.png)
 
 
 # Capítulo V: Product Implementation, Validation & Deployment
