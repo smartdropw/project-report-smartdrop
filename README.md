@@ -338,38 +338,74 @@ El entrevistado Robert Otiniano, de 39 años y residente en Trujillo, gestiona u
 
 ![Preview entrevista](/assets/chapter2/entrevista1A.png)
 
-**Entrevistado N°2:** [rellenar]
+**Entrevistado N°2:** Martin Perez
 
-- **Sexo:** [rellenar]
-- **Edad:** [rellenar]
-- **Ubicación en la que vive:** [rellenar], [rellenar]
+- **Sexo:** Masculino
+- **Edad:** 20 años
+- **Ubicación en la que vive:** Lima, Puente Piedra
 
-**Acerca de la entrevista:**
+**Acerca de la entrevista:** 
 
-- **Link:** [rellenar]
-- **Instante en el que inicia:** [rellenar]
-- **Duración:** [rellenar]
+- **Link:** [https://www.youtube.com/watch?v=yECqt05TC5w]
+- **Instante en el que inicia:** [00:00]
+- **Duración:** [3:56]
 
-**Resumen:**  
+**Resumen:**  Martín Pérez, de 20 años y residente de Puente Piedra, vive en un hogar de siete personas donde monitorean de forma manual y visual una cisterna de 700 litros. Recientemente sufrieron una grave fuga que los dejó sin agua por varios días y representó un fuerte golpe económico imprevisto que los obligó a "ajustar cuentas". Ante este problema, Martín consideró "muy conveniente" la propuesta de una aplicación de monitoreo diario para tener certeza y tranquilidad, confirmando además su total disposición a pagar una suscripción por el servicio; lo percibe como una "gran oferta" si esto le garantiza evitar los altísimos costos de futuras fugas y proteger la economía de su familia, validando así perfectamente el modelo de negocio de SmartDrop.
     
 **Captura de pantalla:**
+![Preview entrevista](/assets/chapter2/Martin.jpeg)
 
 
-**Entrevistado N°1:** [rellenar]
+**Entrevistado N°3:** Griselda Ramirez
 
-- **Sexo:** [rellenar]
-- **Edad:** [rellenar]
-- **Ubicación en la que vive:** [rellenar, rellenar]
+- **Sexo:** Femenino
+- **Edad:** 26
+- **Ubicación en la que vive:** Lima, Ventanilla
 
 **Acerca de la entrevista:**
 
-- **Link:** 
-- **Instante en el que inicia:** [rellenar]
-- **Duración:** [rellenar]
+- **Link:** https://www.youtube.com/watch?v=DR-pz6XQt_Y
+- **Instante en el que inicia:** [00:00]
+- **Duración:** [2:31]
 
-**Resumen:**  
+**Resumen:**  Grisel, de 26 años y residente de Ventanilla, vive con seis personas en una casa equipada con un tanque de agua. Actualmente, el control del nivel hídrico es 100% visual, obligando a su abuelo y a su padrino —ambas personas mayores— a subir físicamente al techo para revisarlo, lo cual representa una incomodidad y un riesgo. Su mayor preocupación es sufrir fugas inadvertidas que disparen el costo del recibo a fin de mes. Al plantearle una solución, expresó un fuerte deseo por contar con una herramienta digital en el celular para monitorear la capacidad del tanque, confirmando que sí estaría dispuesta a pagar por este servicio. Para ella, la suscripción se justifica plenamente por el control de gastos y, sobre todo, por la seguridad y comodidad de tener la información "en la palma de la mano", evitando exponer a sus familiares al tener que subir al techo.
 
 **Captura de pantalla:**
+![Preview entrevista](/assets/chapter2/Griselda.jpeg)
+
+**Entrevistado N°4:** Alvaro Montes
+
+- **Sexo:** Masculino
+- **Edad:** 20
+- **Ubicación en la que vive:** Lima, Ventanilla
+
+**Acerca de la entrevista:**
+
+- **Link:** https://www.youtube.com/watch?v=Bzd4sCZ0EIs
+- **Instante en el que inicia:** [00:00]
+- **Duración:** [2:20]
+
+**Resumen:** Álvaro, de 20 años y residente de Ventanilla, vive en un hogar de cinco personas que se abastece mediante un tanque de agua de 600 litros. Actualmente no utilizan ninguna herramienta tecnológica para el control del agua, siendo su padre el encargado exclusivo de realizar las revisiones de forma manual. El problema que más les afecta y preocupa es la constante intermitencia del servicio público, ya que sufren cortes repentinos durante el día y temen quedarse totalmente desabastecidos. Para mejorar esta situación, Álvaro considera vital poder recibir alertas proactivas cuando el nivel del tanque esté bajo, evitando así agotar su reserva a ciegas, y confirmó que estarían dispuestos a pagar por un servicio que les brinde esta capacidad de prevención.
+
+**Captura de pantalla:**
+![Preview entrevista](/assets/chapter2/Alvaro.jpeg)
+
+**Entrevistado N°4:** Carlos Viñeda
+
+- **Sexo:** Masculino
+- **Edad:** 30
+- **Ubicación en la que vive:** Lima, Jesus maria
+
+**Acerca de la entrevista:**
+
+- **Link:** https://www.youtube.com/watch?v=C1wwL219tbI
+- **Instante en el que inicia:** [00:00]
+- **Duración:** [4:03]
+
+**Resumen:** Carlos, de 30 años y residente de Jesús María (Lima), vive con su familia de cuatro personas en una casa equipada con un tanque elevado de 1100 litros. Su método actual de control es totalmente reactivo y manual: solo sube al techo con una linterna cuando nota baja presión de agua. Esta falta de visibilidad ya le ha causado problemas graves, como quedarse sin agua por dos días tras un corte zonal imprevisto y sufrir desbordes nocturnos por fallas en el tanque. Sus mayores temores son la falta de agua en horarios críticos (mañanas) y el impacto económico de los recibos de Sedapal inflados por fugas. Siendo un usuario muy digitalizado que maneja pagos, delivery y domótica básica desde su celular, considera vital tener una app que le envíe alertas de nivel bajo. Validó fuertemente el modelo de negocio al confirmar que pagaría con gusto una suscripción mensual (comparándola con servicios como Netflix o Spotify) si el precio es razonable, concluyendo que el ahorro en frustraciones y cobros excesivos justifica plenamente la inversión.
+
+**Captura de pantalla:**
+![Preview entrevista](/assets/chapter2/eduardo.jpeg)
 
 
 ### Segmento objetivo #2: PYMEs de Bebidas
@@ -393,46 +429,6 @@ El entrevistado Robert Otiniano, de 39 años y residente en Trujillo, gestiona u
 
 **Captura de pantalla:**
 
-
-
-**Entrevistado N°3:** 
-
-- **Sexo:** [rellenar]
-- **Edad:** [rellenar]
-- **Ubicación de la empresa:** [rellenar] , [rellenar]
-- **Nombre de la empresa:** [rellenar]
-- **Sector:** [rellenar]
-- **Rol:** [rellenar]
-
-**Acerca de la entrevista:**
-
-- **Link:** [rellenar]
-- **Instante en el que inicia:** [rellenar]
-- **Duración:** [rellenar]
-
-**Resumen:** 
-
-**Captura de pantalla:**  
-
-
-**Entrevistado N°2:** 
-
-- **Sexo:** [rellenar]
-- **Edad:** [rellenar]
-- **Ubicación de la empresa:** [rellenar], [rellenar]
-- **Nombre de la empresa:** [rellenar]
-- **Sector:** [rellenar]
-- **Rol:** [rellenar]
-
-**Acerca de la entrevista:**
-
-- **Link:** [rellenar]
-- **Instante en el que inicia:** [rellenar]
-- **Duración:** [rellenar]
-
-**Resumen:**  
-
-**Captura de pantalla:**
 
 
 ### 2.2.3. Análisis de entrevistas
