@@ -338,20 +338,22 @@ El entrevistado Robert Otiniano, de 39 años y residente en Trujillo, gestiona u
 
 ![Preview entrevista](/assets/chapter2/entrevista1A.png)
 
-**Entrevistado N°2:** [rellenar]
+**Entrevistado N°1:** Carlos Mendoza Simeon
 
-- **Sexo:** [rellenar]
-- **Edad:** [rellenar]
-- **Ubicación en la que vive:** [rellenar], [rellenar]
+- **Sexo:** Masculino
+- **Edad:** 35 años.
+- **Ubicación en la que vive:** Jesús María, Lima.
 
 **Acerca de la entrevista:**
 
-- **Link:** [rellenar]
-- **Instante en el que inicia:** [rellenar]
-- **Duración:** [rellenar]
+- **Link:** https://youtu.be/C1wwL219tbI
+- **Instante en el que inicia:** 00:00
+- **Duración:** 04:09
 
 **Resumen:**  
-    
+
+El entrevistado Carlos, de 42 años y residente en Jesús María, gestiona un hogar de cuatro personas que cuenta con un tanque elevado de 1100 litros. Actualmente, carece de herramientas digitales de monitoreo y su control es puramente visual y reactivo, obligándolo a subir al techo para revisar el nivel. Esta falta de visibilidad ha provocado episodios de desabastecimiento prolongado ante cortes en su zona y fugas nocturnas no detectadas a tiempo, impactando negativamente en su facturación mensual. Carlos manifiesta una necesidad clara de recibir alertas preventivas en su dispositivo móvil y conocer el nivel de almacenamiento sin esfuerzo físico. Dada su alta familiaridad con aplicaciones móviles de uso diario, muestra una disposición muy positiva a pagar por una solución como SmartDrop, valorando principalmente la tranquilidad y el ahorro en el hogar.
+
 **Captura de pantalla:**
 
 
