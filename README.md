@@ -1677,7 +1677,7 @@ A continuación, se presenta la planificación del sprint. En esta sección se e
 | Juan Diego Flores Rios                  | YopoFlores          | C                                              | C                                               | L                                       |
 |                                         |                     |                                                |                                                 |                                         |
 | Pariona Chacca, Angel Jose              | angelitoso-opp      | L                                              | C                                               | C                                       |
-|                                         |                     |                                                |                                                 |                                         |
+|  Uribe Linares Francisco Jvaier         | FranciscoLinaresX   | C                                              | C                                               |                                         |
 
 #### 5.2.1.3. Sprint Backlog 1
 
