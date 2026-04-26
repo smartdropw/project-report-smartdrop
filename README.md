@@ -26,11 +26,11 @@
 
 | Nombre                       | Código     |
 | ---------------------------- | ---------- |
-|                              |            |
-|                              |            |
-|                              |            |
+| Barrenechea Bustamante, Rafael  |U202417417 |
+| Flores Rios, Juan Diego  | u202412124 |
 | Otiniano Rosales, Camila Alizée| u202419547 |
 | Pariona Chacca, Angel Jose   | u202320613 |
+| Uribe Linares, Francisco Javier |U20211B686 |
 
 <br>
 
@@ -41,19 +41,27 @@
 ---
 # Registro de Versiones
 
-| Versión |           Fecha            |   Autor    | Descripción de modificación                                                                                                 |
-| :---: |:--------------------------:|:----------:|-----------------------------------------------------------------------------------------------------------------------------|
-| tb1 | Angel Jose Pariona Chacca  | 25/05/2026 | Realice en su totalidad el Capitulo II y participe en ciertos puntos del capitulo V aporte ideas en las reuniones de grupo  |
-|tb1 | Camila Alizée Otiniano Rosales | 25/05/2026 | Realicé el Domain-Driven Software Architecture, Software Object-Oriented Desing, Database Desing y aporte con las entrevistas.|
-|  |                            |            |                                                                                                                             |
-|  |                            |            |                                                                                                                             |
-|  |                            |            |                                                                                                                             |
-| tp1 |                            |            |                                                                                                                             |
-|  |                            |            |                                                                                                                             |
-|  |                            |            |                                                                                                                             |
-|  |                            |            |                                                                                                                             |
-|  |                            |            |                                                                                                                             |
-| tb2 |                            |            |                                                                                                                             |
+| Versión  | Fecha | Autor | Descripción de modificación |
+|:--------:|:-----:|:-----:|-----------------------------|
+| TB1      |     25/04/2026  |  Juan      | Incorporación del Startup Profile y Perfiles de Integrantes |
+|          |      25/04/2026  |  Juan        | Desarrollo del Solution Profile y Antecedentes |
+|          |      25/04/2026  |  Juan        | Incorporación del Lean UX Process y Segmentos objetivos |
+|          |      25/04/2026  |  Juan        | Desarrollo del Análisis competitivo |
+|          |      25/04/2026  |  Angel Pariona        | Incorporación de Estrategias y tácticas frente a competidores |
+|          |      25/04/2026  |  Angel Pariona     | Desarrollo del Diseño, Registro y Análisis de entrevistas |
+|          |      25/04/2026  |  Angel Pariona     | Incorporación del Needfinding y Ubiquitous Language || Incorporación del Landing Page UI Design |
+|          |      25/04/2026  |  Angel Pariona     | Desarrollo de To-Be Scenario Mapping, User Stories e Impact Mapping |
+|          |      25/04/2026  |  Uribe Linares Francisco      | Incorporación de General y Web Style Guidelines || Incorporación del Landing Page UI Design |
+|          |      25/04/2026  |   Uribe Linares Francisco     | Desarrollo del Information Architecture |
+|          |      25/04/2026  |  Uribe Linares Francisco      | Incorporación del Landing Page Wireframe y Mock-up || Incorporación del Landing Page UI Design |
+|          |      25/04/2026  |  Rafael Barrenechea     | Incorporación del Web Applications Wireframes y Wireflow Diagrams |
+|          |      25/04/2026  |  Rafael Barrenechea     | Incorporación del Web Applications Mock-ups y User Flow || Incorporación del Landing Page UI Design |
+|          |      25/04/2026  |  Rafael Barrenechea     | Desarrollo del Web Applications Prototyping |
+|          |      25/04/2026  |   Camila Otiniano     | Desarrollo del Software Architecture Context Diagrams  |
+|          |      25/04/2026  |  Camila Otiniano      | Desarrollo del Software Architecture Container  |
+|          |      25/04/2026  |  Camila Otiniano      | Desarrollo del Software Architecture Container Diagrams  |
+|          |      25/04/2026  |  Camila Otiniano      | Desarrollo del Software Object-Oriented Desing  |
+|          |      25/04/2026  | Camila Otiniano       | Desarrollo del Database Desing  | tb2 |                            |            |                                                                                                                             |
 |  |                            |            |                                                                                                                             |
 |  |                            |            |                                                                                                                             |
 |  |                            |            |                                                                                                                             |
@@ -75,6 +83,14 @@ A continuación, se detallan las actividades realizadas en cada entrega, la part
 
 TB1  
 Para la primera entrega (TB1) se trabajó en la estructura inicial del informe, definiendo el índice y distribuyendo las secciones entre los miembros.
+
+| Integrante | Tareas Asignadas |
+| :--- |:----------------------|
+| **Juan** |Desarrollo del Startup Profile, Solution Profile, Segmentos objetivos y Análisis competitivo. |
+| **Pariona Chacca Angel Jose** |Desarrollo de Estrategias, Needfinding, Event Storming, Ubiquitous Language, To-Be Scenario, Impact Mapping, Product Backlog y aporte con las entrevistas. |
+| **Uribe Linares Francisco Javier** |Desarrollo de Style Guidelines, Information Architecture y Landing Page UI Design.|
+| **Barrenechea Bustamante Rafael** |Desarrollo de Web Applications UX/UI Design, Web Applications Prototyping y aporte con las entrevistas. |
+| **Otiniano Rosales Camila Alizée** | Desarrollo de la sección Domain-Driven Software Architecture, Software Object-Oriented Desing, Database Desing y aporte con las entrevistas. |
 
 ---
 # Contenido
