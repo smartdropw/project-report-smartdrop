@@ -29,7 +29,7 @@
 |                              |            |
 |                              |            |
 |                              |            |
-|                              |            |
+| Otiniano Rosales, Camila Alizée| u202419547 |
 | Pariona Chacca, Angel Jose   | u202320613 |
 
 <br>
@@ -44,7 +44,7 @@
 | Versión |           Fecha            |   Autor    | Descripción de modificación                                                                                                 |
 | :---: |:--------------------------:|:----------:|-----------------------------------------------------------------------------------------------------------------------------|
 | tb1 | Angel Jose Pariona Chacca  | 25/05/2026 | Realice en su totalidad el Capitulo II y participe en ciertos puntos del capitulo V aporte ideas en las reuniones de grupo  |
-|  |                            |            |                                                                                                                             |
+|tb1 | Camila Alizée Otiniano Rosales | 25/05/2026 | Realicé el Domain-Driven Software Architecture, Software Object-Oriented Desing, Database Desing y aporte con las entrevistas.|
 |  |                            |            |                                                                                                                             |
 |  |                            |            |                                                                                                                             |
 |  |                            |            |                                                                                                                             |
