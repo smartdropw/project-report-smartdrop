@@ -666,9 +666,9 @@ En esta etapa inicial del Frontend, se han plasmado las directrices de los mocku
 
 *(Nota para el equipo: Subir las imágenes de las vistas a la carpeta assets/chapter5/ y reemplazar estos textos)*
 
-![Vista de Login Frontend](assets/chapter5/frontend-login.jpg)
-![Vista de Registro Frontend](assets/chapter5/frontend-register.jpg)
-![Vista del Dashboard Inicial](assets/chapter5/frontend-dashboard.jpg)
+![Vista de Login Frontend](PON_AQUI_LA_RUTA_DE_LA_IMAGEN_DEL_LOGIN)
+![Vista de Registro Frontend](PON_AQUI_LA_RUTA_DE_LA_IMAGEN_DEL_REGISTRO)
+![Vista del Dashboard Inicial](PON_AQUI_LA_RUTA_DE_LA_IMAGEN_DEL_DASHBOARD)
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
@@ -681,13 +681,13 @@ La primera versión del Frontend Web Application ha sido desplegada para asegura
 * **URL de Web Application desplegada:** [https://app.smartdrop.com] *(Nota para el equipo: Reemplazar con el enlace real)*
 * **Plataforma utilizada:** Vercel *(Nota para el equipo: Actualizar si usaron Netlify u otra plataforma para Angular)*
 
-![Evidencia de Despliegue del Frontend](assets/chapter5/frontend-deploy.jpg)
+![Evidencia de Despliegue del Frontend](PON_AQUI_LA_RUTA_DE_LA_IMAGEN_DEL_DESPLIEGUE)
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
 La colaboración para este segundo sprint reflejó una adaptación exitosa a los lineamientos propuestos en la retrospectiva anterior. Al manejar un repositorio de código más complejo, la revisión de *Pull Requests* y la asignación temprana de componentes previnieron sobreescrituras en las vistas principales. A continuación, se muestran las métricas de GitHub que evidencian la participación técnica de todos los desarrolladores.
 
-![Insights de Colaboración Sprint 2 Frontend](assets/chapter5/insights-sprint2.jpg)
+![Insights de Colaboración Sprint 2 Frontend](PON_AQUI_LA_RUTA_DE_LA_IMAGEN_DE_INSIGHTS)
 
 # Conclusiones
 Durante el proceso de creación y desarrollo de este trabajo pudimos llegar a las siguientes conclusiones:
@@ -749,3 +749,5 @@ Conne, M(2024). _The Markdown Guide_. MarkdownGuide. Recuperado de: https://www.
 | Reporte | Enlace al repositorio del reporte | [https://github.com/smartdropw/project-report-smartdrop](https://github.com/smartdropw/project-report-smartdrop) |
 | Landing Page | Enlace al repositorio del Landing Page | [https://github.com/smartdropw/LandingPage-SmartDrop](https://github.com/smartdropw/LandingPage-SmartDrop)                      |
 | Landing Page Desplegada | Enlace de Landing Page Desplegada | [https://smartdropw.github.io/LandingPage-SmartDrop/](https://smartdropw.github.io/LandingPage-SmartDrop/)                      |
+| Frontend Web App | Enlace al repositorio de la aplicación web | [Acá peguen el link]() |
+| Web App Desplegada | Enlace a la aplicación web en producción | [Acá peguen el link ()] |
