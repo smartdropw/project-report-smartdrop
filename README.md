@@ -636,7 +636,7 @@ Para este sprint, la carga de trabajo se dividió entre la maquetación de vista
 
 #### 5.2.2.3. Sprint Backlog 2
 
-**Sprint #2
+**Sprint #2**
 
 | User Story ID | Story Title | Work-Item ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
 |---|---|---|---|---|---|---|---|
