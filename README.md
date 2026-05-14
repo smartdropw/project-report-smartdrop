@@ -630,13 +630,13 @@ Para este sprint, la carga de trabajo se dividió entre la maquetación de vista
 |-----------------------------------------|---------------------|--------------------------------------------------------|-------------------------------------------------|-------------------------------------------------------|
 | Barrenechea Bustamante, Rafael André    | rafael-barrenechea  | C                                                      | L                                               | C                                                     |
 | Flores Rios, Juan Diego                 | YopoFlores          | L                                                      | C                                               | C                                                     |
-| Otiniano Rosales, Camila Alizée         | CamilaaAlizee       | L                                                      | C                                               | C                                                     |
-| Pariona Chacca, Angel Jose              | angelitoso-opp      | C                                                      | C                                               | L                                                     |
-| Uribe Linares, Francisco Javier         | FranciscoLinaresX   | C                                                      | C                                               | L                                                     |
+| Otiniano Rosales, Camila Alizée         | CamilaaAlizee       | L                                                      | C                                               | L                                                     |
+| Pariona Chacca, Angel Jose              | angelitoso-opp      | C                                                      | L                                               | L                                                     |
+| Uribe Linares, Francisco Javier         | FranciscoLinaresX   | L                                                      | C                                               | C                                                     |
 
 #### 5.2.2.3. Sprint Backlog 2
 
-**Sprint #:** Sprint 2
+**Sprint #2
 
 | User Story ID | Story Title | Work-Item ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
 |---|---|---|---|---|---|---|---|
@@ -737,7 +737,7 @@ Conne, M(2024). _The Markdown Guide_. MarkdownGuide. Recuperado de: https://www.
 - Ministerio de Vivienda, Construcción y Saneamiento. (2024, 9 de agosto). *Más de 500 mil peruanos accederán a servicios de agua potable y saneamiento con obras que el Ministerio de Vivienda concluirá al 2025*. Gobierno del Perú. Recuperado de https://www.gob.pe/institucion/vivienda/noticias/1000795-mas-de-500-mil-peruanos-accederan-a-servicios-de-agua-potable-y-saneamiento-con-obras-que-el-ministerio-de-vivienda-concluira-al-2025
 
 - Angular. (s.f.). *Angular documentation: Getting started*. Recuperado el 14 de mayo de 2026, de https://angular.io/docs
-- 
+
 - Vercel. (s.f.). *Vercel documentation: Frontend cloud framework deployment*. Recuperado el 14 de mayo de 2026, de https://vercel.com/docs
 
 
