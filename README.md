@@ -602,6 +602,93 @@ SmartDrop.
 
 ![insigths.jpeg](assets/chapter5/insights.jpeg)
 
+### 5.2.2. Sprint 2
+En esta iteración, el equipo centró sus esfuerzos en el desarrollo de la primera versión del Frontend Web Application de SmartDrop. El objetivo consistió en transicionar de la propuesta estática (Landing Page) a la construcción de los componentes interactivos principales bajo el framework Angular, estableciendo el sistema de autenticación y la estructura base del dashboard de monitoreo para los segmentos residencial y empresarial.
+
+#### 5.2.2.1. Sprint Planning 2
+
+| **Sprint #** | **Sprint 2** |
+|------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background** | Tras el despliegue exitoso de la Landing Page, el equipo se reunió para definir la arquitectura de componentes del Frontend. Se revisaron los mockups elaborados en la fase de diseño para identificar los elementos reutilizables (formularios, tarjetas de métricas, barras de navegación) y establecer las convenciones de enrutamiento.                                                                                                                                                                                                               |
+| **Date** | 14/04/2026                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Time** | 20:30 horas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Location** | Reunión virtual – Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Prepared By** | Barrenechea Bustamante, Rafael André                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Attendees (to planning meeting)**| Angel Jose Pariona Chacca, Camila Alizée Otiniano Rosales, Juan Diego Flores Rios, Francisco Javier Uribe Linares, Rafael André Barrenechea Bustamante                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Sprint 1 Review Summary** | Se cumplió el objetivo de comunicar la propuesta de valor mediante el despliegue del sitio web estático. Se observó que la distribución de tareas funcionó adecuadamente, aunque la integración de código en la rama `main` requirió resolución de conflictos de última hora.                                                                                                                                                                                                                                                                             |
+| **Sprint 1 Retrospective Summary** | El equipo acordó aplicar un rigor mayor en el modelo GitFlow para el repositorio del Frontend, asegurando que cada componente se trabaje en su respectiva rama (`feature/`) y se integre mediante *Pull Requests* revisados por pares, evitando cuellos de botella en la fase de despliegue.                                                                                                                                                                                                                                                            |
+| **Sprint Goal & User Stories** | US01, US02, US03, US09, US17, US30                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Sprint 2 Goal** | Our focus is on delivering the foundational frontend structure of the SmartDrop web application. We believe it delivers a secure entry point and clear data visualization layout for both residential and SME users. This will be confirmed when users can successfully navigate the authentication views (login/register) and access the main dashboard interface to view simulated liquid metrics using intuitive color states.                                                                                                                           |
+| **Sprint 2 Velocity** | 21                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Sum of Story Points** | 21                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+Para este sprint, la carga de trabajo se dividió entre la maquetación de vistas en código (Frontend), la estilización de componentes de interfaz de usuario y la estructuración de los artefactos de documentación técnica requeridos para el hito TB1.
+
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Frontend Application Leader (L) / Collaborator (C)** | **Documentation Leader (L) / Collaborator (C)** | **UI Styles & Routing Leader (L) / Collaborator (C)** |
+|-----------------------------------------|---------------------|--------------------------------------------------------|-------------------------------------------------|-------------------------------------------------------|
+| Barrenechea Bustamante, Rafael André    | rafael-barrenechea  | C                                                      | L                                               | C                                                     |
+| Flores Rios, Juan Diego                 | YopoFlores          | L                                                      | C                                               | C                                                     |
+| Otiniano Rosales, Camila Alizée         | CamilaaAlizee       | L                                                      | C                                               | C                                                     |
+| Pariona Chacca, Angel Jose              | angelitoso-opp      | C                                                      | C                                               | L                                                     |
+| Uribe Linares, Francisco Javier         | FranciscoLinaresX   | C                                                      | C                                               | L                                                     |
+
+#### 5.2.2.3. Sprint Backlog 2
+
+**Sprint #:** Sprint 2
+
+| User Story ID | Story Title | Work-Item ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|---|---|---|---|---|---|---|---|
+| US30 | Acceder a la plataforma | T01 | Maquetación Login | Desarrollar el componente de inicio de sesión con enrutamiento base. | 3 | Juan Diego Flores | Done |
+| US01 | Registro de vivienda | T02 | Formulario Residencial | Implementar la vista de captura de datos adaptada a hogares. | 4 | Camila Otiniano | Done |
+| US02 | Registro de empresa | T03 | Formulario PYME | Diseñar el formulario con campos para validación de empresas. | 4 | Juan Diego Flores | Done |
+| US03 | Monitoreo de nivel | T04 | Layout Dashboard | Maquetar el contenedor principal, sidebar y barra superior. | 5 | Francisco Uribe | Done |
+| US09 | Monitoreo térmico | T05 | Widget Temperatura | Construir la tarjeta para visualización de datos térmicos. | 3 | Camila Otiniano | Done |
+| US17 | Visualización de alertas | T06 | Lógica de Estados | Programar directivas de estilo (verde/amarillo/rojo) según rangos. | 2 | Angel Pariona | Done |
+| N/A | Elaboración de Informe TB1 | T07 | Documentación Técnica | Redactar métricas, planificaciones y evidencias bajo estándares. | 4 | Rafael Barrenechea | Done |
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+Durante este sprint, el flujo de trabajo se centró en el repositorio del Frontend. Cada componente fue desarrollado en ramas separadas y fusionado tras la validación de código. A continuación, se detallan los commits más representativos de esta fase:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|---|---|---|---|---|---|
+| smartdropw/Frontend-SmartDrop | feature/auth-login | 7a8b9c0 | feat: | Implementación del componente de login y enrutamiento inicial | 16/04/2026 |
+| smartdropw/Frontend-SmartDrop | feature/auth-register | 3d4e5f6 | feat: | Desarrollo de formularios de registro para hogares y empresas | 18/04/2026 |
+| smartdropw/Frontend-SmartDrop | feature/dashboard-layout | 1f2a3b4 | feat: | Maquetación del sidebar, header y grid del dashboard | 20/04/2026 |
+| smartdropw/Frontend-SmartDrop | feature/temp-widget | 9c8d7e6 | feat: | Integración de tarjeta gráfica para el monitoreo de temperatura | 21/04/2026 |
+| smartdropw/Frontend-SmartDrop | style/color-states | 5b6a7c8 | style: | Aplicación de clases CSS para estados visuales (verde, amarillo, rojo) | 23/04/2026 |
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+En esta etapa inicial del Frontend, se han plasmado las directrices de los mockups en código funcional. Las siguientes capturas demuestran la navegación básica y la estructura interactiva de la aplicación web, abarcando desde el ingreso seguro hasta el panel principal de monitoreo.
+
+*(Nota para el equipo: Subir las imágenes de las vistas a la carpeta assets/chapter5/ y reemplazar estos textos)*
+
+![Vista de Login Frontend](assets/chapter5/frontend-login.jpg)
+![Vista de Registro Frontend](assets/chapter5/frontend-register.jpg)
+![Vista del Dashboard Inicial](assets/chapter5/frontend-dashboard.jpg)
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+De acuerdo con el ciclo de vida del proyecto y los requerimientos de la rúbrica para el hito TB1, el desarrollo y documentación del RESTful API (Web Services) se abordará en la siguiente fase (AV2). Por lo tanto, esta sección no aplica para el presente sprint.
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+La primera versión del Frontend Web Application ha sido desplegada para asegurar su disponibilidad y realizar pruebas de experiencia de usuario en un entorno real. Se ha configurado una canalización automatizada conectada a la rama principal del repositorio.
+
+* **URL de Web Application desplegada:** [https://app.smartdrop.com] *(Nota para el equipo: Reemplazar con el enlace real)*
+* **Plataforma utilizada:** Vercel *(Nota para el equipo: Actualizar si usaron Netlify u otra plataforma para Angular)*
+
+![Evidencia de Despliegue del Frontend](assets/chapter5/frontend-deploy.jpg)
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+La colaboración para este segundo sprint reflejó una adaptación exitosa a los lineamientos propuestos en la retrospectiva anterior. Al manejar un repositorio de código más complejo, la revisión de *Pull Requests* y la asignación temprana de componentes previnieron sobreescrituras en las vistas principales. A continuación, se muestran las métricas de GitHub que evidencian la participación técnica de todos los desarrolladores.
+
+![Insights de Colaboración Sprint 2 Frontend](assets/chapter5/insights-sprint2.jpg)
+
 # Conclusiones
 Durante el proceso de creación y desarrollo de este trabajo pudimos llegar a las siguientes conclusiones:
 
@@ -625,6 +712,9 @@ Este proyecto se consolida como una solución rentable y sostenible para reducir
 especialmente en el sector restaurantero. Al conectar a establecimientos con consumidores, se optimiza el uso de excedentes,
 generando un impacto económico, social y ambiental positivo.
 
+### 5. Consolidación de la experiencia interactiva
+Con el desarrollo del Sprint 2 y el despliegue del Frontend Web Application, el proyecto SmartDrop evoluciona de una fase puramente informativa hacia una plataforma funcional. La traducción exitosa de los wireframes a componentes en código demuestra que el equipo ha logrado mantener la consistencia del diseño visual y la arquitectura de la información, sentando una base sólida, inclusiva y escalable para la futura integración con los servicios en la nube.
+
 # Bibliografía
 Conne, M(2024). _The Markdown Guide_. MarkdownGuide. Recuperado de: https://www.markdownguide.org/
 
@@ -645,6 +735,10 @@ Conne, M(2024). _The Markdown Guide_. MarkdownGuide. Recuperado de: https://www.
 - América Noticias. (2025). *Sunass: cierre de brechas en agua y saneamiento requiere cerca de 95 mil millones inversión*. América TV. Recuperado de https://www.americatv.com.pe/noticias/actualidad/sunass-cierre-brechas-agua-y-saneamiento-requiere-cerca-s-95-mil-millones-inversion-n468439
 
 - Ministerio de Vivienda, Construcción y Saneamiento. (2024, 9 de agosto). *Más de 500 mil peruanos accederán a servicios de agua potable y saneamiento con obras que el Ministerio de Vivienda concluirá al 2025*. Gobierno del Perú. Recuperado de https://www.gob.pe/institucion/vivienda/noticias/1000795-mas-de-500-mil-peruanos-accederan-a-servicios-de-agua-potable-y-saneamiento-con-obras-que-el-ministerio-de-vivienda-concluira-al-2025
+
+- Angular. (s.f.). *Angular documentation: Getting started*. Recuperado el 14 de mayo de 2026, de https://angular.io/docs
+- 
+- Vercel. (s.f.). *Vercel documentation: Frontend cloud framework deployment*. Recuperado el 14 de mayo de 2026, de https://vercel.com/docs
 
 
 # Anexos
