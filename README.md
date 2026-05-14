@@ -652,6 +652,7 @@ Para este sprint, la carga de trabajo se dividió entre la maquetación de vista
 
 Durante este sprint, el flujo de trabajo se centró en el repositorio del Frontend. Cada componente fue desarrollado en ramas separadas y fusionado tras la validación de código. A continuación, se detallan los commits más representativos de esta fase:
 
+Acá ponemos 5 commits de lo que programaron para el frontend,en que rama,id del coomit, el mensaje que le pusieron y fecha
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 |---|---|---|---|---|---|
 | smartdropw/Frontend-SmartDrop | feature/auth-login | 7a8b9c0 | feat: | Implementación del componente de login y enrutamiento inicial | 16/04/2026 |
@@ -749,5 +750,5 @@ Conne, M(2024). _The Markdown Guide_. MarkdownGuide. Recuperado de: https://www.
 | Reporte | Enlace al repositorio del reporte | [https://github.com/smartdropw/project-report-smartdrop](https://github.com/smartdropw/project-report-smartdrop) |
 | Landing Page | Enlace al repositorio del Landing Page | [https://github.com/smartdropw/LandingPage-SmartDrop](https://github.com/smartdropw/LandingPage-SmartDrop)                      |
 | Landing Page Desplegada | Enlace de Landing Page Desplegada | [https://smartdropw.github.io/LandingPage-SmartDrop/](https://smartdropw.github.io/LandingPage-SmartDrop/)                      |
-| Frontend Web App | Enlace al repositorio de la aplicación web | [Acá peguen el link]() |
-| Web App Desplegada | Enlace a la aplicación web en producción | [Acá peguen el link ()] |
+| Frontend Web App | Enlace al repositorio de la aplicación web | [Acá peguen el link del repo]() |
+| Web App Desplegada | Enlace a la aplicación web en producción | [Acá peguen el link de la web desplegada()] |
