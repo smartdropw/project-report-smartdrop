@@ -222,13 +222,13 @@ SmartDrop es una startup tecnológica orientada al desarrollo de soluciones digi
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-|                                                                 |                                                                                                        |
-|:---------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                 |                                                                                |
-|     ![Camila Alizée Otiniano Rosales](./assets/chapter1/Camila.png)   |   **Camila Alizée Otiniano Rosales \- u202419547** Mi nombre es Camila Otiniano, tengo 18 años y  actualmente estoy en el quinto ciclo de ingeniería de software, cuento con habilidades de liderazgo que me permiten fomentar la colaboración y organización en equipo. Me caracterizo por mi responsabilidad, compromiso y creatividad, siempre enfocada en alcanzar los objetivos del grupo.                                 |
-|    ![Angel Jose Pariona Chacca](./assets/chapter1/Angel.jpg)    | **Angel Jose Pariona Chacca \- u202314734**  Mi nombre es Angel Pariona, tengo 21 años y actualmente estoy en el quinto ciclo, soy una persona disciplinada y extrovertida, capaz de desempeñarme en grupos de trabajo. Cuento con conocimientos en c++, HTML y CSS                                                                                                              |
-|    ![Barrenechea Bustamante Rafael Andre](./assets/chapter1/Rafael.png)    | **Rafael Andre Barrenechea Bustamante - u202417417**  Mi nombre es Rafael Andre Barrenechea Bustamante, tengo 19 años y actualmente estoy en la carrera de ingeniería de software. Me caracterizo por ser una persona proactiva. Cuento con facilidad para aprender nuevas tecnologías de desarrollo y me adapto rápido al trabajo en equipo.                                                                                                              |
-|    ![Barrenechea Bustamante Rafael Andre](./assets/chapter1/Rafael.png)    | **Francisco Javier Uribe Linares - u20211b686** Mi nombre es Francisco Uribe, soy estudiante de la carrera de ingeniería de software y me encuentro ahora cursando mi 5to ciclo. Soy una persona carismática, con ganas de Aprender, ayudar, y trabajar en equipo, aportando todos mis conocimientos aprendidos hasta ahora en esta hermosa carrera. Espero poder ayudar con todos los retos que tengamos en todo el curso.                                                                                                              |
+|                                                                      |                                                                                                        |
+|:--------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                                                      |                                                                                |
+|   ![Camila Alizée Otiniano Rosales](./assets/chapter1/Camila.png)    |   **Camila Alizée Otiniano Rosales \- u202419547** Mi nombre es Camila Otiniano, tengo 18 años y  actualmente estoy en el quinto ciclo de ingeniería de software, cuento con habilidades de liderazgo que me permiten fomentar la colaboración y organización en equipo. Me caracterizo por mi responsabilidad, compromiso y creatividad, siempre enfocada en alcanzar los objetivos del grupo.                                 |
+|      ![Angel Jose Pariona Chacca](./assets/chapter1/Angel.jpg)       | **Angel Jose Pariona Chacca \- u202314734**  Mi nombre es Angel Pariona, tengo 21 años y actualmente estoy en el quinto ciclo, soy una persona disciplinada y extrovertida, capaz de desempeñarme en grupos de trabajo. Cuento con conocimientos en c++, HTML y CSS                                                                                                              |
+| ![Barrenechea Bustamante Rafael Andre](./assets/chapter1/Rafael.png) | **Rafael Andre Barrenechea Bustamante - u202417417**  Mi nombre es Rafael Andre Barrenechea Bustamante, tengo 19 años y actualmente estoy en la carrera de ingeniería de software. Me caracterizo por ser una persona proactiva. Cuento con facilidad para aprender nuevas tecnologías de desarrollo y me adapto rápido al trabajo en equipo.                                                                                                              |
+|    ![Barrenechea Bustamante Rafael Andre](./assets/chapter1/.png)    | **Francisco Javier Uribe Linares - u20211b686** Mi nombre es Francisco Uribe, soy estudiante de la carrera de ingeniería de software y me encuentro ahora cursando mi 5to ciclo. Soy una persona carismática, con ganas de Aprender, ayudar, y trabajar en equipo, aportando todos mis conocimientos aprendidos hasta ahora en esta hermosa carrera. Espero poder ayudar con todos los retos que tengamos en todo el curso.                                                                                                              |
 
 ## 1.2. Solution Profile
 
@@ -385,7 +385,7 @@ SmartDrop es una startup tecnológica orientada al desarrollo de soluciones digi
 
 
 #### 1.2.2.4 Lean UX Canvas
-![Lean UX Canvas](./assets/chapter1/LeanUxCanvas.jpg)
+![Lean UX Canvas](./assets/chapter1/leanuxcanvas.2.JPG)
 <!-- CHAPTER-1:END -->
 
 <!-- CHAPTER-2:START -->
@@ -591,25 +591,82 @@ El entrevistado Carlos, de 42 años y residente en Jesús María, gestiona un ho
 **Resumen:** Grisel, de 26 años y residente de Ventanilla, vive con seis personas en una casa equipada con un tanque de agua. Actualmente, el control del nivel hídrico es 100% visual, obligando a su abuelo y a su padrino —ambas personas mayores— a subir físicamente al techo para revisarlo, lo cual representa una incomodidad y un riesgo. Su mayor preocupación es sufrir fugas inadvertidas que disparen el costo del recibo a fin de mes. Al plantearle una solución, expresó un fuerte deseo por contar con una herramienta digital en el celular para monitorear la capacidad del tanque, confirmando que sí estaría dispuesta a pagar por este servicio. Para ella, la suscripción se justifica plenamente por el control de gastos y, sobre todo, por la seguridad y comodidad de tener la información "en la palma de la mano", evitando exponer a sus familiares al tener que subir al techo.
 
 **Captura de pantalla:**
+
 ![Preview entrevista](/assets/chapter2/Griselda.jpeg)
 ### Segmento objetivo #2: PYMEs de Bebidas
 
-**Entrevistado N°1:** [rellenar]
+**Entrevistado N°1:** [Alessandra Cotrina] – Administradora
 
-- **Sexo:** [rellenar]
-- **Edad:** [rellenar]
-- **Ubicación de la empresa:** [rellenar], [rellenar]
-- **Nombre de la empresa:** [rellenar]
-- **Sector:** [rellenar]
-- **Rol:** [rellenar]
+- **Sexo:** Femenino
+- **Edad:** [27]
+- **Ubicación de la empresa:** [Lima, Peru]
+- **Nombre de la empresa:** Cerveza Artesanal Bohórquez
+- **Sector:** Producción y venta de bebidas artesanales
+- **Rol:** Administradora, encargada de coordinar ventas, pedidos y control de insumos
 
 **Acerca de la entrevista:**
 
-- **Link:** [rellenar]
-- **Instante en el que inicia:** [rellenar]
-- **Duración:** [rellenar]
+- **Link:** [https://www.youtube.com/watch?v=SigczJXmwnY] 
+- **Instante en el que inicia:** [00:00]
+- **Duración:** [3:10]
 
 **Resumen:**  
+La entrevistada administra **Cerveza Artesanal Bohórquez**, una pequeña empresa de bebidas artesanales que trabaja con un equipo reducido. Actualmente registran el control de líquidos y procesos de producción de forma manual y en Excel, lo que genera inconsistencias y diferencias entre lo planificado y lo realmente producido. Han experimentado pérdidas por mal manejo de insumos o entregas incompletas. Los principales problemas se relacionan con la falta de coordinación entre producción y ventas, así como los cálculos manuales poco confiables. Entre las mejoras que considera más valiosas se encuentran contar con mayor trazabilidad de insumos, alertas de stock bajo y reportes automáticos sobre entradas y salidas de líquidos. Reconoce que una solución digital accesible desde el celular, con datos en tiempo real, permitiría una mejor planificación, reducción de pérdidas y un aumento en la productividad.
+
+**Captura de pantalla:**
+
+![Preview Entrevista](/assets/chapter2/alessandra_entrevista.jpeg)
+
+**Entrevistado N°2:** Lupe – Encargada de Logística
+
+- **Sexo:** Femenino
+- **Edad:** 22
+- **Ubicación de la empresa:** [Lima, Peru]
+- **Nombre de la empresa:** Lácteo Santinos
+- **Sector:** Producción y distribución de leche y derivados lácteos
+- **Rol:** Encargada de logística, coordina el ingreso de insumos y la distribución del producto final
+
+**Acerca de la entrevista:**
+
+- **Link:** [https://www.youtube.com/watch?v=9pUZg2x49F0] 
+- **Instante en el que inicia:** [00:05]
+- **Duración:** [4:55]
+
+**Resumen:**  
+Lupe, de 22 años, trabaja en **Lácteo Santinos**, una empresa de 25 empleados dedicada a la producción y distribución de leche y derivados. Manejan aproximadamente 50,000 litros de leche al mes y cuentan con certificaciones de la municipalidad y del SENASA. Actualmente registran el control de líquidos mediante guías en papel y reportes en Excel, además de informes de transporte diarios. El proceso es lento y depende demasiado del cumplimiento manual, lo que genera dificultades en los tiempos y la fiabilidad de la información. Han tenido pérdidas, principalmente en transporte, por problemas de refrigeración que obligan a descartar producto.  
+La entrevistada considera que los principales retos son la falta de trazabilidad para identificar en qué etapa ocurren las pérdidas y la carga de los cálculos manuales. Como mejoras valiosas, resalta la importancia de contar con reportes automáticos, alertas cuando la temperatura salga del rango adecuado y una solución digital que integre la trazabilidad de principio a fin. Señala que esto permitiría reducir pérdidas, ahorrar en transporte y mejorar la puntualidad de las entregas. Actualmente usan un ERP básico para facturación, pero la logística sigue dependiendo de registros en papel y Excel.
+
+**Captura de pantalla:**  
+![Preview Entrevista](/assets/chapter2/lupe_entrevista.jpeg)
+
+**Entrevistado N°3:** Nestor Rojas – Administradora
+
+- **Sexo:** Masculino
+- **Edad:** [24]
+- **Ubicación de la empresa:** [Lima, Peru]
+- **Nombre de la empresa:** Refrescos Cósmicos
+- **Sector:** Venta de smoothies y bebidas a base de frutas
+- **Rol:** Administrador, con funciones en logística, finanzas y gestión general
+
+**Acerca de la entrevista:**
+
+- **Link:** [https://www.youtube.com/watch?v=-U06n7gD82E] 
+- **Instante en el que inicia:** [00:00]
+- **Duración:** [6:40]
+
+**Resumen:**  
+Nestor es administrador de **Refrescos Cósmicos**, un emprendimiento de aproximadamente 20 trabajadores que produce cerca de 2,000 litros de smoothies al mes. El registro de consumos y procesos lo realizan principalmente en Excel, lo que les permite hacer cálculos básicos, aunque reconocen que no siempre es suficiente para anticiparse a problemas. Al inicio tuvieron dificultades con el uso ineficiente del agua y desperdicio de insumos, lo que generó sobrecostos. Uno de los mayores dolores de cabeza actuales es la falta de control cuando se realizan cortes de agua en la zona, lo que retrasa la producción y las entregas programadas.  
+Entre las mejoras más valiosas menciona poder **monitorear con mayor precisión el uso del agua**, identificar procesos donde se desperdicia, y contar con **alertas preventivas** que eviten interrupciones críticas. Considera que una solución digital debería ser sencilla de usar, accesible para todo el personal y enfocada en reportes automáticos de consumo que ayuden a optimizar los costos de producción.
+
+**Captura de pantalla:**
+
+![Preview Entrevista](/assets/chapter2/Rodas_entrevista.jpeg)
+Nestor es administrador de **Refrescos Cósmicos**, un emprendimiento de aproximadamente 20 trabajadores que produce cerca de 2,000 litros de smoothies al mes. El registro de consumos y procesos lo realizan principalmente en Excel, lo que les permite hacer cálculos básicos, aunque reconocen que no siempre es suficiente para anticiparse a problemas. Al inicio tuvieron dificultades con el uso ineficiente del agua y desperdicio de insumos, lo que generó sobrecostos. Uno de los mayores dolores de cabeza actuales es la falta de control cuando se realizan cortes de agua en la zona, lo que retrasa la producción y las entregas programadas.  
+Entre las mejoras más valiosas menciona poder **monitorear con mayor precisión el uso del agua**, identificar procesos donde se desperdicia, y contar con **alertas preventivas** que eviten interrupciones críticas. Considera que una solución digital debería ser sencilla de usar, accesible para todo el personal y enfocada en reportes automáticos de consumo que ayuden a optimizar los costos de producción.
+
+**Captura de pantalla:**
+
+![Preview Entrevista](/assets/chapter2/Rodas_entrevista.jpeg)
 
 ### 2.2.3. Análisis de entrevistas
 
@@ -625,6 +682,26 @@ De las tres entrevistas realizadas, se identifican los siguientes patrones:
 **Insight clave:** Los hogares valoran la **tranquilidad** que les otorgaría un sistema de alertas predictivas, más que un control exhaustivo del consumo.
 
 ---
+
+#### Segmento PYMEs de Bebidas y Alimentos
+En las tres entrevistas a PYMEs se encontraron las siguientes coincidencias:
+- **Dependencia de registros manuales/Excel:** El 100% aún utiliza hojas de cálculo o registros en papel para controlar insumos y producción.
+- **Pérdidas y desperdicio:** El 67% reporta pérdidas de insumos líquidos, principalmente por refrigeración deficiente, mala identificación o errores manuales.
+- **Dolores comunes:** Falta de trazabilidad en el proceso productivo, cálculos manuales que no siempre cuadran, y retrasos por cortes de agua o mala planificación.
+- **Necesidades de mejora:** El 100% destacó la importancia de reportes automáticos y trazabilidad en tiempo real. Dos de cada tres señalaron la utilidad de alertas de stock o de temperatura.
+- **Adopción digital:** Existe apertura hacia soluciones tecnológicas siempre que sean fáciles de usar y adaptables al personal.
+
+**Insight clave:** Las PYMEs buscan principalmente **eficiencia y control**, a través de trazabilidad de procesos y reportes confiables para reducir pérdidas.
+
+---
+
+#### Conclusión General
+Las entrevistas evidencian que, aunque los segmentos son distintos, ambos coinciden en:
+- La falta de herramientas digitales adecuadas.
+- La necesidad de **alertas en tiempo real** y **reportes automáticos**.
+- Una disposición a adoptar soluciones digitales, condicionada por la **simplicidad de uso** y el **costo accesible**.
+
+Mientras que los hogares priorizan la seguridad de suministro y la tranquilidad de no quedarse sin agua, las PYMEs demandan trazabilidad y eficiencia en la gestión de grandes volúmenes de líquidos. Estos hallazgos serán fundamentales para el diseño de los arquetipos y la definición de la propuesta de valor de SmartDrop.
 
 ## 2.3. Needfinding
 
@@ -795,83 +872,55 @@ A continuación, se presenta un **glosario de términos del dominio de SmartDrop
 ## 3.1. User Stories.
 
 
+### 3.1. User Stories
+
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 | ----- | ----- | ----- | ----- | ----- |
-| EP01 | Registro de usuarios | Implementar el registro de los usuarios |  |  |
-| US01 | Registro de vivienda | Como cliente que vive en un zona residencial, quiero registrarme en la aplicación web para monitorear en tiempo real el nivel de agua en mi vivienda . | Escenario 01: Registro exitoso. Dado que entro a la aplicación web de Droplet, Cuando completo todos los campos del formulario del registro, Entonces el sistema guarda la información y aparece un mensaje de aprobación . Escenario 02: Fallo en el registro. Dado que entro a la aplicación web de Droplet, Cuando dejo campos obligatorios vacíos o ingreso datos inválidos, Entonces el sistema muestra mensajes de error y no permite enviar el formulario hasta corregir los datos. | EP01 |
-| US02 | Registro de empresa | Como gerente de una pyme de bebidas, quiero registrar mi empresa para tener un monitoreo del nivel y caudal de agua en mi negocio. | Escenario 01: Registro exitoso. Dado que entro a la aplicación web de Droplet, Cuando completo todos los campos del formulario del registro, Entonces el sistema guarda la información y aparece un mensaje de aprobación . Escenario 02: Fallo en el registro. Dado que entro a la aplicación web de Droplet, Cuando dejo campos obligatorios vacíos o ingreso datos inválidos, Entonces el sistema muestra mensajes de error y no permite enviar el formulario hasta corregir los datos. | EP01 |
-| EP02 | Gestión de Agua Residencial | Funcionalidades necesarias para que los hogares con tanques o cisternas puedan monitorear, gestionar y optimizar el uso de su agua almacenada, reduciendo costos y riesgos de salud. |  |  |
-| US03 | Monitoreo de nivel de agua | Como propietario de vivienda, quiero visualizar en tiempo real el nivel de mi cisterna, para evitar sorpresas al quedarme sin agua. | Escenario 01: Visualización de nivel. Dado que el sensor de nivel está instalado y calibrado, Cuando el usuario abre la aplicación, Entonces debe visualizar el nivel actual del agua en porcentaje y litros. Escenario 02: Multitanque. Dado que hay múltiples tanques conectados, Cuando el usuario abre el panel de monitoreo, Entonces debe ver el nivel de cada tanque de forma diferenciada. | EP02 |
-| US04 | Alertas de bajo nivel | Como propietario de vivienda, quiero recibir una alerta cuando el nivel de agua esté por debajo del 20%, para planificar el reabastecimiento a tiempo. | Escenario 01: Notificación de bajo nivel de agua. Dado que el nivel del agua está por debajo del 20%, Cuando el sistema detecte esa condición, Entonces debe enviar una notificación push al usuario. Escenario 02: Detalle notificación. Dado que la notificación de bajo nivel fue enviada, Cuando el usuario la abra, Entonces debe mostrar el detalle con la recomendación de reabastecimiento. | EP02 |
-| US05 | Detección de fugas | Como propietario de vivienda, quiero que el sistema detecte caídas bruscas de nivel, para identificar fugas y evitar sobrecostos en mi recibo. | Escenario 01: Alerta de fuga. Dado que el sistema monitorea continuamente el nivel, Cuando detecta una caída brusca anormal, Entonces debe generar una alerta de fuga en la app. Escenario 02: Registro de alerta de fuga. Dado que se generó una alerta de fuga, Cuando el usuario consulte el historial, Entonces debe poder ver el registro del evento con fecha y hora. | EP02 |
-| US06 | Historial de consumo | Como propietario de vivienda, quiero acceder al historial de consumo de agua de mi familia, para identificar patrones y reducir gastos. | Escenario 01: Visualización de historial. Dado que el sistema registra los niveles de agua diariamente, Cuando el usuario acceda al historial, Entonces debe mostrar un gráfico de consumo por días. Escenario 02: Comparación por meses. Dado que el usuario quiera comparar meses, Cuando seleccione un rango de fechas, Entonces la aplicación debe mostrar el consumo agregado de ese periodo.  | EP02 |
-| US07 | Predicción de reabastecimiento | Como propietario de vivienda, quiero que el sistema me indique cuándo se agotará mi reserva, para coordinar con anticipación la compra de agua. | Escenario 01: Estimación de reabastecimiento. Dado que el sistema tiene datos históricos de consumo, Cuando el usuario consulte la predicción, Entonces debe estimar la fecha en que el tanque se vaciará. | EP02 |
-| US08 | Configuración de notificaciones | Como propietario de vivienda, quiero configurar las notificaciones que recibo para gestionarlas según mis preferencias. | Escenario 01: Configuración de preferencias. Dado que el usuario configuró preferencias de notificaciones, Cuando un evento ocurra, Entonces el sistema debe de respetar esas configuraciones (ej. modo silencioso) | EP02 |
-| EP03 | Optimización para Pymes de bebidas | Funcionalidades que permiten a microcervecerías y demás pymes de bebidas digitalizar y automatizar el control de sus procesos, garantizando consistencia y eficiencia operativa. |  |  |
-| US09 | Monitoreo de temperatura | Como jefe de una pyme de bebidas, quiero ver en tiempo real la temperatura de fermentación, para asegurar la calidad del producto. | Escenario 01: Visualización de temperatura. Dado que el sensor de temperatura está activo, Cuando el usuario abra el dashboard, Entonces debe visualizar la temperatura actual de cada tanque en °C. Escenario 02: Ver detalles de temperatura en el tiempo. Dado que un tanque tiene valores históricos, Cuando el usuario consulte el registro, Entonces debe ver la curva de temperatura en el tiempo.  | EP03 |
-| US10 | Monitoreo de densidad | Como jefe de una pyme de bebidas, quiero registrar la densidad del mosto, para controlar el proceso de fermentación con precisión. | Escenario 01: Densidad del mosto. Dado que el sensor de densidad está calibrado, Cuando el usuario consulte el dashboard, Entonces debe ver la densidad del mosto en tiempo real. Escenario 02: Historial de densidad. Dado que el proceso de fermentación esté en curso, Cuando el usuario abra el historial, Entonces debe ver la evolución de la densidad durante el lote.     | EP03 |
-| US11 | Alertas de desviación | Como jefe de una pyme de bebidas, quiero recibir alertas cuando un parámetro se desvíe del rango, para evitar arruinar un lote. | Escenario 01: Notificación por desviación. Dado que el rango de temperatura aceptable está configurado, Cuando el sensor detecte que la temperatura se sale de ese rango, Entonces debe enviarse una alerta inmediata al usuario.    | EP03 |
-| US12 | Control de insumos críticos | Como dueño de microcervecería, quiero monitorear el nivel de insumos líquidos, para prevenir paradas inesperadas de producción. | Escenario 01: Alerta por insumo insuficiente. Dado que los tanques de agua de proceso están conectados, Cuando el nivel baje de un umbral crítico, Entonces debe enviarse una alerta de insumo insuficiente.  | EP03 |
-| US13 | Dashboard de calidad | Como jefe de planta, quiero tener un tablero con gráficos claros de mis variables críticas, para tomar decisiones rápidas. | Escenario 01: Visualización de parámetros. Dado que el usuario accede al dashboard, Cuando abra la vista general, Entonces debe ver en gráficos los parámetros de temperatura, densidad y niveles de insumos. Escenario 02: Alerta estado crítico. Dado que un parámetro está en estado crítico, Cuando el usuario consulte el dashboard, Entonces debe resaltarse en color rojo para facilitar su identificación. | EP03 |
-| US14 | Historial de lotes | Como jefe de una pyme de bebidas, quiero revisar los registros históricos de producción, para mejorar la calidad de mi producto. | Escenario 01: Visualización de datos de lotes. Dado que el sistema guarda los registros de producción, Cuando el usuario seleccione un lote pasado, Entonces debe poder consultar las condiciones registradas (temperatura, densidad, tiempos). Escenario 02: Comparación de lotes. Dado que el usuario revisa múltiples lotes, Cuando abra la sección de historial, Entonces debe poder comparar al menos dos lotes en gráficos paralelos. | EP03 |
-| EP04 | Integración de Droplet con sensores | Funcionalidades básicas de la plataforma Droplet, combinando hardware (sensores) y software (la aplicación web) para ofrecer control digital en hogares y pymes. |  |  |
-| US15 | Conexión de sensores | Como usuario, quiero conectar fácilmente mis sensores a la aplicación web, para empezar a monitorear sin complicaciones técnicas. | Escenario 01: Conexión exitosa. Dado que el usuario tiene un sensor nuevo, Cuando siga el asistente de conexión en la app, Entonces el sensor debe quedar vinculado automáticamente al perfil del usuario. Escenario 02: Conexión fallida. Dado que la conexión falla, Cuando ocurra un error, Entonces el sistema debe mostrar un mensaje con pasos de solución. | EP04 |
-| US16 | Proceso de calibración guiado | Como usuario, quiero un asistente de calibración en la app, para asegurar que los datos de mis sensores sean confiables. | Escenario 01: Calibración de sensor. Dado que el usuario tiene un sensor instalado, Cuando inicie la calibración en la app, Entonces debe recibir instrucciones paso a paso para completarla.  | EP04 |
-| US17 | Visualización intuitiva | Como usuario, quiero un diseño claro con colores de estado (verde, amarillo, rojo), para interpretar la situación de un vistazo. | Escenario 01: Estados mediante colores. Dado que el usuario abre el dashboard, Cuando consulte el estado de sus tanques, Entonces debe ver un código de colores (verde, amarillo, rojo) según el estado del recurso.  | EP04 |
-| EP05 | Experiencia de usuario y Onboarding | Se ofrece una experiencia simple, guiada e intuitiva para todo tipo de usuario, tanto en hogares como en pymes de bebidas. |  |  |
-| US18 | Tutorial paso a paso | Como usuario nuevo, quiero un tutorial guiado al instalar, para entender rápidamente cómo usar la app. | Escenario 01: Tutorial interactivo. Dado que un usuario ingresa a la aplicación web por primera vez, Cuando la abra, Entonces debe iniciarse un tutorial interactivo paso a paso. | EP05 |
-| US19 | Plantillas de configuración | Como usuario, quiero configurar mis sensores según plantillas predefinidas (hogar, cervecería, etc.), para ahorrar tiempo. | Escenario 01: Configuración de plantillas predefinidas. Dado que el usuario es nuevo, Cuando configure sus sensores, Entonces debe poder elegir entre plantillas predefinidas (hogar, cervecería, etc.). | EP05 |
-| US20 | Soporte en línea | Como usuario, quiero acceso a soporte al cliente desde la aplicación web, para resolver dudas o problemas técnicos. | Escenario 01: Asistencia técnica. Dado que el usuario tenga un problema, Cuando acceda a la sección de soporte en la app, Entonces debe poder enviar un correo o iniciar un chat con asistencia técnica.  | EP05 |
-| US21 | Multilenguaje | Como usuario, quiero que la interfaz cuente con una opción de cambiar el idioma para poder entender cada función de la aplicación web. | Escenario 01: Cambio de idioma a inglés. Dado que la aplicación se encuentra en español, Cuando hago clic en “cambiar idioma”, Entonces se cambia a inglés. Escenario 02: Cambio de idioma a español. Dado que la aplicación se encuentra en inglés, Cuando hago clic en “cambiar idioma”, Entonces se cambia a español. | EP05 |
-| US22 | Tutorial de alertas | Como usuario, quiero recibir ejemplos de notificaciones, para entender mejor cómo funciona el sistema de alertas. | Escenario 01: Tutorial de alerta. Dado que el usuario es nuevo, Cuando reciba la primera notificación, Entonces debe mostrarse un tutorial explicando su significado.  | EP05 |
-| EP06 | Modelo de negocio y escalabilidad | Funcionalidades relacionadas con la monetización, planes de suscripción y expansión del sistema, asegurando sostenibilidad y crecimiento. |  |  |
-| US23 | Suscripción mensual | Como usuario, quiero pagar una suscripción mensual por tanque monitoreado, para acceder al servicio de forma continua. | Escenario 01: Elección plan suscripción. Dado que el usuario tiene un tanque conectado, Cuando se registre en la app, Entonces debe poder elegir un plan de suscripción mensual para activar el servicio.  | EP06 |
-| US24 | Planes diferenciados | Como cliente, quiero elegir entre diferentes planes de servicio (básico, premium), para adaptarme a mis necesidades. | Escenario 01: Visualización de información de cada plan. Dado que existen planes básico y premium, Cuando el usuario acceda a la sección de planes, Entonces debe visualizar las características y costos de cada uno. | EP06 |
-| US25 | Reportes de ahorro | Como usuario, quiero recibir reportes mensuales de ahorro, para validar el impacto económico de usar Droplet. | Escenario 01: Visualización de reportes. Dado que el sistema recopila datos de consumo, Cuando finalice el mes, Entonces debe generarse un reporte con métricas de ahorro estimado y gráficos comparativos con meses anteriores. | EP06 |
-| US26 | Expansión multi-tanque | Como usuario, quiero gestionar múltiples tanques en la misma app, para centralizar mi control. | Escenario 01: Gestión de multitanque. Dado que el usuario tiene más de un tanque, Cuando los conecte a la plataforma, Entonces debe poder gestionarlos desde un único dashboard en la aplicación web. Escenario 02: Información de un tanque en específico. Dado que el usuario consulte la aplicación, Cuando seleccione un tanque específico, Entonces debe visualizar solo la información correspondiente a ese tanque. | EP06 |
-| US27 | Visualizar propuesta de valor principal | Como visitante, quiero conocer la propuesta de valor de Droplet, para entender si la plataforma se ajusta a mis necesidades. | Escenario 1: Propuesta visible al ingresar. Dado que estoy en la página oficial de Droplet, cuando la página carga, entonces debo acceder inmediatamente a una frase que explique claramente la propuesta de valor. | EP07 |
-| US28 | Comprender funcionalidades destacadas | Como visitante, quiero comprender las funcionalidades clave de la plataforma, para evaluar si se adapta a mi operación. | Escenario 1: Acceso a funcionalidades principales. Dado que consulto las características de la plataforma, cuando reviso la lista de funcionalidades, entonces debo identificar opciones clave como monitoreo en tiempo real, automatización de alertas y gestión remota. | EP07 |
-| US29 | Conocer misión y visión de la startup | Como visitante, quiero conocer la misión y visión de Droplet , para entender su enfoque y propuesta de valor. | Escenario 1: Acceso a la misión de la empresa. Dado que accedo a la información institucional de Droplet, cuando reviso su contenido, entonces debo encontrar una descripción clara de su misión. Escenario 2: Acceso a la visión de la empresa. Dado que accedo a la información institucional, cuando reviso su contenido estratégico, entonces debo encontrar una descripción clara de su visión a futuro. | EP07 |
-| US30 | Acceder fácilmente a la plataforma | Como visitante, quiero acceder fácilmente al inicio de sesión, para ingresar rápidamente a mi cuenta. | Escenario 1: Acceso al inicio de sesión. Dado que soy un usuario registrado, cuando busco cómo ingresar a mi cuenta, entonces debo encontrar una opción claramente identificable para iniciar sesión. Escenario 2: Redirección al formulario de autenticación. Dado que selecciono la opción de inicio de sesión, cuando soy redirigido, entonces debo llegar al formulario correspondiente para ingresar mis credenciales. | EP07 |
-| US31 | Ver video sobre el equipo en el landing page | Como visitante, quiero ver un video sobre el equipo detrás del producto para conocer a las personas responsables y la startup | Escenario 1: Acceso al video del equipo. Dado que estoy en el Landing Page de Droplet, cuando la página carga, entonces puedo ver un video sobre el equipo detrás del producto. Escenario 2: Reproducción correcta del video. Dado que selecciono el video del equipo, cuando lo reproduzco, entonces se ejecuta sin interrupciones en mi dispositivo. | EP07 |
-
+| **EP01** | **Gestión de Identidades y Registro** | Implementar el registro de los usuarios orientando el *onboarding* a la prevención de riesgos y control de pérdidas. | | |
+| US01 | Registro de vivienda | Como jefe de hogar, quiero registrar mi vivienda para monitorear riesgos de desabastecimiento y prevenir fugas. | Escenario 01: Registro exitoso validando capacidad del tanque.<br>Escenario 02: Fallo por datos inválidos. | EP01 |
+| US02 | Registro de empresa | Como maestro cervecero, quiero registrar mis líneas de producción para controlar pérdidas y asegurar la calidad de fermentación. | Escenario 01: Creación de perfil con asignación de tipos de líquidos. | EP01 |
+| **EP02** | **Gestión Hídrica Residencial** | Funcionalidades de prevención, alertas y predicción para evitar desabastecimiento y sobrecostos en hogares. | | |
+| US03 | Anticipación de agotamiento | Como jefe de hogar, quiero anticipar el agotamiento de mi cisterna para evitar interrupciones sorpresivas del suministro. | Escenario 01: Visualización del tiempo restante estimado (horas/días) basado en el nivel actual. | EP02 |
+| US04 | Predicción de reabastecimiento | Como jefe de hogar, quiero recibir predicciones de agotamiento de agua basadas en mi consumo histórico y cortes programados. | Escenario 01: El sistema notifica la fecha óptima para pedir un camión cisterna. | EP02 |
+| US05 | Alertas críticas de fuga | Como propietario, quiero recibir alertas críticas de caída anormal de nivel para evitar sobrecostos y daños estructurales. | Escenario 01: Notificación inmediata (Push/SMS) al detectar flujo de salida atípico (fuga). | EP02 |
+| US06 | Análisis histórico residencial | Como propietario, quiero analizar patrones históricos de consumo para prevenir futuras ineficiencias o pequeñas fugas silenciosas. | Escenario 01: Generación de gráfico comparativo semanal mostrando picos de consumo injustificados. | EP02 |
+| **EP03** | **Monitoreo Industrial y Control de Calidad** | Funcionalidades para garantizar consistencia entre lotes productivos y automatizar la reacción ante riesgos en PYMEs. | | |
+| US07 | Detección temprana de temperatura | Como operador de planta, quiero detectar variaciones térmicas tempranas en los tanques para evitar la contaminación o pérdida del lote. | Escenario 01: Alerta visual inmediata en el dashboard cuando la temperatura sale del umbral seguro configurado. | EP03 |
+| US08 | Validación de estabilidad | Como maestro cervecero, quiero validar la estabilidad de la densidad y el pH para garantizar consistencia entre distintos lotes. | Escenario 01: Comparativa de la curva de densidad del lote actual contra el lote maestro ("receta ideal"). | EP03 |
+| US09 | Automatización de pausas (Workflow) | Como operador de planta, quiero que el sistema pause automáticamente un lote (o envíe una orden crítica) cuando se detecten anomalías irreversibles. | Escenario 01: Cambio de estado del lote a "Riesgo de Contaminación" si la temperatura excede el máximo por más de 15 min. | EP03 |
+| US10 | Optimización de recetas | Como gerente de producción, quiero correlacionar variables de fermentación con pérdidas históricas para optimizar futuras recetas. | Escenario 01: Reporte analítico que cruza temperatura/tiempo con mermas de producción. | EP03 |
+| **EP04** | **Gestión de Dispositivos IoT (Técnicos)** | Administración del hardware, confiabilidad de datos y calibración de los sensores. | | |
+| US11 | Calibración de precisión | Como técnico instalador, quiero registrar calibraciones periódicas de los sensores para garantizar la precisión del monitoreo crítico. | Escenario 01: Flujo de calibración con registro de fecha y técnico responsable. | EP04 |
+| US12 | Auditoría de incidentes | Como administrador de planta, quiero auditar todas las alertas ignoradas por los operadores para evaluar riesgos operacionales recurrentes. | Escenario 01: Registro de logs (fecha, hora, usuario) de las alertas críticas que fueron descartadas sin acción correctiva. | EP04 |
+| US13 | Reacción de conectividad | Como administrador, quiero automatizar la supervisión del estado online/offline de los sensores para reducir inspecciones manuales y puntos ciegos. | Escenario 01: Alerta de pérdida de conexión del sensor si no transmite datos en 30 minutos. | EP04 |
+| **EP05** | **Modelo de Negocio y Experiencia (Landing & Pagos)** | Funcionalidades para la conversión de clientes y la gestión de planes SaaS. | | |
+| US14 | Propuesta de valor | Como visitante, quiero entender claramente que Droplet previene pérdidas económicas, para evaluar si me suscribo al servicio. | Escenario 01: Landing page muestra casos de ROI (Retorno de inversión) para hogares y pymes. | EP05 |
+| US15 | Elección de planes SaaS | Como cliente empresarial, quiero elegir un plan de suscripción que soporte múltiples sitios y tanques simultáneos para escalar mi monitoreo. | Escenario 01: Pasarela de pago habilitada para el nivel "Enterprise" con múltiples dispositivos. | EP05 |
 ## 3.2. Impact Mapping
 ![ImpactMapping.jpg](assets/chapter3/impact_mapping_droplet.jpg)
 ## 3.3. Product Backlog
 
-| # Orden | User Story Id | Título | Descripción | Story Points |
-|-------|---------------|--------|-------------|--------------|
-| 1 | US15 | Conexión de sensores | Como usuario, quiero conectar fácilmente mis sensores a la aplicación web, para empezar a monitorear sin complicaciones técnicas. | 8 |
-| 2 | US16 | Proceso de calibración guiado | Como usuario, quiero un asistente de calibración en la app, para asegurar que los datos de mis sensores sean confiables. | 5 |
-| 3 | US01 | Registro de vivienda | Como cliente que vive en una zona residencial, quiero registrarme en la aplicación web para monitorear en tiempo real el nivel de agua en mi vivienda. | 3 |
-| 4 | US02 | Registro de empresa | Como gerente de una pyme de bebidas, quiero registrar mi empresa para tener un monitoreo del nivel y caudal de agua en mi negocio. | 3 |
-| 5 | US03 | Monitoreo de nivel de agua | Como propietario de vivienda, quiero visualizar en tiempo real el nivel de mi cisterna. | 5 |
-| 6 | US04 | Alertas de bajo nivel | Como propietario de vivienda, quiero recibir una alerta cuando el nivel de agua esté por debajo del 20%. | 5 |
-| 7 | US05 | Detección de fugas | Como propietario de vivienda, quiero que el sistema detecte caídas bruscas de nivel. | 8 |
-| 8 | US06 | Historial de consumo | Como propietario de vivienda, quiero acceder al historial de consumo de agua de mi familia. | 5 |
-| 9 | US07 | Predicción de reabastecimiento | Como propietario de vivienda, quiero que el sistema me indique cuándo se agotará mi reserva. | 8 |
-| 10 | US08 | Configuración de notificaciones | Como propietario de vivienda, quiero configurar las notificaciones según mis preferencias. | 3 |
-| 11 | US09 | Monitoreo de temperatura | Como jefe de una pyme de bebidas, quiero ver en tiempo real la temperatura de fermentación. | 5 |
-| 12 | US10 | Monitoreo de densidad | Como jefe de una pyme de bebidas, quiero registrar la densidad del mosto. | 5 |
-| 13 | US11 | Alertas de desviación | Como jefe de una pyme de bebidas, quiero recibir alertas cuando un parámetro se desvíe del rango. | 5 |
-| 14 | US12 | Control de insumos críticos | Como dueño de microcervecería, quiero monitorear el nivel de insumos líquidos. | 8 |
-| 15 | US13 | Dashboard de calidad | Como jefe de planta, quiero un tablero con gráficos claros de mis variables críticas. | 8 |
-| 16 | US14 | Historial de lotes | Como jefe de una pyme de bebidas, quiero revisar los registros históricos de producción. | 8 |
-| 17 | US17 | Visualización intuitiva | Como usuario, quiero un diseño claro con colores de estado (verde, amarillo, rojo). | 3 |
-| 18 | US18 | Tutorial paso a paso | Como usuario nuevo, quiero un tutorial guiado al instalar. | 3 |
-| 19 | US19 | Plantillas de configuración | Como usuario, quiero configurar mis sensores según plantillas predefinidas. | 5 |
-| 20 | US20 | Soporte en línea | Como usuario, quiero acceso a soporte al cliente desde la aplicación web. | 3 |
-| 21 | US21 | Multilenguaje | Como usuario, quiero que la interfaz cuente con una opción de cambiar el idioma. | 5 |
-| 22 | US22 | Tutorial de alertas | Como usuario, quiero recibir ejemplos de notificaciones. | 3 |
-| 23 | US23 | Suscripción mensual | Como usuario, quiero pagar una suscripción mensual por tanque monitoreado. | 5 |
-| 24 | US24 | Planes diferenciados | Como cliente, quiero elegir entre diferentes planes de servicio (básico, premium). | 5 |
-| 25 | US25 | Reportes de ahorro | Como usuario, quiero recibir reportes mensuales de ahorro. | 8 |
-| 26 | US26 | Expansión multi-tanque | Como usuario, quiero gestionar múltiples tanques en la misma app. | 8 |
-| 27 | US27 | Visualizar propuesta de valor principal | Como visitante, quiero conocer la propuesta de valor de Droplet. | 2 |
-| 28 | US28 | Comprender funcionalidades destacadas | Como visitante, quiero comprender las funcionalidades clave de la plataforma. | 2 |
-| 29 | US29 | Conocer misión y visión de la startup | Como visitante, quiero conocer la misión y visión de Droplet. | 1 |
-| 30 | US30 | Acceder fácilmente a la plataforma | Como visitante, quiero acceder fácilmente al inicio de sesión. | 2 |
-| 31 | US31 | Ver video sobre el equipo en el landing page | Como visitante, quiero ver un video sobre el equipo detrás del producto. | 3 |
+### 3.2. Product Backlog
+
+| Story ID | Título de la Historia de Usuario | Epic ID | Prioridad | Story Points | Estado |
+| :---: | :--- | :---: | :---: | :---: | :---: |
+| US14 | Propuesta de valor (Landing Page) | EP05 | Alta | 2 | To Do |
+| US01 | Registro de vivienda | EP01 | Alta | 3 | To Do |
+| US02 | Registro de empresa | EP01 | Alta | 3 | To Do |
+| US05 | Alertas críticas de fuga | EP02 | Alta | 5 | To Do |
+| US07 | Detección temprana de temperatura | EP03 | Alta | 5 | To Do |
+| US09 | Automatización de pausas (Workflow) | EP03 | Alta | 8 | To Do |
+| US13 | Reacción de conectividad | EP04 | Alta | 5 | To Do |
+| US03 | Anticipación de agotamiento | EP02 | Media | 5 | To Do |
+| US08 | Validación de estabilidad | EP03 | Media | 5 | To Do |
+| US11 | Calibración de precisión | EP04 | Media | 3 | To Do |
+| US12 | Auditoría de incidentes | EP04 | Media | 3 | To Do |
+| US15 | Elección de planes SaaS | EP05 | Media | 5 | To Do |
+| US04 | Predicción de reabastecimiento | EP02 | Media | 5 | To Do |
+| US06 | Análisis histórico residencial | EP02 | Baja | 3 | To Do |
+| US10 | Optimización de recetas | EP03 | Baja | 5 | To Do |
+
+**Total de Story Points estimados:** 60
 
 <!-- CHAPTER-3:END -->
 
@@ -1333,43 +1382,54 @@ El sistema SmartDrop actúa como el núcleo de procesamiento que transforma la t
 ### 4.6.2. Software Architecture Container Diagrams
 ![Mapa2](assets/chapter4/Diagrama_ContainerContainerDiagram-dark%20(1).png)
 
-### 4.6.2. Software Architecture Components Diagrams
+### 4.6.3. Software Architecture Components Diagrams
+
+A continuación, se detalla la arquitectura interna de los componentes del sistema SmartDrop, estructurados bajo un patrón de diseño MVC (Model-View-Controller) y principios RESTful para garantizar la escalabilidad y el bajo acoplamiento.
+
+**1. Identity & Access Component Diagram:**
+Gestiona la seguridad perimetral de la aplicación. Utiliza un `SecurityController` para interceptar peticiones, un `AuthService` para validar credenciales y generar tokens JWT (JSON Web Tokens), y se comunica con el `UserRepository` para persistir los datos de sesión.
+ 
+![Mapa4](assets/chapter4/IdentityAccess_ComponentDiagram.png)
+
+**2. Profiles & Preferences Component Diagram:**
+Administra la metadata de los usuarios (residenciales y PYMEs). Internamente, el `ProfileController` expone los endpoints que consumen el `HouseholdService` y el `CompanyService`, permitiendo a los usuarios actualizar capacidades de tanques y umbrales de alerta personalizados.
+
+![Mapa5](assets/chapter4/ProfilesPreferences_ComponentDiagram.png)
+
+**3. Payments & Subscriptions Component Diagram:**
+Aísla la lógica de facturación SaaS. Un `SubscriptionController` maneja los planes de usuario, conectándose a un `PaymentGatewayAdapter` que interactúa de forma segura con APIs externas (PayPal/Stripe) sin exponer información financiera sensible en nuestra base de datos.
+
+![Mapa6](assets/chapter4/PaymentsSubscriptions_ComponentDiagram.png)
+
+**4. Consumption & Inventory Component Diagram:**
+El núcleo del procesamiento de telemetría (*Core Domain*). El `TelemetryController` recibe los datos brutos de los sensores IoT. Estos pasan por el `WaterLevelService` y el `TemperatureService` para normalizar las métricas antes de ser almacenados a través del `SensorDataRepository`.
+ 
+![Mapa7](assets/chapter4/ConsumptionInventory_ComponentDiagram.png)
+
+**5. Service Monitoring & Alerts Component Diagram:**
+Responsable de la evaluación proactiva. Utiliza un motor de reglas (`RuleEngineService`) que escucha los eventos del inventario de agua. Si el nivel cae por debajo del 20%, el `AlertDispatcher` activa notificaciones mediante el `NotificationAdapter`.
+ 
+![Mapa8](assets/chapter4/ServiceMonitoringAlerts_ComponentDiagram.png)
+
+**6. Dashboard & Analytics Component Diagram:**
+Componente de agregación de datos para la interfaz. El `DashboardController` consolida información de múltiples servicios y utiliza el `AnalyticsService` para formatear los datos históricos en estructuras optimizadas para la generación de gráficos en el Frontend (Angular).
+ 
+![Mapa9](assets/chapter4/DashboardAnalytics_ComponentDiagram.png)
+
+**7. Support & Notifications Component Diagram:**
+Centraliza el canal de comunicación asíncrona. Gestiona el encolamiento de mensajes push y correos electrónicos hacia los usuarios mediante el `EmailService` y `PushNotificationService`, asegurando que las alertas críticas no se pierdan.
+
+![Mapa10](assets/chapter4/SupportNotifications_ComponentDiagram.png)
+
+**8. System Administration Component Diagram:**
+Exclusivo para el personal interno de SmartDrop. Contiene un `AdminController` que permite la gestión del ciclo de vida de los dispositivos IoT, visualización de logs de errores del sistema y habilitación de cuentas de maestros cerveceros.
+
+![Mapa11](assets/chapter4/SystemAdministration_ComponentDiagram.png)
 
 * **Web Application Component Diagram:**
 
 ![Mapa3](assets/chapter4/WebApplication_ComponentDiagram.png)
 
-* **Identity Access Component Diagram:**
- 
-![Mapa4](assets/chapter4/IdentityAccess_ComponentDiagram.png)
-
-* **Profiles Preferences Component Diagram:**
-
-![Mapa5](assets/chapter4/ProfilesPreferences_ComponentDiagram.png)
-
-* **Payments Subscriptions Component Diagram:**
-
-![Mapa6](assets/chapter4/PaymentsSubscriptions_ComponentDiagram.png)
-
-* **Consumption Inventory Component Diagram:**
- 
-![Mapa7](assets/chapter4/ConsumptionInventory_ComponentDiagram.png)
-
-* **Service Monitoring Alerts Component Diagram:**
- 
-![Mapa8](assets/chapter4/ServiceMonitoringAlerts_ComponentDiagram.png)
-
-* **Dashboard Analytics Component Diagram:**
- 
-![Mapa9](assets/chapter4/DashboardAnalytics_ComponentDiagram.png)
-
-* **Support Notifications Component Diagram:**
-
-![Mapa10](assets/chapter4/SupportNotifications_ComponentDiagram.png)
-
-* **System Administration Component Diagram:**
-
-![Mapa11](assets/chapter4/SystemAdministration_ComponentDiagram.png)
 
 ## 4.7. Software Object-Oriented Design
 
@@ -1663,7 +1723,7 @@ A continuación, se presenta la planificación del sprint. En esta sección se e
 | **Time**                           | 21:00 horas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | **Location**                       | Reunión virtual – Zoom                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | **Prepared By**                    | Angel Pariona Chacca                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| **Attendees**                      | Angel Jose Pariona Chacca, Camila Alizée Otiniano Rosales, Juan Diego Flores Rios                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Attendees**                      | Angel Jose Pariona Chacca, Camila Alizée Otiniano Rosales, Juan Diego Flores Rios, Rafael Barrenechea Bustamante                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | **Sprint 1 Review Summary**        | Se analizaron los *business goals* planteados para **SmartDrop**, verificando que la primera versión de la landing page cumpliera con el objetivo principal de comunicar la propuesta de valor de **SmartDrop**. Asimismo, se discutieron las *user stories* implementadas y se brindó retroalimentación tanto a nivel individual como grupal. Finalmente, se identificaron riesgos potenciales relacionados con la optimización visual, la integración de analítica y la escalabilidad de la página, los cuales serán considerados en los próximos sprints. |
 | **Sprint 1 Retrospective Summary** | Se concluyó que es necesario mejorar la comunicación dentro del equipo y organizar con mayor anticipación tanto las tareas grupales como las individuales, evitando dejarlas para último momento. También se destacó la relevancia de mantener las reuniones interdiarias de seguimiento.                                                                                                                                                                                                                                                                   |
 | **Sprint Goal & User Stories**     | US27 ,US28, US29, US30, US31, US31                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
@@ -1776,6 +1836,98 @@ SmartDrop.
 
 ![insigths.jpeg](assets/chapter5/insights.jpeg)
 
+### 5.2.2. Sprint 2
+En esta iteración, el equipo centró sus esfuerzos en el desarrollo de la primera versión del Frontend Web Application de SmartDrop. El objetivo consistió en transicionar de la propuesta estática (Landing Page) a la construcción de los componentes interactivos principales bajo el framework Angular, estableciendo el sistema de autenticación y la estructura base del dashboard de monitoreo para los segmentos residencial y empresarial.
+
+#### 5.2.2.1. Sprint Planning 2
+
+| **Sprint #** | **Sprint 2** |
+|------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background** | Tras el despliegue exitoso de la Landing Page, el equipo se reunió para definir la arquitectura de componentes del Frontend. Se revisaron los mockups elaborados en la fase de diseño para identificar los elementos reutilizables (formularios, tarjetas de métricas, barras de navegación) y establecer las convenciones de enrutamiento.                                                                                                                                                                                                               |
+| **Date** | 14/04/2026                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Time** | 20:30 horas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Location** | Reunión virtual – Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Prepared By** | Barrenechea Bustamante, Rafael André                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Attendees (to planning meeting)**| Angel Jose Pariona Chacca, Camila Alizée Otiniano Rosales, Francisco Javier Uribe Linares                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Sprint 1 Review Summary** | Se cumplió el objetivo de comunicar la propuesta de valor mediante el despliegue del sitio web estático. Se observó que la distribución de tareas funcionó adecuadamente, aunque la integración de código en la rama `main` requirió resolución de conflictos de última hora.                                                                                                                                                                                                                                                                             |
+| **Sprint 1 Retrospective Summary** | El equipo acordó aplicar un rigor mayor en el modelo GitFlow para el repositorio del Frontend, asegurando que cada componente se trabaje en su respectiva rama (`feature/`) y se integre mediante *Pull Requests* revisados por pares, evitando cuellos de botella en la fase de despliegue.                                                                                                                                                                                                                                                            |
+| **Sprint Goal & User Stories** | US01, US02, US03, US09, US17, US30                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Sprint 2 Goal** | Nuestro objetivo es desarrollar la estructura básica de la interfaz de usuario de la aplicación web SmartDrop. Creemos que ofrece un punto de acceso seguro y una visualización de datos clara tanto para usuarios residenciales como para pymes. Esto se confirmará cuando los usuarios puedan navegar correctamente por las vistas de autenticación (inicio de sesión/registro) y acceder a la interfaz principal del panel de control para visualizar métricas de líquidos simuladas mediante estados de color intuitivos.                                                                                                                           |
+| **Sprint 2 Velocity** | 21                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Sum of Story Points** | 21                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+Para este sprint, la carga de trabajo se dividió entre la maquetación de vistas en código (Frontend), la estilización de componentes de interfaz de usuario y la estructuración de los artefactos de documentación técnica requeridos para el hito TB1.
+
+| **Team Member (Last Name, First Name)** | **GitHub Username** | **Frontend Application Leader (L) / Collaborator (C)** | **Documentation Leader (L) / Collaborator (C)** | **UI Styles & Routing Leader (L) / Collaborator (C)** |
+|-----------------------------------------|---------------------|--------------------------------------------------------|-------------------------------------------------|-------------------------------------------------------|
+| Barrenechea Bustamante, Rafael André    | Rafael1231312331  | C                                                      | L                                               | C                                                     |
+| Otiniano Rosales, Camila Alizée         | CamilaaAlizee       | L                                                      | C                                               | L                                                     |
+| Pariona Chacca, Angel Jose              | angelitoso-opp      | C                                                      | L                                               | L                                                     |
+| Uribe Linares, Francisco Javier         | FranciscoLinaresX   | L                                                      | C                                               | C                                                     |
+
+#### 5.2.2.3. Sprint Backlog 2
+
+**Sprint #2**
+
+| User Story ID | Story Title | Work-Item ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|---|---|---|---|---|---|---|---|
+| US30 | Acceder a la plataforma | T01 | Maquetación Login | Desarrollar el componente de inicio de sesión con enrutamiento base. | 3 | Camila Otiniano  | Done |
+| US01 | Registro de vivienda | T02 | Formulario Residencial | Implementar la vista de captura de datos adaptada a hogares. | 4 | Camila Otiniano | Done |
+| US02 | Registro de empresa | T03 | Formulario PYME | Diseñar el formulario con campos para validación de empresas. | 4 | Camila Otiniano | Done |
+| US03 | Monitoreo de nivel | T04 | Layout Dashboard | Maquetar el contenedor principal, sidebar y barra superior. | 5 | Francisco Uribe | Done |
+| US09 | Monitoreo térmico | T05 | Widget Temperatura | Construir la tarjeta para visualización de datos térmicos. | 3 | Camila Otiniano | Done |
+| US17 | Visualización de alertas | T06 | Lógica de Estados | Programar directivas de estilo (verde/amarillo/rojo) según rangos. | 2 | Angel Pariona | Done |
+| N/A | Elaboración de Informe TB1 | T07 | Documentación Técnica | Redactar métricas, planificaciones y evidencias bajo estándares. | 4 | Rafael Barrenechea | Done |
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+Durante este sprint, el flujo de trabajo se centró en el repositorio del Frontend. Cada componente fue desarrollado en ramas separadas y fusionado tras la validación de código. A continuación, se detallan los commits más representativos de esta fase:
+
+nota: Acá ponemos 5 commits de lo que programaron para el frontend,en que rama,id del coomit, el mensaje que le pusieron y fecha
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|---|---|---|---|---|---|
+| smartdropw/Frontend-SmartDrop | feature/auth-login | 7a8b9c0 | feat: | Implementación del componente de login y enrutamiento inicial | 16/04/2026 |
+| smartdropw/Frontend-SmartDrop | feature/auth-register | 3d4e5f6 | feat: | Desarrollo de formularios de registro para hogares y empresas | 18/04/2026 |
+| smartdropw/Frontend-SmartDrop | feature/dashboard-layout | 1f2a3b4 | feat: | Maquetación del sidebar, header y grid del dashboard | 20/04/2026 |
+| smartdropw/Frontend-SmartDrop | feature/temp-widget | 9c8d7e6 | feat: | Integración de tarjeta gráfica para el monitoreo de temperatura | 21/04/2026 |
+| smartdropw/Frontend-SmartDrop | style/color-states | 5b6a7c8 | style: | Aplicación de clases CSS para estados visuales (verde, amarillo, rojo) | 23/04/2026 |
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+En esta etapa inicial del Frontend, se han plasmado las directrices de los mockups en código funcional. Las siguientes capturas demuestran la navegación básica y la estructura interactiva de la aplicación web, abarcando desde el ingreso seguro hasta el panel principal de monitoreo.
+
+![Vista de Login Frontend](assets/chapter5/page1.png)
+![Vista de Registro Frontend](assets/chapter5/p2.png)
+![Vista del Dashboard Inicial](assets/chapter5/p3.png)
+![Vista de Alerts](assets/chapter5/p4.png)
+![Vista de Reports](assets/chapter5/p5.png)
+![Vista del Business](assets/chapter5/p6.png)
+![Vista de Suport](assets/chapter5/p7.png)
+![Vista del Billing](assets/chapter5/p8.png)
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+De acuerdo con el ciclo de vida del proyecto y los requerimientos de la rúbrica para el hito TB1, el desarrollo y documentación del RESTful API (Web Services) se abordará en la siguiente fase (AV2). Por lo tanto, esta sección no aplica para el presente sprint.
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+La primera versión del Frontend Web Application ha sido desplegada para asegurar su disponibilidad y realizar pruebas de experiencia de usuario en un entorno real. Se ha configurado una canalización automatizada conectada a la rama principal del repositorio.
+
+* **URL de Web Application desplegada:** [https://6a0693fc92c4560008b0ec59--smartdrop01.netlify.app/login]
+* **Plataforma utilizada:** Netlify 
+
+![Evidencia de Despliegue del Frontend](assets/chapter5/despliegue.png)
+![Evidencia de Despliegue del Frontend2](assets/chapter5/despliegue2.png)
+
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+La colaboración para este segundo sprint reflejó una adaptación exitosa a los lineamientos propuestos en la retrospectiva anterior. Al manejar un repositorio de código más complejo, la revisión de *Pull Requests* y la asignación temprana de componentes previnieron sobreescrituras en las vistas principales. A continuación, se muestran las métricas de GitHub que evidencian la participación técnica de todos los desarrolladores.
+
+![Insights de Colaboración Sprint 2 Frontend](assets/chapter5/insights2.png)
+
 # Conclusiones
 Durante el proceso de creación y desarrollo de este trabajo pudimos llegar a las siguientes conclusiones:
 
@@ -1799,6 +1951,9 @@ Este proyecto se consolida como una solución rentable y sostenible para reducir
 especialmente en el sector restaurantero. Al conectar a establecimientos con consumidores, se optimiza el uso de excedentes,
 generando un impacto económico, social y ambiental positivo.
 
+### 5. Consolidación de la experiencia interactiva
+Con el desarrollo del Sprint 2 y el despliegue del Frontend Web Application, el proyecto SmartDrop evoluciona de una fase puramente informativa hacia una plataforma funcional. La traducción exitosa de los wireframes a componentes en código demuestra que el equipo ha logrado mantener la consistencia del diseño visual y la arquitectura de la información, sentando una base sólida, inclusiva y escalable para la futura integración con los servicios en la nube.
+
 # Bibliografía
 Conne, M(2024). _The Markdown Guide_. MarkdownGuide. Recuperado de: https://www.markdownguide.org/
 
@@ -1820,6 +1975,10 @@ Conne, M(2024). _The Markdown Guide_. MarkdownGuide. Recuperado de: https://www.
 
 - Ministerio de Vivienda, Construcción y Saneamiento. (2024, 9 de agosto). *Más de 500 mil peruanos accederán a servicios de agua potable y saneamiento con obras que el Ministerio de Vivienda concluirá al 2025*. Gobierno del Perú. Recuperado de https://www.gob.pe/institucion/vivienda/noticias/1000795-mas-de-500-mil-peruanos-accederan-a-servicios-de-agua-potable-y-saneamiento-con-obras-que-el-ministerio-de-vivienda-concluira-al-2025
 
+- Angular. (s.f.). *Angular documentation: Getting started*. Recuperado el 14 de mayo de 2026, de https://angular.io/docs
+
+- Vercel. (s.f.). *Vercel documentation: Frontend cloud framework deployment*. Recuperado el 14 de mayo de 2026, de https://vercel.com/docs
+
 
 # Anexos
 **GITHUB:**
@@ -1829,3 +1988,5 @@ Conne, M(2024). _The Markdown Guide_. MarkdownGuide. Recuperado de: https://www.
 | Reporte | Enlace al repositorio del reporte | [https://github.com/smartdropw/project-report-smartdrop](https://github.com/smartdropw/project-report-smartdrop) |
 | Landing Page | Enlace al repositorio del Landing Page | [https://github.com/smartdropw/LandingPage-SmartDrop](https://github.com/smartdropw/LandingPage-SmartDrop)                      |
 | Landing Page Desplegada | Enlace de Landing Page Desplegada | [https://smartdropw.github.io/LandingPage-SmartDrop/](https://smartdropw.github.io/LandingPage-SmartDrop/)                      |
+| Frontend Web App | Enlace al repositorio de la aplicación web | [https://github.com/smartdropw/smartdrop-front](https://github.com/smartdropw/smartdrop-front) |
+| Web App Desplegada | Enlace a la aplicación web en producción | [https://6a0693fc92c4560008b0ec59--smartdrop01.netlify.app/login](https://6a0693fc92c4560008b0ec59--smartdrop01.netlify.app/login) |
