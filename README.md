@@ -384,7 +384,7 @@ SmartDrop es una startup tecnológica orientada al desarrollo de soluciones digi
 
 
 #### 1.2.2.4 Lean UX Canvas
-![Lean UX Canvas](./assets/chapter1/LeanUxCanvas.jpg)
+![Lean UX Canvas](./assets/chapter1/leanuxcanvas.2.JPG)
 <!-- CHAPTER-1:END -->
 
 <!-- CHAPTER-2:START -->
