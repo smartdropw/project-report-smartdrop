@@ -27,7 +27,6 @@
 | Nombre                          | Código       |
 |---------------------------------|--------------|
 | Barrenechea Bustamante, Rafael  | U202417417   |
-| Flores Rios, Juan Diego         | u202412124   |
 | Otiniano Rosales, Camila Alizée | u202419547   |
 | Pariona Chacca, Angel Jose      | u202320613   |
 | Uribe Linares, Francisco Javier | U20211B686   |
@@ -43,7 +42,7 @@
 
 | Versión |   Fecha    |          Autor          | Descripción de modificación |
 |:-------:|:----------:|:-----------------------:|-----------------------------|
-|   TB1   | 25/04/2026 |          Juan           | Incorporación del Startup Profile y Perfiles de Integrantes |
+|   AV1   | 25/04/2026 |          Juan           | Incorporación del Startup Profile y Perfiles de Integrantes |
 |         | 25/04/2026 |          Juan           | Desarrollo del Solution Profile y Antecedentes |
 |         | 25/04/2026 |      Juan               | Incorporación del Lean UX Process y Segmentos objetivos |
 |         | 25/04/2026 |          Juan           | Desarrollo del Análisis competitivo |
@@ -61,16 +60,22 @@
 |         | 25/04/2026 |     Camila Otiniano     | Desarrollo del Software Architecture Container  |
 |         | 25/04/2026 |     Camila Otiniano     | Desarrollo del Software Architecture Container Diagrams  |
 |         | 25/04/2026 |     Camila Otiniano     | Desarrollo del Software Object-Oriented Desing  |
-|         | 25/04/2026 |     Camila Otiniano     | Desarrollo del Database Desing  | tb2  |                             |            |                                                                                                                             |
-|         |            |                         |                                                                                                                             |
-|         |            |                         |                                                                                                                             |
-|         |            |                         |                                                                                                                             |
-|         |            |                         |                                                                                                                             |
+|         | 25/04/2026 |     Camila Otiniano     | Desarrollo del Database Desing  |
+| TB1  |    14/05/2026  |      Rafael Barrenechea      |     Desarrollo del capítulo 5    |
+|         |      14/05/2026       |    Rafael Barrenechea                     |      Mejoras de los capítulos anteriores de la versió AV1        |
+|         |       14/05/2026      |      Angel Pariona                   |       Desarrollo del capítulo 5     |
+|         |       14/05/2026      |    Angel Pariona                     |       Mejoras de los capítulos anteriores de la versió AV1   |
+|         |        14/05/2026     |      Uribe Linares Francisco|    Desarrollo del Frontend Web Application   |
+|         |        14/05/2026     |      Uribe Linares Francisco|    Desarrollo del capítulo 5   |
+|         |        14/05/2026     |      Camila Otiniano|    Desarrollo del Frontend Web Application   |
+|         |        14/05/2026     |      Camila Otiniano|    Despliegue del Frontend Web Application   |
+|         |        14/05/2026     |     Camila Otiniano|    Desarrollo del capítulo 5   |
 |   tf1   |            |                         |                                                                                                                             |
 |         |            |                         |                                                                                                                             |
 |         |            |                         |                                                                                                                             |
 |         |            |                         |                                                                                                                             |
 |         |            |                         |                                                                                                                             |
+
 # Project Report Collaboration Insights
 
 Repositorio del informe del proyecto  
@@ -81,8 +86,8 @@ El informe del proyecto se encuentra alojado en el siguiente repositorio de la o
 
 A continuación, se detallan las actividades realizadas en cada entrega, la participación de los miembros del equipo, y las evidencias correspondientes.
 
-TB1  
-Para la primera entrega (TB1) se trabajó en la estructura inicial del informe, definiendo el índice y distribuyendo las secciones entre los miembros.
+AV1  
+Para la primera entrega (AV1) se trabajó en la estructura inicial del informe, definiendo el índice y distribuyendo las secciones entre los miembros.
 
 | Integrante | Tareas Asignadas |
 | :--- |:----------------------|
@@ -91,6 +96,16 @@ Para la primera entrega (TB1) se trabajó en la estructura inicial del informe, 
 | **Uribe Linares Francisco Javier** |Desarrollo de Style Guidelines, Information Architecture y Landing Page UI Design.|
 | **Barrenechea Bustamante Rafael** |Desarrollo de Web Applications UX/UI Design, Web Applications Prototyping y aporte con las entrevistas. |
 | **Otiniano Rosales Camila Alizée** | Desarrollo de la sección Domain-Driven Software Architecture, Software Object-Oriented Desing, Database Desing y aporte con las entrevistas. |
+
+TB1  
+Para la segunda  entrega (TB1), el equipo se enfocó en la optimización y mejora del informe técnico basado en entregas previas, además del desarrollo integral de la aplicación web (Frontend Web Application).
+
+| Integrante | Tareas Asignadas |
+| :--- |:----------------------|
+| **Pariona Chacca Angel Jose** |Desarrollo del Capítulo 5, optimización de capítulos previos y actualización del Landing Page.|
+| **Uribe Linares Francisco Javier** |Desarrollo del Frontend Web Application e integración de evidencias en el Capítulo 5.|
+| **Barrenechea Bustamante Rafael** |Desarrollo del Capítulo 5 y mejoras estructurales en los capítulos anteriores.|
+| **Otiniano Rosales Camila Alizée** |Desarrollo del Frontend Web Application, gestión del despliegue (deployment) y documentación en el Capítulo 5.|
 
 ---
 # Contenido
