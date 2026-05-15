@@ -614,7 +614,7 @@ En esta iteración, el equipo centró sus esfuerzos en el desarrollo de la prime
 | **Time** | 20:30 horas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | **Location** | Reunión virtual – Discord                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | **Prepared By** | Barrenechea Bustamante, Rafael André                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| **Attendees (to planning meeting)**| Angel Jose Pariona Chacca, Camila Alizée Otiniano Rosales, Juan Diego Flores Rios, Francisco Javier Uribe Linares                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Attendees (to planning meeting)**| Angel Jose Pariona Chacca, Camila Alizée Otiniano Rosales, Francisco Javier Uribe Linares                                                                                                                                                                                                                                                                                                                                                                                                     |
 | **Sprint 1 Review Summary** | Se cumplió el objetivo de comunicar la propuesta de valor mediante el despliegue del sitio web estático. Se observó que la distribución de tareas funcionó adecuadamente, aunque la integración de código en la rama `main` requirió resolución de conflictos de última hora.                                                                                                                                                                                                                                                                             |
 | **Sprint 1 Retrospective Summary** | El equipo acordó aplicar un rigor mayor en el modelo GitFlow para el repositorio del Frontend, asegurando que cada componente se trabaje en su respectiva rama (`feature/`) y se integre mediante *Pull Requests* revisados por pares, evitando cuellos de botella en la fase de despliegue.                                                                                                                                                                                                                                                            |
 | **Sprint Goal & User Stories** | US01, US02, US03, US09, US17, US30                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
@@ -629,7 +629,6 @@ Para este sprint, la carga de trabajo se dividió entre la maquetación de vista
 | **Team Member (Last Name, First Name)** | **GitHub Username** | **Frontend Application Leader (L) / Collaborator (C)** | **Documentation Leader (L) / Collaborator (C)** | **UI Styles & Routing Leader (L) / Collaborator (C)** |
 |-----------------------------------------|---------------------|--------------------------------------------------------|-------------------------------------------------|-------------------------------------------------------|
 | Barrenechea Bustamante, Rafael André    | Rafael1231312331  | C                                                      | L                                               | C                                                     |
-| Flores Rios, Juan Diego                 | YopoFlores          | L                                                      | C                                               | C                                                     |
 | Otiniano Rosales, Camila Alizée         | CamilaaAlizee       | L                                                      | C                                               | L                                                     |
 | Pariona Chacca, Angel Jose              | angelitoso-opp      | C                                                      | L                                               | L                                                     |
 | Uribe Linares, Francisco Javier         | FranciscoLinaresX   | L                                                      | C                                               | C                                                     |
@@ -640,9 +639,9 @@ Para este sprint, la carga de trabajo se dividió entre la maquetación de vista
 
 | User Story ID | Story Title | Work-Item ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
 |---|---|---|---|---|---|---|---|
-| US30 | Acceder a la plataforma | T01 | Maquetación Login | Desarrollar el componente de inicio de sesión con enrutamiento base. | 3 | Juan Diego Flores | Done |
+| US30 | Acceder a la plataforma | T01 | Maquetación Login | Desarrollar el componente de inicio de sesión con enrutamiento base. | 3 | Camila Otiniano  | Done |
 | US01 | Registro de vivienda | T02 | Formulario Residencial | Implementar la vista de captura de datos adaptada a hogares. | 4 | Camila Otiniano | Done |
-| US02 | Registro de empresa | T03 | Formulario PYME | Diseñar el formulario con campos para validación de empresas. | 4 | Juan Diego Flores | Done |
+| US02 | Registro de empresa | T03 | Formulario PYME | Diseñar el formulario con campos para validación de empresas. | 4 | Camila Otiniano | Done |
 | US03 | Monitoreo de nivel | T04 | Layout Dashboard | Maquetar el contenedor principal, sidebar y barra superior. | 5 | Francisco Uribe | Done |
 | US09 | Monitoreo térmico | T05 | Widget Temperatura | Construir la tarjeta para visualización de datos térmicos. | 3 | Camila Otiniano | Done |
 | US17 | Visualización de alertas | T06 | Lógica de Estados | Programar directivas de estilo (verde/amarillo/rojo) según rangos. | 2 | Angel Pariona | Done |
@@ -665,11 +664,14 @@ nota: Acá ponemos 5 commits de lo que programaron para el frontend,en que rama,
 
 En esta etapa inicial del Frontend, se han plasmado las directrices de los mockups en código funcional. Las siguientes capturas demuestran la navegación básica y la estructura interactiva de la aplicación web, abarcando desde el ingreso seguro hasta el panel principal de monitoreo.
 
-*(Nota para el equipo: Subir las imágenes de las vistas a la carpeta assets/chapter5/ y reemplazar estos textos)*
-
-![Vista de Login Frontend](PON_AQUI_LA_RUTA_DE_LA_IMAGEN_DEL_LOGIN)
-![Vista de Registro Frontend](PON_AQUI_LA_RUTA_DE_LA_IMAGEN_DEL_REGISTRO)
-![Vista del Dashboard Inicial](PON_AQUI_LA_RUTA_DE_LA_IMAGEN_DEL_DASHBOARD)
+![Vista de Login Frontend](assets/chapter5/page1.png)
+![Vista de Registro Frontend](assets/chapter5/p2.png)
+![Vista del Dashboard Inicial](assets/chapter5/p3.png)
+![Vista de Alerts](assets/chapter5/p4.png)
+![Vista de Reports](assets/chapter5/p5.png)
+![Vista del Business](assets/chapter5/p6.png)
+![Vista de Suport](assets/chapter5/p7.png)
+![Vista del Billing](assets/chapter5/p8.png)
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
@@ -679,16 +681,18 @@ De acuerdo con el ciclo de vida del proyecto y los requerimientos de la rúbrica
 
 La primera versión del Frontend Web Application ha sido desplegada para asegurar su disponibilidad y realizar pruebas de experiencia de usuario en un entorno real. Se ha configurado una canalización automatizada conectada a la rama principal del repositorio.
 
-* **URL de Web Application desplegada:** [https://app.smartdrop.com] *(Nota para el equipo: Reemplazar con el enlace real)*
-* **Plataforma utilizada:** Vercel *(Nota para el equipo: Actualizar si usaron Netlify u otra plataforma para Angular)*
+* **URL de Web Application desplegada:** [https://6a0693fc92c4560008b0ec59--smartdrop01.netlify.app/login]
+* **Plataforma utilizada:** Netlify 
 
-![Evidencia de Despliegue del Frontend](PON_AQUI_LA_RUTA_DE_LA_IMAGEN_DEL_DESPLIEGUE)
+![Evidencia de Despliegue del Frontend](assets/chapter5/despliegue.png)
+![Evidencia de Despliegue del Frontend2](assets/chapter5/despliegue2.png)
+
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
 La colaboración para este segundo sprint reflejó una adaptación exitosa a los lineamientos propuestos en la retrospectiva anterior. Al manejar un repositorio de código más complejo, la revisión de *Pull Requests* y la asignación temprana de componentes previnieron sobreescrituras en las vistas principales. A continuación, se muestran las métricas de GitHub que evidencian la participación técnica de todos los desarrolladores.
 
-![Insights de Colaboración Sprint 2 Frontend](PON_AQUI_LA_RUTA_DE_LA_IMAGEN_DE_INSIGHTS)
+![Insights de Colaboración Sprint 2 Frontend](assets/chapter5/insights2.png)
 
 # Conclusiones
 Durante el proceso de creación y desarrollo de este trabajo pudimos llegar a las siguientes conclusiones:
@@ -750,5 +754,5 @@ Conne, M(2024). _The Markdown Guide_. MarkdownGuide. Recuperado de: https://www.
 | Reporte | Enlace al repositorio del reporte | [https://github.com/smartdropw/project-report-smartdrop](https://github.com/smartdropw/project-report-smartdrop) |
 | Landing Page | Enlace al repositorio del Landing Page | [https://github.com/smartdropw/LandingPage-SmartDrop](https://github.com/smartdropw/LandingPage-SmartDrop)                      |
 | Landing Page Desplegada | Enlace de Landing Page Desplegada | [https://smartdropw.github.io/LandingPage-SmartDrop/](https://smartdropw.github.io/LandingPage-SmartDrop/)                      |
-| Frontend Web App | Enlace al repositorio de la aplicación web | [Acá peguen el link del repo]() |
-| Web App Desplegada | Enlace a la aplicación web en producción | [Acá peguen el link de la web desplegada()] |
+| Frontend Web App | Enlace al repositorio de la aplicación web | [https://github.com/smartdropw/smartdrop-front](https://github.com/smartdropw/smartdrop-front) |
+| Web App Desplegada | Enlace a la aplicación web en producción | [https://6a0693fc92c4560008b0ec59--smartdrop01.netlify.app/login](https://6a0693fc92c4560008b0ec59--smartdrop01.netlify.app/login) |
