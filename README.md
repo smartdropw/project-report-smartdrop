@@ -624,6 +624,10 @@ De las tres entrevistas realizadas, se identifican los siguientes patrones:
 **Insight clave:** Los hogares valoran la **tranquilidad** que les otorgaría un sistema de alertas predictivas, más que un control exhaustivo del consumo.
 
 ---
+<<<<<<< HEAD
+=======
+.
+>>>>>>> feature/chapter2
 
 ## 2.3. Needfinding
 
