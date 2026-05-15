@@ -491,7 +491,26 @@ De las tres entrevistas realizadas, se identifican los siguientes patrones:
 **Insight clave:** Los hogares valoran la **tranquilidad** que les otorgaría un sistema de alertas predictivas, más que un control exhaustivo del consumo.
 
 ---
-.
+
+#### Segmento PYMEs de Bebidas y Alimentos
+En las tres entrevistas a PYMEs se encontraron las siguientes coincidencias:
+- **Dependencia de registros manuales/Excel:** El 100% aún utiliza hojas de cálculo o registros en papel para controlar insumos y producción.
+- **Pérdidas y desperdicio:** El 67% reporta pérdidas de insumos líquidos, principalmente por refrigeración deficiente, mala identificación o errores manuales.
+- **Dolores comunes:** Falta de trazabilidad en el proceso productivo, cálculos manuales que no siempre cuadran, y retrasos por cortes de agua o mala planificación.
+- **Necesidades de mejora:** El 100% destacó la importancia de reportes automáticos y trazabilidad en tiempo real. Dos de cada tres señalaron la utilidad de alertas de stock o de temperatura.
+- **Adopción digital:** Existe apertura hacia soluciones tecnológicas siempre que sean fáciles de usar y adaptables al personal.
+
+**Insight clave:** Las PYMEs buscan principalmente **eficiencia y control**, a través de trazabilidad de procesos y reportes confiables para reducir pérdidas.
+
+---
+
+#### Conclusión General
+Las entrevistas evidencian que, aunque los segmentos son distintos, ambos coinciden en:
+- La falta de herramientas digitales adecuadas.
+- La necesidad de **alertas en tiempo real** y **reportes automáticos**.
+- Una disposición a adoptar soluciones digitales, condicionada por la **simplicidad de uso** y el **costo accesible**.
+
+Mientras que los hogares priorizan la seguridad de suministro y la tranquilidad de no quedarse sin agua, las PYMEs demandan trazabilidad y eficiencia en la gestión de grandes volúmenes de líquidos. Estos hallazgos serán fundamentales para el diseño de los arquetipos y la definición de la propuesta de valor de SmartDrop.
 
 ## 2.3. Needfinding
 
