@@ -590,25 +590,82 @@ El entrevistado Carlos, de 42 años y residente en Jesús María, gestiona un ho
 **Resumen:** Grisel, de 26 años y residente de Ventanilla, vive con seis personas en una casa equipada con un tanque de agua. Actualmente, el control del nivel hídrico es 100% visual, obligando a su abuelo y a su padrino —ambas personas mayores— a subir físicamente al techo para revisarlo, lo cual representa una incomodidad y un riesgo. Su mayor preocupación es sufrir fugas inadvertidas que disparen el costo del recibo a fin de mes. Al plantearle una solución, expresó un fuerte deseo por contar con una herramienta digital en el celular para monitorear la capacidad del tanque, confirmando que sí estaría dispuesta a pagar por este servicio. Para ella, la suscripción se justifica plenamente por el control de gastos y, sobre todo, por la seguridad y comodidad de tener la información "en la palma de la mano", evitando exponer a sus familiares al tener que subir al techo.
 
 **Captura de pantalla:**
+
 ![Preview entrevista](/assets/chapter2/Griselda.jpeg)
 ### Segmento objetivo #2: PYMEs de Bebidas
 
-**Entrevistado N°1:** [rellenar]
+**Entrevistado N°1:** [Alessandra Cotrina] – Administradora
 
-- **Sexo:** [rellenar]
-- **Edad:** [rellenar]
-- **Ubicación de la empresa:** [rellenar], [rellenar]
-- **Nombre de la empresa:** [rellenar]
-- **Sector:** [rellenar]
-- **Rol:** [rellenar]
+- **Sexo:** Femenino
+- **Edad:** [27]
+- **Ubicación de la empresa:** [Lima, Peru]
+- **Nombre de la empresa:** Cerveza Artesanal Bohórquez
+- **Sector:** Producción y venta de bebidas artesanales
+- **Rol:** Administradora, encargada de coordinar ventas, pedidos y control de insumos
 
 **Acerca de la entrevista:**
 
-- **Link:** [rellenar]
-- **Instante en el que inicia:** [rellenar]
-- **Duración:** [rellenar]
+- **Link:** [https://www.youtube.com/watch?v=SigczJXmwnY] 
+- **Instante en el que inicia:** [00:00]
+- **Duración:** [3:10]
 
 **Resumen:**  
+La entrevistada administra **Cerveza Artesanal Bohórquez**, una pequeña empresa de bebidas artesanales que trabaja con un equipo reducido. Actualmente registran el control de líquidos y procesos de producción de forma manual y en Excel, lo que genera inconsistencias y diferencias entre lo planificado y lo realmente producido. Han experimentado pérdidas por mal manejo de insumos o entregas incompletas. Los principales problemas se relacionan con la falta de coordinación entre producción y ventas, así como los cálculos manuales poco confiables. Entre las mejoras que considera más valiosas se encuentran contar con mayor trazabilidad de insumos, alertas de stock bajo y reportes automáticos sobre entradas y salidas de líquidos. Reconoce que una solución digital accesible desde el celular, con datos en tiempo real, permitiría una mejor planificación, reducción de pérdidas y un aumento en la productividad.
+
+**Captura de pantalla:**
+
+![Preview Entrevista](/assets/chapter2/alessandra_entrevista.jpeg)
+
+**Entrevistado N°2:** Lupe – Encargada de Logística
+
+- **Sexo:** Femenino
+- **Edad:** 22
+- **Ubicación de la empresa:** [Lima, Peru]
+- **Nombre de la empresa:** Lácteo Santinos
+- **Sector:** Producción y distribución de leche y derivados lácteos
+- **Rol:** Encargada de logística, coordina el ingreso de insumos y la distribución del producto final
+
+**Acerca de la entrevista:**
+
+- **Link:** [https://www.youtube.com/watch?v=9pUZg2x49F0] 
+- **Instante en el que inicia:** [00:05]
+- **Duración:** [4:55]
+
+**Resumen:**  
+Lupe, de 22 años, trabaja en **Lácteo Santinos**, una empresa de 25 empleados dedicada a la producción y distribución de leche y derivados. Manejan aproximadamente 50,000 litros de leche al mes y cuentan con certificaciones de la municipalidad y del SENASA. Actualmente registran el control de líquidos mediante guías en papel y reportes en Excel, además de informes de transporte diarios. El proceso es lento y depende demasiado del cumplimiento manual, lo que genera dificultades en los tiempos y la fiabilidad de la información. Han tenido pérdidas, principalmente en transporte, por problemas de refrigeración que obligan a descartar producto.  
+La entrevistada considera que los principales retos son la falta de trazabilidad para identificar en qué etapa ocurren las pérdidas y la carga de los cálculos manuales. Como mejoras valiosas, resalta la importancia de contar con reportes automáticos, alertas cuando la temperatura salga del rango adecuado y una solución digital que integre la trazabilidad de principio a fin. Señala que esto permitiría reducir pérdidas, ahorrar en transporte y mejorar la puntualidad de las entregas. Actualmente usan un ERP básico para facturación, pero la logística sigue dependiendo de registros en papel y Excel.
+
+**Captura de pantalla:**  
+![Preview Entrevista](/assets/chapter2/lupe_entrevista.jpeg)
+
+**Entrevistado N°3:** Nestor Rojas – Administradora
+
+- **Sexo:** Masculino
+- **Edad:** [24]
+- **Ubicación de la empresa:** [Lima, Peru]
+- **Nombre de la empresa:** Refrescos Cósmicos
+- **Sector:** Venta de smoothies y bebidas a base de frutas
+- **Rol:** Administrador, con funciones en logística, finanzas y gestión general
+
+**Acerca de la entrevista:**
+
+- **Link:** [https://www.youtube.com/watch?v=-U06n7gD82E] 
+- **Instante en el que inicia:** [00:00]
+- **Duración:** [6:40]
+
+**Resumen:**  
+Nestor es administrador de **Refrescos Cósmicos**, un emprendimiento de aproximadamente 20 trabajadores que produce cerca de 2,000 litros de smoothies al mes. El registro de consumos y procesos lo realizan principalmente en Excel, lo que les permite hacer cálculos básicos, aunque reconocen que no siempre es suficiente para anticiparse a problemas. Al inicio tuvieron dificultades con el uso ineficiente del agua y desperdicio de insumos, lo que generó sobrecostos. Uno de los mayores dolores de cabeza actuales es la falta de control cuando se realizan cortes de agua en la zona, lo que retrasa la producción y las entregas programadas.  
+Entre las mejoras más valiosas menciona poder **monitorear con mayor precisión el uso del agua**, identificar procesos donde se desperdicia, y contar con **alertas preventivas** que eviten interrupciones críticas. Considera que una solución digital debería ser sencilla de usar, accesible para todo el personal y enfocada en reportes automáticos de consumo que ayuden a optimizar los costos de producción.
+
+**Captura de pantalla:**
+
+![Preview Entrevista](/assets/chapter2/Rodas_entrevista.jpeg)
+Nestor es administrador de **Refrescos Cósmicos**, un emprendimiento de aproximadamente 20 trabajadores que produce cerca de 2,000 litros de smoothies al mes. El registro de consumos y procesos lo realizan principalmente en Excel, lo que les permite hacer cálculos básicos, aunque reconocen que no siempre es suficiente para anticiparse a problemas. Al inicio tuvieron dificultades con el uso ineficiente del agua y desperdicio de insumos, lo que generó sobrecostos. Uno de los mayores dolores de cabeza actuales es la falta de control cuando se realizan cortes de agua en la zona, lo que retrasa la producción y las entregas programadas.  
+Entre las mejoras más valiosas menciona poder **monitorear con mayor precisión el uso del agua**, identificar procesos donde se desperdicia, y contar con **alertas preventivas** que eviten interrupciones críticas. Considera que una solución digital debería ser sencilla de usar, accesible para todo el personal y enfocada en reportes automáticos de consumo que ayuden a optimizar los costos de producción.
+
+**Captura de pantalla:**
+
+![Preview Entrevista](/assets/chapter2/Rodas_entrevista.jpeg)
 
 ### 2.2.3. Análisis de entrevistas
 
@@ -624,10 +681,26 @@ De las tres entrevistas realizadas, se identifican los siguientes patrones:
 **Insight clave:** Los hogares valoran la **tranquilidad** que les otorgaría un sistema de alertas predictivas, más que un control exhaustivo del consumo.
 
 ---
-<<<<<<< HEAD
-=======
-.
->>>>>>> feature/chapter2
+
+#### Segmento PYMEs de Bebidas y Alimentos
+En las tres entrevistas a PYMEs se encontraron las siguientes coincidencias:
+- **Dependencia de registros manuales/Excel:** El 100% aún utiliza hojas de cálculo o registros en papel para controlar insumos y producción.
+- **Pérdidas y desperdicio:** El 67% reporta pérdidas de insumos líquidos, principalmente por refrigeración deficiente, mala identificación o errores manuales.
+- **Dolores comunes:** Falta de trazabilidad en el proceso productivo, cálculos manuales que no siempre cuadran, y retrasos por cortes de agua o mala planificación.
+- **Necesidades de mejora:** El 100% destacó la importancia de reportes automáticos y trazabilidad en tiempo real. Dos de cada tres señalaron la utilidad de alertas de stock o de temperatura.
+- **Adopción digital:** Existe apertura hacia soluciones tecnológicas siempre que sean fáciles de usar y adaptables al personal.
+
+**Insight clave:** Las PYMEs buscan principalmente **eficiencia y control**, a través de trazabilidad de procesos y reportes confiables para reducir pérdidas.
+
+---
+
+#### Conclusión General
+Las entrevistas evidencian que, aunque los segmentos son distintos, ambos coinciden en:
+- La falta de herramientas digitales adecuadas.
+- La necesidad de **alertas en tiempo real** y **reportes automáticos**.
+- Una disposición a adoptar soluciones digitales, condicionada por la **simplicidad de uso** y el **costo accesible**.
+
+Mientras que los hogares priorizan la seguridad de suministro y la tranquilidad de no quedarse sin agua, las PYMEs demandan trazabilidad y eficiencia en la gestión de grandes volúmenes de líquidos. Estos hallazgos serán fundamentales para el diseño de los arquetipos y la definición de la propuesta de valor de SmartDrop.
 
 ## 2.3. Needfinding
 
