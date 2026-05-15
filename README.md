@@ -1381,43 +1381,54 @@ El sistema SmartDrop actúa como el núcleo de procesamiento que transforma la t
 ### 4.6.2. Software Architecture Container Diagrams
 ![Mapa2](assets/chapter4/Diagrama_ContainerContainerDiagram-dark%20(1).png)
 
-### 4.6.2. Software Architecture Components Diagrams
+### 4.6.3. Software Architecture Components Diagrams
+
+A continuación, se detalla la arquitectura interna de los componentes del sistema SmartDrop, estructurados bajo un patrón de diseño MVC (Model-View-Controller) y principios RESTful para garantizar la escalabilidad y el bajo acoplamiento.
+
+**1. Identity & Access Component Diagram:**
+Gestiona la seguridad perimetral de la aplicación. Utiliza un `SecurityController` para interceptar peticiones, un `AuthService` para validar credenciales y generar tokens JWT (JSON Web Tokens), y se comunica con el `UserRepository` para persistir los datos de sesión.
+ 
+![Mapa4](assets/chapter4/IdentityAccess_ComponentDiagram.png)
+
+**2. Profiles & Preferences Component Diagram:**
+Administra la metadata de los usuarios (residenciales y PYMEs). Internamente, el `ProfileController` expone los endpoints que consumen el `HouseholdService` y el `CompanyService`, permitiendo a los usuarios actualizar capacidades de tanques y umbrales de alerta personalizados.
+
+![Mapa5](assets/chapter4/ProfilesPreferences_ComponentDiagram.png)
+
+**3. Payments & Subscriptions Component Diagram:**
+Aísla la lógica de facturación SaaS. Un `SubscriptionController` maneja los planes de usuario, conectándose a un `PaymentGatewayAdapter` que interactúa de forma segura con APIs externas (PayPal/Stripe) sin exponer información financiera sensible en nuestra base de datos.
+
+![Mapa6](assets/chapter4/PaymentsSubscriptions_ComponentDiagram.png)
+
+**4. Consumption & Inventory Component Diagram:**
+El núcleo del procesamiento de telemetría (*Core Domain*). El `TelemetryController` recibe los datos brutos de los sensores IoT. Estos pasan por el `WaterLevelService` y el `TemperatureService` para normalizar las métricas antes de ser almacenados a través del `SensorDataRepository`.
+ 
+![Mapa7](assets/chapter4/ConsumptionInventory_ComponentDiagram.png)
+
+**5. Service Monitoring & Alerts Component Diagram:**
+Responsable de la evaluación proactiva. Utiliza un motor de reglas (`RuleEngineService`) que escucha los eventos del inventario de agua. Si el nivel cae por debajo del 20%, el `AlertDispatcher` activa notificaciones mediante el `NotificationAdapter`.
+ 
+![Mapa8](assets/chapter4/ServiceMonitoringAlerts_ComponentDiagram.png)
+
+**6. Dashboard & Analytics Component Diagram:**
+Componente de agregación de datos para la interfaz. El `DashboardController` consolida información de múltiples servicios y utiliza el `AnalyticsService` para formatear los datos históricos en estructuras optimizadas para la generación de gráficos en el Frontend (Angular).
+ 
+![Mapa9](assets/chapter4/DashboardAnalytics_ComponentDiagram.png)
+
+**7. Support & Notifications Component Diagram:**
+Centraliza el canal de comunicación asíncrona. Gestiona el encolamiento de mensajes push y correos electrónicos hacia los usuarios mediante el `EmailService` y `PushNotificationService`, asegurando que las alertas críticas no se pierdan.
+
+![Mapa10](assets/chapter4/SupportNotifications_ComponentDiagram.png)
+
+**8. System Administration Component Diagram:**
+Exclusivo para el personal interno de SmartDrop. Contiene un `AdminController` que permite la gestión del ciclo de vida de los dispositivos IoT, visualización de logs de errores del sistema y habilitación de cuentas de maestros cerveceros.
+
+![Mapa11](assets/chapter4/SystemAdministration_ComponentDiagram.png)
 
 * **Web Application Component Diagram:**
 
 ![Mapa3](assets/chapter4/WebApplication_ComponentDiagram.png)
 
-* **Identity Access Component Diagram:**
- 
-![Mapa4](assets/chapter4/IdentityAccess_ComponentDiagram.png)
-
-* **Profiles Preferences Component Diagram:**
-
-![Mapa5](assets/chapter4/ProfilesPreferences_ComponentDiagram.png)
-
-* **Payments Subscriptions Component Diagram:**
-
-![Mapa6](assets/chapter4/PaymentsSubscriptions_ComponentDiagram.png)
-
-* **Consumption Inventory Component Diagram:**
- 
-![Mapa7](assets/chapter4/ConsumptionInventory_ComponentDiagram.png)
-
-* **Service Monitoring Alerts Component Diagram:**
- 
-![Mapa8](assets/chapter4/ServiceMonitoringAlerts_ComponentDiagram.png)
-
-* **Dashboard Analytics Component Diagram:**
- 
-![Mapa9](assets/chapter4/DashboardAnalytics_ComponentDiagram.png)
-
-* **Support Notifications Component Diagram:**
-
-![Mapa10](assets/chapter4/SupportNotifications_ComponentDiagram.png)
-
-* **System Administration Component Diagram:**
-
-![Mapa11](assets/chapter4/SystemAdministration_ComponentDiagram.png)
 
 ## 4.7. Software Object-Oriented Design
 
