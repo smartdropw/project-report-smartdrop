@@ -694,6 +694,179 @@ La colaboración para este segundo sprint reflejó una adaptación exitosa a los
 
 ![Insights de Colaboración Sprint 2 Frontend](assets/chapter5/insights2.png)
 
+### 5.2.3. Sprint 3
+
+### 5.2.3.1.Sprint Planning 3.
+### 5.2.3.2. Aspect Leaders and Collaborators.
+### 5.2.3.3.Sprint Backlog 3.
+### 5.2.3.4.Development Evidence for Sprint Review.
+### 5.2.3.5.Execution Evidence for Sprint Review.
+### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+
+
+### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+
+Para la segunda versión de la Frontend Web Application, se completó la implementación y el desarrollo de las funcionalidades faltantes correspondientes a las diferentes secciones del sistema, tales como el Dashboard, Alertas, Reportes y Soporte.
+
+Esta versión completa también fue desplegada con éxito, manteniendo la automatización con nuestro repositorio de GitHub. De esta manera, cualquier cambio visual o en los datos en tiempo real se actualiza automáticamente en la web, dejándola lista y completamente funcional para las entrevistas de experiencia de usuario.
+
+URL de Web Application desplegada: [https://6a0693fc92c4560008b0ec59--smartdrop01.netlify.app/login]
+Plataforma utilizada: Netlify
+
+### 5.2.3.8.Team Collaboration Insights during Sprint.
+La colaboración en este tercer sprint demostró una mejor organización del equipo siguiendo lo aprendido en las entregas anteriores. Al trabajar en una etapa avanzada de la aplicación, con un código más grande y flujos completos, mantener una revisión constante de los Pull Requests y asignar tareas específicas desde el inicio fue clave para evitar conflictos o sobreescrituras en las pantallas principales. A continuación, se muestran las métricas de GitHub que reflejan el trabajo técnico de cada uno de los integrantes en este sprint.
+
+![Insights de Colaboración Sprint 3 Frontend](assets/chapter5/insights3.png)
+
+## 5.3. Validation Interviews.
+### 5.3.1. Diseño de Entrevistas.
+A continuación, se presenta el diseño de la entrevista de validación, enfocada directamente en la experiencia de usuario, diseño visual y funcionalidad de nuestra Landing Page y la plataforma web de SmartDrop:
+
+a. PERFIL DEL ENTREVISTADO
+* ¿Cuál es tu nombre y a qué te dedicas actualmente?
+ 
+* ¿Qué tan familiarizado estás con el uso de plataformas web o paneles de control?
+
+b. FEEDBACK DE LA LANDING PAGE (Presentación)
+* Al revisar la Landing Page, ¿te queda claro en los primeros segundos qué problema resuelve SmartDrop?
+ 
+* ¿El diseño visual de la landing te transmite confianza y te invita a querer registrarte en la plataforma?
+ 
+c. FEEDBACK DEL FRONTEND WEB 
+* Flujo de Acceso: ¿Qué tal te pareció el proceso para crear una cuenta e iniciar sesión? ¿Te resultó rápido e intuitivo?
+ 
+* Facilidad de Uso: Al mirar el panel principal con los gráficos y los datos en tiempo real, ¿sentiste que la información era fácil de entender o te pareció muy compleja a primera vista?
+ 
+* Controles y Funciones: ¿Consideras que los botones y las opciones para interactuar con el sistema (como las alertas o los controles de automatización) están bien ubicados y son fáciles de usar?
+ 
+* Navegación: En general, ¿te resultó cómodo moverte entre las diferentes secciones del menú lateral o hubo algo que te causara confusión?
+
+d. VALORACIÓN FINAL
+* ¿Qué es lo que más y lo que menos te gustó de la interfaz actual de la plataforma?
+ 
+* ¿Qué elemento o funcionalidad técnica crees que le falta al panel para mejorar tu experiencia como usuario?
+ 
+* Si esta plataforma estuviera disponible hoy en el mercado, ¿la implementarías para la gestión de tus sistemas de agua? ¿Por qué?
+
+### 5.3.2. Registro de Entrevistas.
+
+A continuación, se presenta el registro de entrevistas realizadas a usuarios potenciales de smartdrop.
+
+**Entrevistado N°1:** 
+
+**Sexo:** 
+**Edad:**
+**Ubicación en la que vive:** 
+**Acerca de la entrevista:**
+
+**Link:** 
+**Instante en el que inicia:**
+**Duración:** 
+**Resumen:**
+
+**Captura de pantalla:**
+
+**Entrevistado N°2:** 
+
+**Sexo:** 
+**Edad:**
+**Ubicación en la que vive:** 
+**Acerca de la entrevista:**
+
+**Link:** 
+**Instante en el que inicia:**
+**Duración:** 
+**Resumen:**
+
+**Captura de pantalla:**
+
+**Entrevistado N°3:** 
+
+**Sexo:** 
+**Edad:**
+**Ubicación en la que vive:** 
+**Acerca de la entrevista:**
+
+**Link:** 
+**Instante en el que inicia:**
+**Duración:** 
+**Resumen:**
+
+**Captura de pantalla:**
+
+**Entrevistado N°4:** 
+
+**Sexo:** 
+**Edad:**
+**Ubicación en la que vive:** 
+**Acerca de la entrevista:**
+
+**Link:** 
+**Instante en el que inicia:**
+**Duración:** 
+**Resumen:**
+
+**Captura de pantalla:**
+
+**Entrevistado N°5:** 
+
+**Sexo:** 
+**Edad:**
+**Ubicación en la que vive:** 
+**Acerca de la entrevista:**
+
+**Link:** 
+**Instante en el que inicia:**
+**Duración:** 
+**Resumen:**
+
+**Captura de pantalla:**
+
+**Entrevistado N°6:** 
+
+**Sexo:** 
+**Edad:**
+**Ubicación en la que vive:** 
+**Acerca de la entrevista:**
+
+**Link:** 
+**Instante en el que inicia:**
+**Duración:** 
+**Resumen:**
+
+**Captura de pantalla:**
+
+**Entrevistado N°7:** 
+
+**Sexo:** 
+**Edad:**
+**Ubicación en la que vive:** 
+**Acerca de la entrevista:**
+
+**Link:** 
+**Instante en el que inicia:**
+**Duración:** 
+**Resumen:**
+
+**Captura de pantalla:**
+
+**Entrevistado N°8:** 
+
+**Sexo:** 
+**Edad:**
+**Ubicación en la que vive:** 
+**Acerca de la entrevista:**
+
+**Link:** 
+**Instante en el que inicia:**
+**Duración:** 
+**Resumen:**
+
+**Captura de pantalla:**
+
+### 5.3.3. Evaluaciones según heurísticas.
+## 5.4. Video About-the-Product
+
 # Conclusiones
 Durante el proceso de creación y desarrollo de este trabajo pudimos llegar a las siguientes conclusiones:
 
