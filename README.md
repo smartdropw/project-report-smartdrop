@@ -719,10 +719,10 @@ Para este tercer sprint, la ejecución principal del código y la maquetación d
 
 | Team Member (Last Name, First Name) | GitHub Username | Frontend Application Leader (L) / Collaborator (C) | Documentation Leader (L) / Collaborator (C) | UI Styles & Routing Leader (L) / Collaborator (C) |
 | :--- | :--- | :--- | :--- | :--- |
-| **Barrenechea Bustamante, Rafael André** | Rafael1231312331[cite: 2] | C | **L** | **L** |
-| Otiniano Rosales, Camila Alizée | CamilaaAlizee[cite: 2] | **L** | **L** | C |
-| Pariona Chacca, Angel Jose | angelitoso-opp[cite: 1] | C | **L** | **L** |
-| Uribe Linares, Francisco Javier | FranciscoLinaresX[cite: 1] | **L** | **L** | C |
+| **Barrenechea Bustamante, Rafael André** | Rafael1231312331 | C | **L** | **L** |
+| Otiniano Rosales, Camila Alizée | CamilaaAlizee | **L** | **L** | C |
+| Pariona Chacca, Angel Jose | angelitoso-opp | C | **L** | **L** |
+| Uribe Linares, Francisco Javier | FranciscoLinaresX | **L** | **L** | C |
 
 ### 5.2.3.3.Sprint Backlog 3.
 En base a los objetivos del sprint, las tareas se centraron en materializar las Historias de Usuario restantes del Product Backlog en componentes visuales interactivos para la aplicación web, distribuyendo la carga de trabajo entre los desarrolladores del equipo[cite: 1].
