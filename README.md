@@ -778,7 +778,7 @@ Durante este sprint, se completó de manera exitosa el diseño, la implementaci�
 Esta documentación detalla de forma exhaustiva los esquemas de datos, los parámetros requeridos, los métodos HTTP soportados y los códigos de respuesta para los controladores principales del sistema, incluyendo la gestión de identidades (*Identity & Access*), el monitoreo de telemetría (*Monitoring & Alerts*) y la gestión de planes de usuario (*Payments & Subscriptions*).
 
 * **Herramienta de Documentación:** Swagger UI (OpenAPI Specification)
-* **URL de la Documentación de la API:** `http://localhost:8080/swagger-ui/index.html#/dashboard-controller/getDashboardSummary`
+* **URL de la Documentación de la API:** http://localhost:8080/swagger-ui/index.html#/dashboard-controller/getDashboardSummary
 
 ### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
