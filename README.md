@@ -704,13 +704,13 @@ Esta versión completa también fue desplegada con éxito, manteniendo la automa
 
 | Sprint # | Sprint 3 |
 | :--- | :--- |
-| **Date** | [14/06/2026] |
-| **Time** | [16:00] horas |
-| **Location** | Reunión virtual - Discord|
-| **Prepared By** | Barrenechea Bustamante, Rafael André, Angel Jose Pariona Chacca |
-| **Attendees** | Rafael André Barrenechea Bustamante, Camila Alizée Otiniano Rosales, Francisco Javier Uribe Linares[cite: 2] |
-| **Sprint 2 Review Summary** | Se validó el despliegue exitoso del login, registro y la estructura base del dashboard[cite: 1]. Se determinó que para este nuevo sprint era crucial mantener una revisión constante de los Pull Requests y asignar tareas específicas desde el inicio para evitar conflictos en las pantallas principales[cite: 1]. |
-| **Sprint Goal & User Stories** | **US05, US06, US07, US12, US13, US15** <br><br> **Goal:** Completar el desarrollo del Frontend de SmartDrop, implementando las vistas interactivas del Dashboard, Alertas, Reportes, Negocios, Soporte y Facturación, garantizando su despliegue y funcionalidad automatizada para las entrevistas de validación[cite: 1]. |
+| **Date** | 25/04/2026 |
+| **Time** | 16:00 horas |
+| **Location** | Reunión virtual - Discord |
+| **Prepared By** | Barrenechea Bustamante, Rafael André; Pariona Chacca, Angel Jose |
+| **Attendees** | Rafael André Barrenechea Bustamante, Camila Alizée Otiniano Rosales, Angel Jose Pariona Chacca, Francisco Javier Uribe Linares |
+| **Sprint 2 Review Summary** | Se validó el despliegue exitoso del login, registro y la estructura base del dashboard. Se determinó que para este nuevo sprint era crucial mantener una revisión constante de los Pull Requests y asignar tareas específicas desde el inicio para evitar conflictos en las pantallas principales. |
+| **Sprint Goal & User Stories** | **US05, US06, US07, US12, US13, US15** <br><br> **Goal:** Completar el desarrollo del Frontend de SmartDrop, implementando las vistas interactivas del Dashboard, Alertas, Reportes, Negocios, Soporte y Facturación, garantizando su despliegue y funcionalidad automatizada para las entrevistas de validación. |
 | **Sprint 3 Velocity** | 26 |
 | **Sum of Story Points** | 26 |
 
@@ -777,7 +777,7 @@ Durante este sprint, se completó de manera exitosa el diseño, la implementaci�
 Esta documentación detalla de forma exhaustiva los esquemas de datos, los parámetros requeridos, los métodos HTTP soportados y los códigos de respuesta para los controladores principales del sistema, incluyendo la gestión de identidades (*Identity & Access*), el monitoreo de telemetría (*Monitoring & Alerts*) y la gestión de planes de usuario (*Payments & Subscriptions*).
 
 * **Herramienta de Documentación:** Swagger UI (OpenAPI Specification)
-* **URL de la Documentación de la API:** `[Enlace de  Swagger desplegado`
+* **URL de la Documentación de la API:** `[Enlace de Swagger desplegado]`
 
 ### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
