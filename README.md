@@ -752,24 +752,25 @@ Durante este sprint, el desarrollo completo de estas funcionalidades se llevó a
 En esta etapa final de desarrollo de la interfaz, logramos traducir exitosamente la arquitectura de información y los wireframes a código funcional. Las siguientes descripciones y capturas demuestran la navegación interactiva de la aplicación web, abarcando todas las herramientas operativas de SmartDrop, las cuales ya se encuentran completamente funcionales para ser evaluadas en nuestras entrevistas de validación.
 
 * **Vista de Monitoreo (Water Monitoring Dashboard):** Es el panel principal interactivo. Muestra métricas vitales en tiempo real, incluyendo el consumo total (*Total Consumption*), el flujo actual del agua (*Current Flow*) y la temperatura (*Temperature*). Además, integra gráficos dinámicos de barras para analizar el uso en las últimas 24 horas y switches de control para el sistema de irrigación inteligente.
-*(Insertar captura correspondiente al Dashboard)*
+![Vista de Monitoreo 1](assets/monitoreoagua1.png)
+![Vista de Monitoreo 2](assets/monitoreoagua2.png)
 
 * **Vista de Alertas (Alerts & Notifications):** Interfaz diseñada para la prevención de desastres hídricos. Cuenta con un registro central que clasifica las notificaciones del sistema según su severidad (fugas críticas, caídas de presión, informativas). En el panel derecho, se implementó un formulario de configuración donde el usuario puede activar/desactivar sus canales de aviso preferidos (Push, Email, SMS) y gestionar sus contactos de emergencia.
-*(Insertar captura correspondiente a Alertas)*
+![Vista de Alertas](assets/alertas.png)
 
 * **Vista de Reportes y Analíticas (Reports & Analytics):** Pantalla orientada al análisis de datos históricos para la toma de decisiones. Incluye un gráfico de líneas para evaluar las tendencias de consumo a lo largo del tiempo, un gráfico de barras para el desglose detallado de costos (*Cost Breakdown*), y un indicador circular que calcula la puntuación de eficiencia hídrica del usuario (*Water Efficiency Score*).
-*(Insertar captura correspondiente a Reportes)*
+![Vista de Reportes 1](assets/reportes1.png)
+![Vista de Reportes 2](assets/resportes2.png)
 
 * **Vista de Inventario y Negocios (Inventory and Business):** Módulo exclusivo diseñado para el segmento B2B (PYMEs). Permite monitorear el estado de múltiples contenedores de forma simultánea, visualizando el porcentaje de capacidad actual del tanque principal y los tanques de reserva. Destaca visualmente cuántos de estos requieren reabastecimiento próximo y presenta una tarjeta de resumen con los ahorros económicos logrados.
-*(Insertar captura correspondiente a Inventario/Business)*
+![Vista de Inventario](assets/inventario.png)
 
 * **Vista de Soporte (Support & Help):** Interfaz dedicada a la atención al cliente. Cuenta con un formulario rápido para la creación de nuevos tickets especificando el nivel de urgencia. En la parte inferior, despliega una tabla de datos con el historial de incidentes recientes, mostrando su ID, asunto, prioridad (Alta, Media, Baja) y estado de resolución (Abierto, Solucionado).
-*(Insertar captura correspondiente a Soporte)*
+![Vista de Soporte](assets/soporte.png)
 
 * **Vista de Facturación (Billing & Payments):** Panel administrativo y financiero. Muestra de forma clara el balance actual de la cuenta del usuario, los métodos de pago vinculados (Tarjetas de crédito, PayPal, transferencias), el gasto mensual promedio proyectado y una tabla cronológica detallada con las últimas transacciones realizadas en la plataforma.
-*(Insertar captura correspondiente a Facturación)*
-
-*(capturas de pantalla a cada vista)*.
+![Vista de Facturación 1](assets/billing1.png)
+![Vista de Facturación 2](assets/billing2.png)
 
 ### 5.2.3.6.Services Documentation Evidence for Sprint Review.
 Durante este sprint, se completó de manera exitosa el diseño, la implementación y la documentación técnica de nuestra API RESTful (Web Services). Para asegurar que el equipo de desarrollo Frontend y los futuros integradores dispongan de una referencia clara, interactiva y estandarizada, toda la arquitectura de servicios ha sido documentada utilizando el estándar OpenAPI.
