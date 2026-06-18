@@ -715,7 +715,7 @@ Esta versión completa también fue desplegada con éxito, manteniendo la automa
 | **Sum of Story Points** | 26 |
 
 ### 5.2.3.2. Aspect Leaders and Collaborators.
-Para este tercer sprint, la ejecución principal del código y la maquetación de las vistas avanzadas fue liderada de manera centralizada para mantener la consistencia del flujo y los estilos, mientras que el resto del equipo colaboró activamente en la revisión constante de los Pull Requests y la validación funcional de la interfaz para evitar conflictos y sobreescrituras[cite: 1].
+Para este tercer sprint, la ejecución principal del código y la maquetación de las vistas avanzadas fue liderada de manera centralizada para mantener la consistencia del flujo y los estilos, mientras que el resto del equipo colaboró activamente en la revisión constante de los Pull Requests y la validación funcional de la interfaz para evitar conflictos y sobreescrituras.
 
 | Team Member (Last Name, First Name) | GitHub Username | Frontend Application Leader (L) / Collaborator (C) | Documentation Leader (L) / Collaborator (C) | UI Styles & Routing Leader (L) / Collaborator (C) |
 | :--- | :--- | :--- | :--- | :--- |
@@ -725,17 +725,17 @@ Para este tercer sprint, la ejecución principal del código y la maquetación d
 | Uribe Linares, Francisco Javier | FranciscoLinaresX | **L** | **L** | C |
 
 ### 5.2.3.3.Sprint Backlog 3.
-En base a los objetivos del sprint, las tareas se centraron en materializar las Historias de Usuario restantes del Product Backlog en componentes visuales interactivos para la aplicación web, distribuyendo la carga de trabajo entre los desarrolladores del equipo[cite: 1].
+En base a los objetivos del sprint, las tareas se centraron en materializar las Historias de Usuario restantes del Product Backlog en componentes visuales interactivos para la aplicación web, distribuyendo la carga de trabajo entre los desarrolladores del equipo.
 
 | Sprint # | Sprint 3 | | | | | | |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **User Story ID** | **Story Title** | **Work-Item ID** | **Task Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
-| US07 | Detección temprana de temperatura[cite: 2] | T01 | Maquetación del Dashboard de Monitoreo | Desarrollar la vista "Water Monitoring Dashboard" integrando tarjetas de consumo, flujo, temperatura y estado de dispositivos IoT. | 6 | Francisco Uribe | Done |
-| US05 | Alertas críticas de fuga[cite: 2] | T02 | Panel de Alertas y Notificaciones | Implementar la interfaz "Alerts & Notifications" con listado de alertas activas (críticas, warnings) y configuración de canales. | 5 | Camila Otiniano | Done |
-| US06 | Análisis histórico residencial[cite: 2] | T03 | Vistas de Reportes e Inventario | Construir las pantallas "Reports & Analytics" (gráficos de tendencias) e "Inventory and Business" (capacidad de tanques y ahorros). | 4 | Rafael Barrenechea | Done |
-| US12 | Auditoría de incidentes[cite: 2] | T04 | Módulo de Soporte y Tickets | Crear la vista "Support & Help" que permita formular tickets de asistencia y revisar el historial de incidentes. | 3 | Angel Pariona | Done |
-| US13 | Reacción de conectividad[cite: 2] | T05 | Integración de estados IoT | Automatizar la supervisión visual del estado online/offline de los sensores dentro de las vistas principales. | 4 | Rafael Barrenechea | Done |
-| US15 | Elección de planes SaaS[cite: 2] | T06 | Módulo de Facturación y Pagos | Desarrollar la pantalla "Billing & Payments" mostrando balance, métodos de pago y transacciones recientes. | 4 | Camila Otiniano | Done |
+| US07 | Detección temprana de temperatura | T01 | Maquetación del Dashboard de Monitoreo | Desarrollar la vista "Water Monitoring Dashboard" integrando tarjetas de consumo, flujo, temperatura y estado de dispositivos IoT. | 6 | Francisco Uribe | Done |
+| US05 | Alertas críticas de fuga | T02 | Panel de Alertas y Notificaciones | Implementar la interfaz "Alerts & Notifications" con listado de alertas activas (críticas, warnings) y configuración de canales. | 5 | Camila Otiniano | Done |
+| US06 | Análisis histórico residencial | T03 | Vistas de Reportes e Inventario | Construir las pantallas "Reports & Analytics" (gráficos de tendencias) e "Inventory and Business" (capacidad de tanques y ahorros). | 4 | Rafael Barrenechea | Done |
+| US12 | Auditoría de incidentes | T04 | Módulo de Soporte y Tickets | Crear la vista "Support & Help" que permita formular tickets de asistencia y revisar el historial de incidentes. | 3 | Angel Pariona | Done |
+| US13 | Reacción de conectividad | T05 | Integración de estados IoT | Automatizar la supervisión visual del estado online/offline de los sensores dentro de las vistas principales. | 4 | Rafael Barrenechea | Done |
+| US15 | Elección de planes SaaS | T06 | Módulo de Facturación y Pagos | Desarrollar la pantalla "Billing & Payments" mostrando balance, métodos de pago y transacciones recientes. | 4 | Camila Otiniano | Done |
 
 ### 5.2.3.4.Development Evidence for Sprint Review.
 Durante este sprint, el desarrollo completo de estas funcionalidades se llevó a cabo en el repositorio de la aplicación web (`smartdropw/smartdrop-front`). Manteniendo el modelo de ramificación GitFlow y el estándar de Conventional Commits definidos para el proyecto, a continuación se presentan los commits más representativos de esta fase, los cuales fueron integrados a la rama principal mediante Pull Requests revisados por el equipo para evitar conflictos.
