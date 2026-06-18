@@ -695,14 +695,89 @@ La colaboración para este segundo sprint reflejó una adaptación exitosa a los
 ![Insights de Colaboración Sprint 2 Frontend](assets/chapter5/insights2.png)
 
 ### 5.2.3. Sprint 3
+Para la segunda versión de la Frontend Web Application, se completó la implementación y el desarrollo de las funcionalidades faltantes correspondientes a las diferentes secciones del sistema, tales como el Dashboard, Alertas, Reportes y Soporte. 
+
+Esta versión completa también fue desplegada con éxito, manteniendo la automatización con nuestro repositorio de GitHub. De esta manera, cualquier cambio visual o en los datos en tiempo real se actualiza automáticamente en la web, dejándola lista y completamente funcional para las entrevistas de experiencia de usuario.
 
 ### 5.2.3.1.Sprint Planning 3.
-### 5.2.3.2. Aspect Leaders and Collaborators.
-### 5.2.3.3.Sprint Backlog 3.
-### 5.2.3.4.Development Evidence for Sprint Review.
-### 5.2.3.5.Execution Evidence for Sprint Review.
-### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+**Background:** Tras el despliegue de la primera versión del Frontend Web Application en el Sprint 2, el equipo se enfocó en trabajar en una etapa avanzada de la aplicación, con un código más grande y flujos completos para dejar la web lista para las entrevistas de validación.
 
+| Sprint # | Sprint 3 |
+| :--- | :--- |
+| **Date** | [14/06/2026] |
+| **Time** | [16:00] horas |
+| **Location** | Reunión virtual - Discord|
+| **Prepared By** | Barrenechea Bustamante, Rafael André, Angel Jose Pariona Chacca |
+| **Attendees** | Rafael André Barrenechea Bustamante, Camila Alizée Otiniano Rosales, Francisco Javier Uribe Linares[cite: 2] |
+| **Sprint 2 Review Summary** | Se validó el despliegue exitoso del login, registro y la estructura base del dashboard[cite: 1]. Se determinó que para este nuevo sprint era crucial mantener una revisión constante de los Pull Requests y asignar tareas específicas desde el inicio para evitar conflictos en las pantallas principales[cite: 1]. |
+| **Sprint Goal & User Stories** | **US05, US06, US07, US12, US13, US15** <br><br> **Goal:** Completar el desarrollo del Frontend de SmartDrop, implementando las vistas interactivas del Dashboard, Alertas, Reportes, Negocios, Soporte y Facturación, garantizando su despliegue y funcionalidad automatizada para las entrevistas de validación[cite: 1]. |
+| **Sprint 3 Velocity** | 26 |
+| **Sum of Story Points** | 26 |
+
+### 5.2.3.2. Aspect Leaders and Collaborators.
+Para este tercer sprint, la ejecución principal del código y la maquetación de las vistas avanzadas fue liderada de manera centralizada para mantener la consistencia del flujo y los estilos, mientras que el resto del equipo colaboró activamente en la revisión constante de los Pull Requests y la validación funcional de la interfaz para evitar conflictos y sobreescrituras[cite: 1].
+
+| Team Member (Last Name, First Name) | GitHub Username | Frontend Application Leader (L) / Collaborator (C) | Documentation Leader (L) / Collaborator (C) | UI Styles & Routing Leader (L) / Collaborator (C) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Barrenechea Bustamante, Rafael André** | Rafael1231312331[cite: 2] | C | **L** | **L** |
+| Otiniano Rosales, Camila Alizée | CamilaaAlizee[cite: 2] | **L** | **L** | C |
+| Pariona Chacca, Angel Jose | angelitoso-opp[cite: 1] | C | **L** | **L** |
+| Uribe Linares, Francisco Javier | FranciscoLinaresX[cite: 1] | **L** | **L** | C |
+
+### 5.2.3.3.Sprint Backlog 3.
+En base a los objetivos del sprint, las tareas se centraron en materializar las Historias de Usuario restantes del Product Backlog en componentes visuales interactivos para la aplicación web, distribuyendo la carga de trabajo entre los desarrolladores del equipo[cite: 1].
+
+| Sprint # | Sprint 3 | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **User Story ID** | **Story Title** | **Work-Item ID** | **Task Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| US07 | Detección temprana de temperatura[cite: 2] | T01 | Maquetación del Dashboard de Monitoreo | Desarrollar la vista "Water Monitoring Dashboard" integrando tarjetas de consumo, flujo, temperatura y estado de dispositivos IoT. | 6 | Francisco Uribe | Done |
+| US05 | Alertas críticas de fuga[cite: 2] | T02 | Panel de Alertas y Notificaciones | Implementar la interfaz "Alerts & Notifications" con listado de alertas activas (críticas, warnings) y configuración de canales. | 5 | Camila Otiniano | Done |
+| US06 | Análisis histórico residencial[cite: 2] | T03 | Vistas de Reportes e Inventario | Construir las pantallas "Reports & Analytics" (gráficos de tendencias) e "Inventory and Business" (capacidad de tanques y ahorros). | 4 | Rafael Barrenechea | Done |
+| US12 | Auditoría de incidentes[cite: 2] | T04 | Módulo de Soporte y Tickets | Crear la vista "Support & Help" que permita formular tickets de asistencia y revisar el historial de incidentes. | 3 | Angel Pariona | Done |
+| US13 | Reacción de conectividad[cite: 2] | T05 | Integración de estados IoT | Automatizar la supervisión visual del estado online/offline de los sensores dentro de las vistas principales. | 4 | Rafael Barrenechea | Done |
+| US15 | Elección de planes SaaS[cite: 2] | T06 | Módulo de Facturación y Pagos | Desarrollar la pantalla "Billing & Payments" mostrando balance, métodos de pago y transacciones recientes. | 4 | Camila Otiniano | Done |
+
+### 5.2.3.4.Development Evidence for Sprint Review.
+Durante este sprint, el desarrollo completo de estas funcionalidades se llevó a cabo en el repositorio de la aplicación web (`smartdropw/smartdrop-front`). Manteniendo el modelo de ramificación GitFlow y el estándar de Conventional Commits definidos para el proyecto, a continuación se presentan los commits más representativos de esta fase, los cuales fueron integrados a la rama principal mediante Pull Requests revisados por el equipo para evitar conflictos.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| smartdrop-front | `feature/dashboard-view` | `e3f8a2c` | feat: | Implementación del Water Monitoring Dashboard con métricas y estado de sensores | 27/04/2026 |
+| smartdrop-front | `feature/alerts-view` | `9b1d4e7` | feat: | Desarrollo de la vista de Alertas con panel de configuración de notificaciones | 30/04/2026 |
+| smartdrop-front | `feature/reports-business` | `4c5a7f2` | feat: | Integración de gráficos en Reports & Analytics y panel de Inventory & Business | 03/05/2026 |
+| smartdrop-front | `feature/support-view` | `8d2e1b9` | feat: | Creación de módulo Support & Help para gestión de tickets | 06/05/2026 |
+| smartdrop-front | `feature/billing-view` | `1f3a6d4` | feat: | Maquetación del módulo Billing & Payments con historial de transacciones | 09/05/2026 |
+
+### 5.2.3.5.Execution Evidence for Sprint Review.
+En esta etapa final de desarrollo de la interfaz, logramos traducir exitosamente la arquitectura de información y los wireframes a código funcional. Las siguientes descripciones y capturas demuestran la navegación interactiva de la aplicación web, abarcando todas las herramientas operativas de SmartDrop, las cuales ya se encuentran completamente funcionales para ser evaluadas en nuestras entrevistas de validación.
+
+* **Vista de Monitoreo (Water Monitoring Dashboard):** Es el panel principal interactivo. Muestra métricas vitales en tiempo real, incluyendo el consumo total (*Total Consumption*), el flujo actual del agua (*Current Flow*) y la temperatura (*Temperature*). Además, integra gráficos dinámicos de barras para analizar el uso en las últimas 24 horas y switches de control para el sistema de irrigación inteligente.
+*(Insertar captura correspondiente al Dashboard)*
+
+* **Vista de Alertas (Alerts & Notifications):** Interfaz diseñada para la prevención de desastres hídricos. Cuenta con un registro central que clasifica las notificaciones del sistema según su severidad (fugas críticas, caídas de presión, informativas). En el panel derecho, se implementó un formulario de configuración donde el usuario puede activar/desactivar sus canales de aviso preferidos (Push, Email, SMS) y gestionar sus contactos de emergencia.
+*(Insertar captura correspondiente a Alertas)*
+
+* **Vista de Reportes y Analíticas (Reports & Analytics):** Pantalla orientada al análisis de datos históricos para la toma de decisiones. Incluye un gráfico de líneas para evaluar las tendencias de consumo a lo largo del tiempo, un gráfico de barras para el desglose detallado de costos (*Cost Breakdown*), y un indicador circular que calcula la puntuación de eficiencia hídrica del usuario (*Water Efficiency Score*).
+*(Insertar captura correspondiente a Reportes)*
+
+* **Vista de Inventario y Negocios (Inventory and Business):** Módulo exclusivo diseñado para el segmento B2B (PYMEs). Permite monitorear el estado de múltiples contenedores de forma simultánea, visualizando el porcentaje de capacidad actual del tanque principal y los tanques de reserva. Destaca visualmente cuántos de estos requieren reabastecimiento próximo y presenta una tarjeta de resumen con los ahorros económicos logrados.
+*(Insertar captura correspondiente a Inventario/Business)*
+
+* **Vista de Soporte (Support & Help):** Interfaz dedicada a la atención al cliente. Cuenta con un formulario rápido para la creación de nuevos tickets especificando el nivel de urgencia. En la parte inferior, despliega una tabla de datos con el historial de incidentes recientes, mostrando su ID, asunto, prioridad (Alta, Media, Baja) y estado de resolución (Abierto, Solucionado).
+*(Insertar captura correspondiente a Soporte)*
+
+* **Vista de Facturación (Billing & Payments):** Panel administrativo y financiero. Muestra de forma clara el balance actual de la cuenta del usuario, los métodos de pago vinculados (Tarjetas de crédito, PayPal, transferencias), el gasto mensual promedio proyectado y una tabla cronológica detallada con las últimas transacciones realizadas en la plataforma.
+*(Insertar captura correspondiente a Facturación)*
+
+*(capturas de pantalla a cada vista)*.
+
+### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+Durante este sprint, se completó de manera exitosa el diseño, la implementación y la documentación técnica de nuestra API RESTful (Web Services). Para asegurar que el equipo de desarrollo Frontend y los futuros integradores dispongan de una referencia clara, interactiva y estandarizada, toda la arquitectura de servicios ha sido documentada utilizando el estándar OpenAPI.
+
+Esta documentación detalla de forma exhaustiva los esquemas de datos, los parámetros requeridos, los métodos HTTP soportados y los códigos de respuesta para los controladores principales del sistema, incluyendo la gestión de identidades (*Identity & Access*), el monitoreo de telemetría (*Monitoring & Alerts*) y la gestión de planes de usuario (*Payments & Subscriptions*).
+
+* **Herramienta de Documentación:** Swagger UI (OpenAPI Specification)
+* **URL de la Documentación de la API:** `[Enlace de  Swagger desplegado`
 
 ### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
