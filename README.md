@@ -830,17 +830,23 @@ A continuación, se presenta el registro de entrevistas realizadas a usuarios po
 
 **Entrevistado N°1:** 
 
-**Sexo:** 
-**Edad:**
-**Ubicación en la que vive:** 
+**Sexo:** Masculino
+**Edad:** 40
+**Ubicación en la que vive:**  Trujillo, Trujillo
 **Acerca de la entrevista:**
 
-**Link:** 
-**Instante en el que inicia:**
-**Duración:** 
+**Link:** https://youtu.be/BMt0XD4Rv1Y
+**Instante en el que inicia:** 00:00
+**Duración:** 9:03
 **Resumen:**
 
+SmartDrop, destacando que la propuesta de valor sobre el monitoreo inteligente de agua es clara desde el primer vistazo y que el diseño transmite la confianza necesaria para registrarse. El proceso de inicio de sesión y la navegación por el menú lateral resultaron sumamente intuitivos y cómodos. Además, el panel principal fue calificado como una herramienta simple y directa, donde los gráficos de consumo, alertas y reportes detallados permiten entender la información en tiempo real sin ninguna complejidad técnica.
+
+Lo que más captó la atención del entrevistado fue tener a la mano el control de los consumos y la visualización directa del impacto económico a través de las métricas de dinero ahorrado. Aunque no identificó puntos negativos ni información faltante en esta etapa inicial, señaló que cualquier oportunidad de mejora surgiría de manera natural con el uso cotidiano de la plataforma. Finalmente, el usuario confirmó una sólida intención de adopción, asegurando que implementaría el sistema en el mercado actual debido a que el beneficio del ahorro financiero justifica por sí mismo la inversión.
+
 **Captura de pantalla:**
+
+
 
 **Entrevistado N°2:** 
 
@@ -941,6 +947,9 @@ A continuación, se presenta el registro de entrevistas realizadas a usuarios po
 **Captura de pantalla:**
 
 ### 5.3.3. Evaluaciones según heurísticas.
+
+
+
 ## 5.4. Video About-the-Product
 
 # Conclusiones
