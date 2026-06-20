@@ -481,8 +481,8 @@ Se enlazó la cuenta de GitHub con Render y se creó un nuevo "Web Service". Se 
 **4. Despliegue y pruebas**
 Una vez finalizado el proceso de construcción (*Build*), Render asignó una URL pública segura (`.onrender.com`). Se realizaron pruebas de conectividad (CORS) y se ajustaron los permisos en los controladores de Spring Boot (`@CrossOrigin`) para permitir las peticiones exclusivas desde nuestro frontend en Netlify.
 
-**Repositorio:** [https://github.com/Rafael1231312331/smartdrop-api](https://github.com/Rafael1231312331/smartdrop-api)
-**URL desplegada:** [https://smartdrop-api.onrender.com](https://smartdrop-api.onrender.com)
+**Repositorio:** [https://github.com/Rafael1231312331/smartdrop-api](https://github.com/Rafael1231312331/smartdrop-api)<br>
+**URL desplegada:** [https://smartdrop-api.onrender.com](https://smartdrop-api.onrender.com)<br>
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
@@ -810,13 +810,13 @@ Para la segunda versión de la Frontend Web Application, se completó la impleme
 
 Esta versión completa también fue desplegada con éxito, manteniendo la automatización con nuestro repositorio de GitHub. De esta manera, cualquier cambio visual o en los datos en tiempo real se actualiza automáticamente en la web, dejándola lista y completamente funcional para las entrevistas de experiencia de usuario.
 
-URL de Web Application desplegada: [https://6a0693fc92c4560008b0ec59--smartdrop01.netlify.app/login]
+URL de Web Application desplegada: [https://6a0693fc92c4560008b0ec59--smartdrop01.netlify.app/login]<br>
 Plataforma utilizada: Netlify
 
 **Despliegue del Backend (API RESTful):**
 De igual manera, el servicio backend que alimenta de datos a la plataforma web fue desplegado exitosamente utilizando contenedores Docker en la nube de Render. Se configuraron los permisos de orígenes cruzados (CORS) para garantizar una comunicación segura y exclusiva con el frontend.
 
-**URL del Web Service desplegado:** [https://smartdrop-api.onrender.com](https://smartdrop-api.onrender.com)
+**URL del Web Service desplegado:** [https://smartdrop-api.onrender.com](https://smartdrop-api.onrender.com)<br>
 **Plataforma utilizada:** Render (Entorno Docker)
 
 ### 5.2.3.8.Team Collaboration Insights during Sprint.
