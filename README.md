@@ -334,9 +334,13 @@ Se clasificará en el siguiente orden:
 - [Visual Studio Code](https://code.visualstudio.com/) - Editor de código fuente ligero y potente para varios lenguajes de programación.
 - [HTML](https://www.w3.org/TR/html52/) - Lenguaje de marcado para la creación de páginas web.
 - [CSS](https://www.w3.org/Style/CSS/) - Lenguaje de estilo para la presentación de documentos HTML.
+- - [Spring Boot](https://spring.io/projects/spring-boot) - Framework basado en Java utilizado para crear el backend y la API RESTful de la aplicación de manera autónoma y lista para producción.
+- [Java](https://www.java.com/) - Lenguaje de programación principal utilizado para el desarrollo de la lógica del lado del servidor.
 
 **Software Deployment:**<br>
 - GitHub Pages - Servicio de alojamiento web para proyectos estáticos.
+- [Render](https://render.com/) - Plataforma en la nube (PaaS) utilizada para el despliegue gratuito y automatizado de nuestro Web Service (Backend) mediante contenedores.
+- [Docker](https://www.docker.com/) - Plataforma utilizada para empaquetar el entorno de Java mediante un archivo Dockerfile, permitiendo su despliegue fluido en Render.
 
 ### 5.1.2. Source Code Management
 
@@ -347,7 +351,8 @@ Los enlaces también están disponibles en la sección de anexos.
 - **Organización en GitHub:** [https://github.com/smartdropw](https://github.com/smartdropw)
 - **Repositorio del informe:** [https://github.com/smartdropw/project-report-smartdrop](https://github.com/smartdropw/project-report-smartdrop)
 - **Repositorio de la Landing Page:** [https://github.com/smartdropw/LandingPage-SmartDrop](https://github.com/smartdropw/LandingPage-SmartDrop)
-
+- **Repositorio del Web Service (API):** [https://github.com/Rafael1231312331/smartdrop-api](https://github.com/Rafael1231312331/smartdrop-api)
+  
 #### Modelo de ramificación: GitFlow
 
 Para el modelo de desarrollo, se decidió usar GitFlow como modelo de ramificación. Este modelo permite una gestión eficiente de las ramas y facilita la colaboración entre los desarrolladores.
@@ -459,6 +464,25 @@ En caso de requerir modificaciones, basta con realizar los correspondientes comm
 
 **Repositorio:** [https://github.com/smartdropw/LandingPage-SmartDrop](https://github.com/smartdropw/LandingPage-SmartDrop)<br>
 **URL desplegada:** [https://smartdropw.github.io/LandingPage-SmartDrop/](https://smartdropw.github.io/LandingPage-SmartDrop/)<br>
+
+#### Despliegue del Web Service (Backend)
+
+Para que el frontend de SmartDrop pueda consumir datos en tiempo real, se procedió a desplegar la API RESTful desarrollada en Spring Boot utilizando la plataforma en la nube Render. El proceso contempló las siguientes etapas:
+
+**1. Preparación del entorno y contenedor**
+Se configuró el archivo `application.properties` en IntelliJ IDEA para utilizar un puerto dinámico (`server.port=${PORT:8080}`) y se creó un archivo `Dockerfile` en la raíz del proyecto para indicarle al servidor cómo instalar Java y compilar el código usando Maven.
+
+**2. Sincronización con GitHub**
+El código fuente y las configuraciones del contenedor se subieron al repositorio de la API.
+
+**3. Configuración en Render**
+Se enlazó la cuenta de GitHub con Render y se creó un nuevo "Web Service". Se seleccionó el entorno de ejecución tipo "Docker" para que la plataforma leyera automáticamente el `Dockerfile`.
+
+**4. Despliegue y pruebas**
+Una vez finalizado el proceso de construcción (*Build*), Render asignó una URL pública segura (`.onrender.com`). Se realizaron pruebas de conectividad (CORS) y se ajustaron los permisos en los controladores de Spring Boot (`@CrossOrigin`) para permitir las peticiones exclusivas desde nuestro frontend en Netlify.
+
+**Repositorio:** [https://github.com/Rafael1231312331/smartdrop-api](https://github.com/Rafael1231312331/smartdrop-api)
+**URL desplegada:** [https://smartdrop-api.onrender.com](https://smartdrop-api.onrender.com)
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
@@ -778,7 +802,7 @@ Durante este sprint, se completó de manera exitosa el diseño, la implementaci�
 Esta documentación detalla de forma exhaustiva los esquemas de datos, los parámetros requeridos, los métodos HTTP soportados y los códigos de respuesta para los controladores principales del sistema, incluyendo la gestión de identidades (*Identity & Access*), el monitoreo de telemetría (*Monitoring & Alerts*) y la gestión de planes de usuario (*Payments & Subscriptions*).
 
 * **Herramienta de Documentación:** Swagger UI (OpenAPI Specification)
-* **URL de la Documentación de la API:** http://localhost:8080/swagger-ui/index.html#/dashboard-controller/getDashboardSummary
+* **URL de la Documentación de la API:** https://smartdrop-api.onrender.com/swagger-ui/index.html
 
 ### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
@@ -788,6 +812,12 @@ Esta versión completa también fue desplegada con éxito, manteniendo la automa
 
 URL de Web Application desplegada: [https://6a0693fc92c4560008b0ec59--smartdrop01.netlify.app/login]
 Plataforma utilizada: Netlify
+
+**Despliegue del Backend (API RESTful):**
+De igual manera, el servicio backend que alimenta de datos a la plataforma web fue desplegado exitosamente utilizando contenedores Docker en la nube de Render. Se configuraron los permisos de orígenes cruzados (CORS) para garantizar una comunicación segura y exclusiva con el frontend.
+
+**URL del Web Service desplegado:** [https://smartdrop-api.onrender.com](https://smartdrop-api.onrender.com)
+**Plataforma utilizada:** Render (Entorno Docker)
 
 ### 5.2.3.8.Team Collaboration Insights during Sprint.
 La colaboración en este tercer sprint demostró una mejor organización del equipo siguiendo lo aprendido en las entregas anteriores. Al trabajar en una etapa avanzada de la aplicación, con un código más grande y flujos completos, mantener una revisión constante de los Pull Requests y asignar tareas específicas desde el inicio fue clave para evitar conflictos o sobreescrituras en las pantallas principales. A continuación, se muestran las métricas de GitHub que reflejan el trabajo técnico de cada uno de los integrantes en este sprint.
@@ -1020,3 +1050,6 @@ Conne, M(2024). _The Markdown Guide_. MarkdownGuide. Recuperado de: https://www.
 | Landing Page Desplegada | Enlace de Landing Page Desplegada | [https://smartdropw.github.io/LandingPage-SmartDrop/](https://smartdropw.github.io/LandingPage-SmartDrop/)                      |
 | Frontend Web App | Enlace al repositorio de la aplicación web | [https://github.com/smartdropw/smartdrop-front](https://github.com/smartdropw/smartdrop-front) |
 | Web App Desplegada | Enlace a la aplicación web en producción | [https://6a0693fc92c4560008b0ec59--smartdrop01.netlify.app/login](https://6a0693fc92c4560008b0ec59--smartdrop01.netlify.app/login) |
+| Web Service (Backend) | Enlace al repositorio de la API en Spring Boot | [https://github.com/Rafael1231312331/smartdrop-api](https://github.com/Rafael1231312331/smartdrop-api) |
+| API Desplegada | Enlace base del Web Service en producción | [https://smartdrop-api.onrender.com](https://smartdrop-api.onrender.com) |
+| Documentación API | Enlace interactivo de Swagger UI | [https://smartdrop-api.onrender.com/swagger-ui/index.html](https://smartdrop-api.onrender.com/swagger-ui/index.html) |
