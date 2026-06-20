@@ -70,11 +70,10 @@
 |         |        14/05/2026     |      Camila Otiniano|    Desarrollo del Frontend Web Application   |
 |         |        14/05/2026     |      Camila Otiniano|    Despliegue del Frontend Web Application   |
 |         |        14/05/2026     |     Camila Otiniano|    Desarrollo del capítulo 5   |
-|   tf1   |            |                         |                                                                                                                             |
-|         |            |                         |                                                                                                                             |
-|         |            |                         |                                                                                                                             |
-|         |            |                         |                                                                                                                             |
-|         |            |                         |                                                                                                                             |
+|    AV2   |      20/06/2026      |            Rafael Barrenechea             |                  Desarrollo del capítulo 5|
+|         |       20/06/2026       |       Angel Pariona          |               Desarrollo del capítulo 5     |
+|         |   20/06/2026         |        Uribe Linares Francisco    |   Desarrollo del capítulo 5      |
+|         |    20/06/2026  |   Camila Otiniano   |  Desarrollo del capítulo 5 |
 
 # Project Report Collaboration Insights
 
@@ -106,6 +105,16 @@ Para la segunda  entrega (TB1), el equipo se enfocó en la optimización y mejor
 | **Uribe Linares Francisco Javier** |Desarrollo del Frontend Web Application e integración de evidencias en el Capítulo 5.|
 | **Barrenechea Bustamante Rafael** |Desarrollo del Capítulo 5 y mejoras estructurales en los capítulos anteriores.|
 | **Otiniano Rosales Camila Alizée** |Desarrollo del Frontend Web Application, gestión del despliegue (deployment) y documentación en el Capítulo 5.|
+
+AV2
+Para la tercera entrega (AV2), el equipo se enfocó de manera conjunta en el desarrollo y la consolidación técnica del Frontend Web Application y los Web Services, además de completar la documentación correspondiente en el Capítulo 5.
+
+| Integrante | Tareas Asignadas |
+| :--- | :--- |
+| **Pariona Chacca Angel Jose** | Desarrollo de Frontend Web Application, Web Services y documentación en el Capítulo 5. |
+| **Uribe Linares Francisco Javier** | Desarrollo de Frontend Web Application, Web Services y documentación en el Capítulo 5. |
+| **Barrenechea Bustamante Rafael** | Desarrollo de Frontend Web Application, Web Services y documentación en el Capítulo 5. |
+| **Otiniano Rosales Camila Alizée** | Desarrollo de Frontend Web Application, Web Services y documentación en el Capítulo 5. |
 
 ---
 # Contenido
