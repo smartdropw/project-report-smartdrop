@@ -909,7 +909,7 @@ Carlos evaluó positivamente SmartDrop, destacando que la propuesta de valor sob
 
 **Entrevistado N°3:** 
 
-**Sexo:** 
+**Sexo:** 2
 
 **Edad:**
 
