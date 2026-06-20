@@ -861,8 +861,11 @@ A continuación, se presenta el registro de entrevistas realizadas a usuarios po
 **Entrevistado N°1:** 
 
 **Sexo:** Masculino
+
 **Edad:** 40
+
 **Ubicación en la que vive:**  Trujillo, Trujillo
+
 **Acerca de la entrevista:**
 
 **Link:** https://youtu.be/BMt0XD4Rv1Y
@@ -876,7 +879,7 @@ Lo que más captó la atención del entrevistado fue tener a la mano el control 
 
 **Captura de pantalla:**
 
-
+![Entrevista N°1 - Robert Otiniano](assets/chapter5/entrevista1.png)
 
 **Entrevistado N°2:** 
 
