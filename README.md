@@ -907,28 +907,29 @@ Carlos evaluó positivamente SmartDrop, destacando que la propuesta de valor sob
 **Captura de pantalla:**
 ![Entrevista N°2 - Carlos Mendoza Simeon](assets/entrevista2_carlos2.png)
 
-**Entrevistado N°3:** 
+**Entrevistado N°3:** Valentin Mendoza
 
-**Sexo:** 2
+**Sexo:** Masculino
 
-**Edad:**
+**Edad:** 23
 
-**Ubicación en la que vive:** 
+**Ubicación en la que vive:** Lima, SJL
 
 **Acerca de la entrevista:**
 
 
-**Link:** 
+**Link:** https://youtu.be/XOP0MQeFf_M
 
-**Instante en el que inicia:**
+**Instante en el que inicia:** 00:00
 
-**Duración:** 
+**Duración:** 8:05
 
 **Resumen:**
+En la entrevista, Valentín, encargado de la logística de un negocio de venta de boba tea (té de burbujas), evaluó positivamente la plataforma Smartdrop, destacando que la landing page es clara, ordenada y transmite la confianza necesaria para registrarse a través de su flujo rápido e intuitivo. Aunque calificó la navegación por las secciones como muy cómoda y elogió la limpieza visual de los gráficos para monitorear el consumo de agua y la temperatura (vitales para la estandarización de sus bebidas), señaló como única mejora que el apartado de "Device Status" en el dashboard acumula demasiada información que podría resultar abrumadora. Finalmente, al considerar que el sistema cuenta con todo lo necesario y no le hace falta ninguna funcionalidad técnica adicional, afirmó con seguridad que sí implementaría la plataforma hoy mismo para gestionar el sistema de agua de su negocio.
 
 
 **Captura de pantalla:**
-
+![Entrevista N°3 - Valentin Mendoza](assets/entrevista_3.png)
 **Entrevistado N°4:** 
 
 **Sexo:** 
