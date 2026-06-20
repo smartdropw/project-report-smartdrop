@@ -1055,12 +1055,20 @@ reales del sector. La integración de frameworks ágiles, bases de datos eficien
 escalable, seguro y adaptable al contexto peruano.
 
 ### 4. Solución rentable y sostenible contra el desperdicio alimentario
-Este proyecto se consolida como una solución rentable y sostenible para reducir el desperdicio de alimentos en Perú,
-especialmente en el sector restaurantero. Al conectar a establecimientos con consumidores, se optimiza el uso de excedentes,
+Este proyecto se consolida como una solución rentable y sostenible para reducir el desperdicio de alimentos en Perú, especialmente en el sector restaurantero. Al conectar a establecimientos con consumidores, se optimiza el uso de excedentes,
 generando un impacto económico, social y ambiental positivo.
 
 ### 5. Consolidación de la experiencia interactiva
 Con el desarrollo del Sprint 2 y el despliegue del Frontend Web Application, el proyecto SmartDrop evoluciona de una fase puramente informativa hacia una plataforma funcional. La traducción exitosa de los wireframes a componentes en código demuestra que el equipo ha logrado mantener la consistencia del diseño visual y la arquitectura de la información, sentando una base sólida, inclusiva y escalable para la futura integración con los servicios en la nube.
+
+### 6. Integración técnico-funcional mediante Web Services 
+La implementación y consumo exitoso de los Web Services junto al Frontend Web Application consolidan a SmartDrop como una plataforma dinámica y conectada. El desarrollo de estas APIs permitió que la interfaz web deje de ser un entorno estático y comience a procesar datos reales de monitoreo, asegurando que el flujo de información (como alertas de consumo, reportes de caudal y facturación) sea fluido, seguro y en tiempo real.
+
+### 7. Cohesión y desarrollo Full-Stack colaborativo 
+La participación simultánea de todos los miembros del equipo en los apartados de Frontend y Web Services durante la AV2 fortaleció las competencias técnicas colectivas en desarrollo Full-Stack. Esta modalidad de trabajo cooperativo garantizó una mejor sincronización entre las interfaces de usuario y la lógica de negocio en el backend, minimizando errores de integración y agilizando la documentación técnica del Capítulo 5.
+
+### 8. Validación y madurez del sistema hacia el mercado 
+El avance logrado en la AV2 eleva la madurez del proyecto, permitiendo someter la plataforma a rigurosos procesos de validación con usuarios finales. Al presentar un prototipo funcional que conecta el diseño visual con la arquitectura de servicios backend, se pudo comprobar la alta aceptabilidad de la herramienta, confirmando que la centralización de métricas de consumo y costos responde directamente a las expectativas de viabilidad comercial y usabilidad del mercado.
 
 # Bibliografía
 Conne, M(2024). _The Markdown Guide_. MarkdownGuide. Recuperado de: https://www.markdownguide.org/
