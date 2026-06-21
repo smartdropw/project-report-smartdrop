@@ -930,30 +930,52 @@ En la entrevista, Valentín, encargado de la logística de un negocio de venta d
 
 **Captura de pantalla:**
 ![Entrevista N°3 - Valentin Mendoza](assets/entrevista_3.png)
-**Entrevistado N°4:** 
 
-**Sexo:** 
+**Entrevistado N°4:** Dayra Vargas
 
-**Edad:**
+**Sexo:** Femenino
 
-**Ubicación en la que vive:** 
+**Edad:**26
+
+**Ubicación en la que vive:** San miguel, Lima
 
 **Acerca de la entrevista:**
 
-**Link:** 
+**Link:** https://youtu.be/K54no56-9ag
 
-**Instante en el que inicia:**
+**Instante en el que inicia:** 00:00
 
-**Duración:** 
+**Duración:** 11:56
 
 **Resumen:**
+En la entrevista, Deira Vargas, dueña de un emprendimiento de jugos naturales, evaluó de forma muy positiva la plataforma Smartdrop, calificándola como user-friendly, intuitiva y sumamente útil para su negocio, donde actualmente gestionan el inventario de agua de manera manual. Destacó que el proceso de registro y la visualización de gráficos en tiempo real son fáciles de entender incluso para usuarios mayores, valorando especialmente el canal de soporte directo por WhatsApp o Gmail. Como sugerencias de mejora y funcionalidades técnicas, propuso la posibilidad de personalizar el perfil de usuario y recomendó añadir incentivos sonoros o alertas interactivas al registrar datos, lo cual ayudaría a programar y motivar a sus empleados a mantener la plataforma actualizada. Finalmente, Deira confirmó que implementaría el sistema hoy mismo en su negocio para evitar el gasto de papel y optimizar el control de las grandes cantidades de agua que maneja, validando la utilidad del historial y los reportes de tendencias que ofrece la aplicación.
 
 **Captura de pantalla:**
 
+![Entrevista N°4 - Dayra Vargas](assets/entrevista_4.png)
 
 ### 5.3.3. Evaluaciones según heurísticas.
 
+#### Segmento 1: Usuarios Residenciales (Propietarios de Viviendas)
 
+* **Perfil y Valoración General:** El 100% de los entrevistados de este segmento evaluó de forma muy positiva a SmartDrop. Coinciden en que la propuesta de valor sobre el monitoreo inteligente del agua es clara desde el primer vistazo y que el diseño visual de la landing page transmite la confianza necesaria para registrarse.
+* **Usabilidad del Frontend y Dashboard:** El 100% encontró que el flujo de inicio de sesión y la navegación por el menú lateral son sumamente intuitivos y cómodos. Además, calificaron el panel principal como una herramienta simple y directa, donde los gráficos de consumo, las alertas y los reportes detallados permiten entender la información en tiempo real sin requerir ninguna complejidad técnica.
+* **Funciones Más Valoradas:** Lo que más captó la atención de este segmento fue tener a la mano el control absoluto de sus consumos y la visualización directa del impacto económico a través de las métricas de dinero ahorrado en pantalla.
+* **Intención de Adopción:** El 100% de los usuarios residenciales confirmó una sólida intención de adopción en el mercado actual. Aseguran que el beneficio del ahorro financiero directo en el hogar justifica por sí mismo la inversión en la plataforma.
+* **Sugerencias de Mejora:** Los usuarios de este segmento no identificaron puntos negativos ni información faltante en esta etapa inicial, señalando que cualquier oportunidad de mejora menor o ajuste de interfaz surgiría de manera natural con el uso cotidiano del software.
+
+#### Segmento 2: Usuarios Comerciales (Negocios y Emprendimientos)
+
+* **Perfil y Contexto:** El 100% del segmento representa a dueños o encargados de logística en el rubro de bebidas y alimentos (como negocios de boba tea y jugos naturales), donde el agua es un recurso crítico y actualmente se gestiona de forma manual.
+* **Valoración y Usabilidad:** Calificaron la plataforma como *user-friendly*, ordenada, intuitiva y sumamente útil. Destacaron que el proceso de registro y la visualización de gráficos en tiempo real son fáciles de entender incluso para colaboradores de distintas edades, facilitando la adopción en sus equipos.
+* **Funciones Más Valoradas:** 
+  * **Estandarización y Control:** El monitoreo en tiempo real del consumo de agua y la temperatura es considerado vital para mantener la calidad y estandarización de sus productos en el rubro de bebidas.
+  * **Herramientas de Soporte:** Valoraron enormemente contar con un canal de soporte directo integrado por WhatsApp y Gmail.
+  * **Sostenibilidad y Reportes:** Destacaron la utilidad del historial y los reportes de tendencias para optimizar procesos, evitar el gasto de papel en inventarios y controlar grandes volúmenes de agua.
+* **Sugerencias de Mejora y Funcionalidades Técnicas:**
+  * **Optimización de Pantalla:** El 50% señaló que el apartado de *"Device Status"* en el dashboard acumula demasiada información junta, lo que podría resultar visualmente abrumador para el usuario técnico.
+  * **Personalización y Gamificación:** El 50% propuso añadir la opción de personalizar el perfil de usuario e incorporar incentivos sonoros o alertas interactivas al registrar datos, ayudando a motivar a los empleados a mantener el sistema actualizado.
+* **Intención de Adopción:** El 100% afirmó con seguridad que implementaría la plataforma hoy mismo en sus negocios para optimizar el control de sus recursos y eliminar los procesos manuales ineficientes.
 
 ## 5.4. Video About-the-Product
 
