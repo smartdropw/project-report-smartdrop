@@ -950,92 +950,28 @@ En la entrevista, Valentín, encargado de la logística de un negocio de venta d
 
 **Captura de pantalla:**
 
-**Entrevistado N°5:** 
-
-**Sexo:** 
-
-**Edad:**
-
-**Ubicación en la que vive:** 
-
-**Acerca de la entrevista:**
-
-**Link:** 
-
-**Instante en el que inicia:**
-
-**Duración:** 
-
-**Resumen:**
-
-**Captura de pantalla:**
-
-**Entrevistado N°6:** 
-
-**Sexo:** 
-
-**Edad:**
-
-**Ubicación en la que vive:** 
-
-**Acerca de la entrevista:**
-
-**Link:** 
-
-**Instante en el que inicia:**
-
-**Duración:** 
-
-**Resumen:**
-
-**Captura de pantalla:**
-
-**Entrevistado N°7:** 
-
-**Sexo:** 
-
-**Edad:**
-
-**Ubicación en la que vive:** 
-
-**Acerca de la entrevista:**
-
-**Link:** 
-
-**Instante en el que inicia:**
-
-**Duración:** 
-
-**Resumen:**
-
-**Captura de pantalla:**
-
-**Entrevistado N°8:** 
-
-**Sexo:** 
-
-**Edad:**
-
-**Ubicación en la que vive:** 
-
-**Acerca de la entrevista:**
-
-**Link:** 
-
-**Instante en el que inicia:**
-
-**Duración:** 
-
-**Resumen:**
-
-
-**Captura de pantalla:**
 
 ### 5.3.3. Evaluaciones según heurísticas.
 
 
 
 ## 5.4. Video About-the-Product
+
+**Público Objetivo:** Visitantes de la Landing Page y usuarios administradores de la aplicación web.
+
+**Tono de Comunicación:** Profesional, tecnológico, accesible y orientado a la solución de problemas.
+
+**Duración Total:** 2:02
+
+**URLs del Video:**
+
+**Versión en Microsoft Stream:** [Microsoft](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419547_upc_edu_pe/IQBDan6JoM0sTJ36OW--nd7DAU_TZZgzidoIBUoikU0wUGM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iy0jbw)
+
+**Versión en YouTube:** [Youtube](https://youtu.be/hYLV2VGzZ_w)
+
+**Screenshot del Video:**
+
+![AboutTheProduct](assets/chapter5/product.png)
 
 # Conclusiones
 Durante el proceso de creación y desarrollo de este trabajo pudimos llegar a las siguientes conclusiones:
