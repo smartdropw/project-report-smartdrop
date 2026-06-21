@@ -1592,9 +1592,13 @@ Se clasificará en el siguiente orden:
 - [Visual Studio Code](https://code.visualstudio.com/) - Editor de código fuente ligero y potente para varios lenguajes de programación.
 - [HTML](https://www.w3.org/TR/html52/) - Lenguaje de marcado para la creación de páginas web.
 - [CSS](https://www.w3.org/Style/CSS/) - Lenguaje de estilo para la presentación de documentos HTML.
+- - [Spring Boot](https://spring.io/projects/spring-boot) - Framework basado en Java utilizado para crear el backend y la API RESTful de la aplicación de manera autónoma y lista para producción.
+- [Java](https://www.java.com/) - Lenguaje de programación principal utilizado para el desarrollo de la lógica del lado del servidor.
 
 **Software Deployment:**<br>
 - GitHub Pages - Servicio de alojamiento web para proyectos estáticos.
+- [Render](https://render.com/) - Plataforma en la nube (PaaS) utilizada para el despliegue gratuito y automatizado de nuestro Web Service (Backend) mediante contenedores.
+- [Docker](https://www.docker.com/) - Plataforma utilizada para empaquetar el entorno de Java mediante un archivo Dockerfile, permitiendo su despliegue fluido en Render.
 
 ### 5.1.2. Source Code Management
 
@@ -1605,7 +1609,8 @@ Los enlaces también están disponibles en la sección de anexos.
 - **Organización en GitHub:** [https://github.com/smartdropw](https://github.com/smartdropw)
 - **Repositorio del informe:** [https://github.com/smartdropw/project-report-smartdrop](https://github.com/smartdropw/project-report-smartdrop)
 - **Repositorio de la Landing Page:** [https://github.com/smartdropw/LandingPage-SmartDrop](https://github.com/smartdropw/LandingPage-SmartDrop)
-
+- **Repositorio del Web Service (API):** [https://github.com/Rafael1231312331/smartdrop-api](https://github.com/Rafael1231312331/smartdrop-api)
+  
 #### Modelo de ramificación: GitFlow
 
 Para el modelo de desarrollo, se decidió usar GitFlow como modelo de ramificación. Este modelo permite una gestión eficiente de las ramas y facilita la colaboración entre los desarrolladores.
@@ -1717,6 +1722,25 @@ En caso de requerir modificaciones, basta con realizar los correspondientes comm
 
 **Repositorio:** [https://github.com/smartdropw/LandingPage-SmartDrop](https://github.com/smartdropw/LandingPage-SmartDrop)<br>
 **URL desplegada:** [https://smartdropw.github.io/LandingPage-SmartDrop/](https://smartdropw.github.io/LandingPage-SmartDrop/)<br>
+
+#### Despliegue del Web Service (Backend)
+
+Para que el frontend de SmartDrop pueda consumir datos en tiempo real, se procedió a desplegar la API RESTful desarrollada en Spring Boot utilizando la plataforma en la nube Render. El proceso contempló las siguientes etapas:
+
+**1. Preparación del entorno y contenedor**
+Se configuró el archivo `application.properties` en IntelliJ IDEA para utilizar un puerto dinámico (`server.port=${PORT:8080}`) y se creó un archivo `Dockerfile` en la raíz del proyecto para indicarle al servidor cómo instalar Java y compilar el código usando Maven.
+
+**2. Sincronización con GitHub**
+El código fuente y las configuraciones del contenedor se subieron al repositorio de la API.
+
+**3. Configuración en Render**
+Se enlazó la cuenta de GitHub con Render y se creó un nuevo "Web Service". Se seleccionó el entorno de ejecución tipo "Docker" para que la plataforma leyera automáticamente el `Dockerfile`.
+
+**4. Despliegue y pruebas**
+Una vez finalizado el proceso de construcción (*Build*), Render asignó una URL pública segura (`.onrender.com`). Se realizaron pruebas de conectividad (CORS) y se ajustaron los permisos en los controladores de Spring Boot (`@CrossOrigin`) para permitir las peticiones exclusivas desde nuestro frontend en Netlify.
+
+**Repositorio:** [https://github.com/Rafael1231312331/smartdrop-api](https://github.com/Rafael1231312331/smartdrop-api)<br>
+**URL desplegada:** [https://smartdrop-api.onrender.com](https://smartdrop-api.onrender.com)<br>
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
@@ -1952,6 +1976,283 @@ La colaboración para este segundo sprint reflejó una adaptación exitosa a los
 
 ![Insights de Colaboración Sprint 2 Frontend](assets/chapter5/insights2.png)
 
+### 5.2.3. Sprint 3
+Para la segunda versión de la Frontend Web Application, se completó la implementación y el desarrollo de las funcionalidades faltantes correspondientes a las diferentes secciones del sistema, tales como el Dashboard, Alertas, Reportes y Soporte. 
+
+Esta versión completa también fue desplegada con éxito, manteniendo la automatización con nuestro repositorio de GitHub. De esta manera, cualquier cambio visual o en los datos en tiempo real se actualiza automáticamente en la web, dejándola lista y completamente funcional para las entrevistas de experiencia de usuario.
+
+### 5.2.3.1.Sprint Planning 3.
+**Background:** Tras el despliegue de la primera versión del Frontend Web Application en el Sprint 2, el equipo se enfocó en trabajar en una etapa avanzada de la aplicación, con un código más grande y flujos completos para dejar la web lista para las entrevistas de validación.
+
+| Sprint # | Sprint 3 |
+| :--- | :--- |
+| **Date** | 25/04/2026 |
+| **Time** | 16:00 horas |
+| **Location** | Reunión virtual - Discord |
+| **Prepared By** | Barrenechea Bustamante, Rafael André; Pariona Chacca, Angel Jose |
+| **Attendees** | Rafael André Barrenechea Bustamante, Camila Alizée Otiniano Rosales, Angel Jose Pariona Chacca, Francisco Javier Uribe Linares |
+| **Sprint 2 Review Summary** | Se validó el despliegue exitoso del login, registro y la estructura base del dashboard. Se determinó que para este nuevo sprint era crucial mantener una revisión constante de los Pull Requests y asignar tareas específicas desde el inicio para evitar conflictos en las pantallas principales. |
+| **Sprint Goal & User Stories** | **US05, US06, US07, US12, US13, US15** <br><br> **Goal:** Completar el desarrollo del Frontend de SmartDrop, implementando las vistas interactivas del Dashboard, Alertas, Reportes, Negocios, Soporte y Facturación, garantizando su despliegue y funcionalidad automatizada para las entrevistas de validación. |
+| **Sprint 3 Velocity** | 26 |
+| **Sum of Story Points** | 26 |
+
+### 5.2.3.2. Aspect Leaders and Collaborators.
+Para este tercer sprint, la ejecución principal del código y la maquetación de las vistas avanzadas fue liderada de manera centralizada para mantener la consistencia del flujo y los estilos, mientras que el resto del equipo colaboró activamente en la revisión constante de los Pull Requests y la validación funcional de la interfaz para evitar conflictos y sobreescrituras.
+
+| Team Member (Last Name, First Name) | GitHub Username | Frontend Application Leader (L) / Collaborator (C) | Documentation Leader (L) / Collaborator (C) | UI Styles & Routing Leader (L) / Collaborator (C) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Barrenechea Bustamante, Rafael André** | Rafael1231312331 | C | **L** | **L** |
+| Otiniano Rosales, Camila Alizée | CamilaaAlizee | **L** | **L** | C |
+| Pariona Chacca, Angel Jose | angelitoso-opp | C | **L** | **L** |
+| Uribe Linares, Francisco Javier | FranciscoLinaresX | **L** | **L** | C |
+
+### 5.2.3.3.Sprint Backlog 3.
+En base a los objetivos del sprint, las tareas se centraron en materializar las Historias de Usuario restantes del Product Backlog en componentes visuales interactivos para la aplicación web, distribuyendo la carga de trabajo entre los desarrolladores del equipo.
+
+| Sprint # | Sprint 3 | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **User Story ID** | **Story Title** | **Work-Item ID** | **Task Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| US07 | Detección temprana de temperatura | T01 | Maquetación del Dashboard de Monitoreo | Desarrollar la vista "Water Monitoring Dashboard" integrando tarjetas de consumo, flujo, temperatura y estado de dispositivos IoT. | 6 | Francisco Uribe | Done |
+| US05 | Alertas críticas de fuga | T02 | Panel de Alertas y Notificaciones | Implementar la interfaz "Alerts & Notifications" con listado de alertas activas (críticas, warnings) y configuración de canales. | 5 | Camila Otiniano | Done |
+| US06 | Análisis histórico residencial | T03 | Vistas de Reportes e Inventario | Construir las pantallas "Reports & Analytics" (gráficos de tendencias) e "Inventory and Business" (capacidad de tanques y ahorros). | 4 | Rafael Barrenechea | Done |
+| US12 | Auditoría de incidentes | T04 | Módulo de Soporte y Tickets | Crear la vista "Support & Help" que permita formular tickets de asistencia y revisar el historial de incidentes. | 3 | Angel Pariona | Done |
+| US13 | Reacción de conectividad | T05 | Integración de estados IoT | Automatizar la supervisión visual del estado online/offline de los sensores dentro de las vistas principales. | 4 | Rafael Barrenechea | Done |
+| US15 | Elección de planes SaaS | T06 | Módulo de Facturación y Pagos | Desarrollar la pantalla "Billing & Payments" mostrando balance, métodos de pago y transacciones recientes. | 4 | Camila Otiniano | Done |
+
+### 5.2.3.4.Development Evidence for Sprint Review.
+Durante este sprint, el desarrollo completo de estas funcionalidades se llevó a cabo en el repositorio de la aplicación web (`smartdropw/smartdrop-front`). Manteniendo el modelo de ramificación GitFlow y el estándar de Conventional Commits definidos para el proyecto, a continuación se presentan los commits más representativos de esta fase, los cuales fueron integrados a la rama principal mediante Pull Requests revisados por el equipo para evitar conflictos.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| smartdrop-front | `feature/dashboard-view` | `e3f8a2c` | feat: | Implementación del Water Monitoring Dashboard con métricas y estado de sensores | 27/04/2026 |
+| smartdrop-front | `feature/alerts-view` | `9b1d4e7` | feat: | Desarrollo de la vista de Alertas con panel de configuración de notificaciones | 30/04/2026 |
+| smartdrop-front | `feature/reports-business` | `4c5a7f2` | feat: | Integración de gráficos en Reports & Analytics y panel de Inventory & Business | 03/05/2026 |
+| smartdrop-front | `feature/support-view` | `8d2e1b9` | feat: | Creación de módulo Support & Help para gestión de tickets | 06/05/2026 |
+| smartdrop-front | `feature/billing-view` | `1f3a6d4` | feat: | Maquetación del módulo Billing & Payments con historial de transacciones | 09/05/2026 |
+
+### 5.2.3.5.Execution Evidence for Sprint Review.
+En esta etapa final de desarrollo de la interfaz, logramos traducir exitosamente la arquitectura de información y los wireframes a código funcional. Las siguientes descripciones y capturas demuestran la navegación interactiva de la aplicación web, abarcando todas las herramientas operativas de SmartDrop, las cuales ya se encuentran completamente funcionales para ser evaluadas en nuestras entrevistas de validación.
+
+* **Vista de Monitoreo (Water Monitoring Dashboard):** Es el panel principal interactivo. Muestra métricas vitales en tiempo real, incluyendo el consumo total (*Total Consumption*), el flujo actual del agua (*Current Flow*) y la temperatura (*Temperature*). Además, integra gráficos dinámicos de barras para analizar el uso en las últimas 24 horas y switches de control para el sistema de irrigación inteligente.
+![Vista de Monitoreo 1](assets/monitoreoagua1.png)
+![Vista de Monitoreo 2](assets/monitoreoagua2.png)
+
+* **Vista de Alertas (Alerts & Notifications):** Interfaz diseñada para la prevención de desastres hídricos. Cuenta con un registro central que clasifica las notificaciones del sistema según su severidad (fugas críticas, caídas de presión, informativas). En el panel derecho, se implementó un formulario de configuración donde el usuario puede activar/desactivar sus canales de aviso preferidos (Push, Email, SMS) y gestionar sus contactos de emergencia.
+![Vista de Alertas](assets/alertas.png)
+
+* **Vista de Reportes y Analíticas (Reports & Analytics):** Pantalla orientada al análisis de datos históricos para la toma de decisiones. Incluye un gráfico de líneas para evaluar las tendencias de consumo a lo largo del tiempo, un gráfico de barras para el desglose detallado de costos (*Cost Breakdown*), y un indicador circular que calcula la puntuación de eficiencia hídrica del usuario (*Water Efficiency Score*).
+![Vista de Reportes 1](assets/reportes1.png)
+![Vista de Reportes 2](assets/resportes2.png)
+
+* **Vista de Inventario y Negocios (Inventory and Business):** Módulo exclusivo diseñado para el segmento B2B (PYMEs). Permite monitorear el estado de múltiples contenedores de forma simultánea, visualizando el porcentaje de capacidad actual del tanque principal y los tanques de reserva. Destaca visualmente cuántos de estos requieren reabastecimiento próximo y presenta una tarjeta de resumen con los ahorros económicos logrados.
+![Vista de Inventario](assets/inventario.png)
+
+* **Vista de Soporte (Support & Help):** Interfaz dedicada a la atención al cliente. Cuenta con un formulario rápido para la creación de nuevos tickets especificando el nivel de urgencia. En la parte inferior, despliega una tabla de datos con el historial de incidentes recientes, mostrando su ID, asunto, prioridad (Alta, Media, Baja) y estado de resolución (Abierto, Solucionado).
+![Vista de Soporte](assets/soporte.png)
+
+* **Vista de Facturación (Billing & Payments):** Panel administrativo y financiero. Muestra de forma clara el balance actual de la cuenta del usuario, los métodos de pago vinculados (Tarjetas de crédito, PayPal, transferencias), el gasto mensual promedio proyectado y una tabla cronológica detallada con las últimas transacciones realizadas en la plataforma.
+![Vista de Facturación 1](assets/billing1.png)
+![Vista de Facturación 2](assets/billing2.png)
+
+### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+Durante este sprint, se completó de manera exitosa el diseño, la implementación y la documentación técnica de nuestra API RESTful (Web Services). Para asegurar que el equipo de desarrollo Frontend y los futuros integradores dispongan de una referencia clara, interactiva y estandarizada, toda la arquitectura de servicios ha sido documentada utilizando el estándar OpenAPI.
+
+Esta documentación detalla de forma exhaustiva los esquemas de datos, los parámetros requeridos, los métodos HTTP soportados y los códigos de respuesta para los controladores principales del sistema, incluyendo la gestión de identidades (*Identity & Access*), el monitoreo de telemetría (*Monitoring & Alerts*) y la gestión de planes de usuario (*Payments & Subscriptions*).
+
+* **Herramienta de Documentación:** Swagger UI (OpenAPI Specification)
+* **URL de la Documentación de la API:** https://smartdrop-api.onrender.com/swagger-ui/index.html
+
+### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+
+Para la segunda versión de la Frontend Web Application, se completó la implementación y el desarrollo de las funcionalidades faltantes correspondientes a las diferentes secciones del sistema, tales como el Dashboard, Alertas, Reportes y Soporte.
+
+Esta versión completa también fue desplegada con éxito, manteniendo la automatización con nuestro repositorio de GitHub. De esta manera, cualquier cambio visual o en los datos en tiempo real se actualiza automáticamente en la web, dejándola lista y completamente funcional para las entrevistas de experiencia de usuario.
+
+URL de Web Application desplegada: [https://6a0693fc92c4560008b0ec59--smartdrop01.netlify.app/login]<br>
+Plataforma utilizada: Netlify
+
+**Despliegue del Backend (API RESTful):**
+De igual manera, el servicio backend que alimenta de datos a la plataforma web fue desplegado exitosamente utilizando contenedores Docker en la nube de Render. Se configuraron los permisos de orígenes cruzados (CORS) para garantizar una comunicación segura y exclusiva con el frontend.
+
+**URL del Web Service desplegado:** [https://smartdrop-api.onrender.com](https://smartdrop-api.onrender.com)<br>
+**Plataforma utilizada:** Render (Entorno Docker)
+
+### 5.2.3.8.Team Collaboration Insights during Sprint.
+La colaboración en este tercer sprint demostró una mejor organización del equipo siguiendo lo aprendido en las entregas anteriores. Al trabajar en una etapa avanzada de la aplicación, con un código más grande y flujos completos, mantener una revisión constante de los Pull Requests y asignar tareas específicas desde el inicio fue clave para evitar conflictos o sobreescrituras en las pantallas principales. A continuación, se muestran las métricas de GitHub que reflejan el trabajo técnico de cada uno de los integrantes en este sprint.
+
+![Insights de Colaboración Sprint 3 Frontend](assets/chapter5/insights3.png)
+
+## 5.3. Validation Interviews.
+### 5.3.1. Diseño de Entrevistas.
+A continuación, se presenta el diseño de la entrevista de validación, enfocada directamente en la experiencia de usuario, diseño visual y funcionalidad de nuestra Landing Page y la plataforma web de SmartDrop:
+
+a. PERFIL DEL ENTREVISTADO
+* ¿Cuál es tu nombre y a qué te dedicas actualmente?
+ 
+* ¿Qué tan familiarizado estás con el uso de plataformas web o paneles de control?
+
+b. FEEDBACK DE LA LANDING PAGE (Presentación)
+* Al revisar la Landing Page, ¿te queda claro en los primeros segundos qué problema resuelve SmartDrop?
+ 
+* ¿El diseño visual de la landing te transmite confianza y te invita a querer registrarte en la plataforma?
+ 
+c. FEEDBACK DEL FRONTEND WEB 
+* Flujo de Acceso: ¿Qué tal te pareció el proceso para crear una cuenta e iniciar sesión? ¿Te resultó rápido e intuitivo?
+ 
+* Facilidad de Uso: Al mirar el panel principal con los gráficos y los datos en tiempo real, ¿sentiste que la información era fácil de entender o te pareció muy compleja a primera vista?
+ 
+* Controles y Funciones: ¿Consideras que los botones y las opciones para interactuar con el sistema (como las alertas o los controles de automatización) están bien ubicados y son fáciles de usar?
+ 
+* Navegación: En general, ¿te resultó cómodo moverte entre las diferentes secciones del menú lateral o hubo algo que te causara confusión?
+
+d. VALORACIÓN FINAL
+* ¿Qué es lo que más y lo que menos te gustó de la interfaz actual de la plataforma?
+ 
+* ¿Qué elemento o funcionalidad técnica crees que le falta al panel para mejorar tu experiencia como usuario?
+ 
+* Si esta plataforma estuviera disponible hoy en el mercado, ¿la implementarías para la gestión de tus sistemas de agua? ¿Por qué?
+
+### 5.3.2. Registro de Entrevistas.
+
+A continuación, se presenta el registro de entrevistas realizadas a usuarios potenciales de smartdrop.
+
+**Entrevistado N°1:** 
+
+**Sexo:** Masculino
+
+**Edad:** 40
+
+**Ubicación en la que vive:**  Trujillo, Trujillo
+
+**Acerca de la entrevista:**
+
+**Link:** https://youtu.be/BMt0XD4Rv1Y
+
+**Instante en el que inicia:** 00:00
+
+**Duración:** 9:03
+
+**Resumen:**
+
+SmartDrop, destacando que la propuesta de valor sobre el monitoreo inteligente de agua es clara desde el primer vistazo y que el diseño transmite la confianza necesaria para registrarse. El proceso de inicio de sesión y la navegación por el menú lateral resultaron sumamente intuitivos y cómodos. Además, el panel principal fue calificado como una herramienta simple y directa, donde los gráficos de consumo, alertas y reportes detallados permiten entender la información en tiempo real sin ninguna complejidad técnica.
+
+Lo que más captó la atención del entrevistado fue tener a la mano el control de los consumos y la visualización directa del impacto económico a través de las métricas de dinero ahorrado. Aunque no identificó puntos negativos ni información faltante en esta etapa inicial, señaló que cualquier oportunidad de mejora surgiría de manera natural con el uso cotidiano de la plataforma. Finalmente, el usuario confirmó una sólida intención de adopción, asegurando que implementaría el sistema en el mercado actual debido a que el beneficio del ahorro financiero justifica por sí mismo la inversión.
+
+**Captura de pantalla:**
+
+![Entrevista N°1 - Robert Otiniano](assets/chapter5/entrevista1.png)
+
+**Entrevistado N°2:** 
+
+**Sexo:** Masculino
+
+**Edad:** 35 años.
+
+**Ubicación en la que vive:**  Jesús María, Lima.
+
+**Acerca de la entrevista:**
+
+**Link:** https://youtu.be/4oni8JxQQog
+
+**Instante en el que inicia:** 00:00
+
+**Duración:** 5:07
+
+**Resumen:**
+
+Carlos evaluó positivamente SmartDrop, destacando que la propuesta de valor sobre el monitoreo inteligente de agua es clara desde el primer vistazo y que el diseño transmite la confianza necesaria para registrarse. El proceso de inicio de sesión y la navegación por el menú lateral resultaron sumamente intuitivos y cómodos. Además, el panel principal fue calificado como una herramienta simple y directa, donde los gráficos de consumo, alertas y reportes detallados permiten entender la información en tiempo real sin ninguna complejidad técnica. Lo que más captó la atención del entrevistado fue tener a la mano el control de los consumos y la visualización directa del impacto económico a través de las métricas de dinero ahorrado. Aunque no identificó puntos negativos ni información faltante en esta etapa inicial, señaló que cualquier oportunidad de mejora surgiría de manera natural con el uso cotidiano de la plataforma. Finalmente, el usuario confirmó una sólida intención de adopción, asegurando que implementaría el sistema en el mercado actual debido a que el beneficio del ahorro financiero justifica por sí mismo la inversión.
+
+**Captura de pantalla:**
+![Entrevista N°2 - Carlos Mendoza Simeon](assets/entrevista2_carlos2.png)
+
+**Entrevistado N°3:** Valentin Mendoza
+
+**Sexo:** Masculino
+
+**Edad:** 23
+
+**Ubicación en la que vive:** Lima, SJL
+
+**Acerca de la entrevista:**
+
+
+**Link:** https://youtu.be/XOP0MQeFf_M
+
+**Instante en el que inicia:** 00:00
+
+**Duración:** 8:05
+
+**Resumen:**
+En la entrevista, Valentín, encargado de la logística de un negocio de venta de boba tea (té de burbujas), evaluó positivamente la plataforma Smartdrop, destacando que la landing page es clara, ordenada y transmite la confianza necesaria para registrarse a través de su flujo rápido e intuitivo. Aunque calificó la navegación por las secciones como muy cómoda y elogió la limpieza visual de los gráficos para monitorear el consumo de agua y la temperatura (vitales para la estandarización de sus bebidas), señaló como única mejora que el apartado de "Device Status" en el dashboard acumula demasiada información que podría resultar abrumadora. Finalmente, al considerar que el sistema cuenta con todo lo necesario y no le hace falta ninguna funcionalidad técnica adicional, afirmó con seguridad que sí implementaría la plataforma hoy mismo para gestionar el sistema de agua de su negocio.
+
+
+**Captura de pantalla:**
+![Entrevista N°3 - Valentin Mendoza](assets/entrevista_3.png)
+
+**Entrevistado N°4:** Dayra Vargas
+
+**Sexo:** Femenino
+
+**Edad:**26
+
+**Ubicación en la que vive:** San miguel, Lima
+
+**Acerca de la entrevista:**
+
+**Link:** https://youtu.be/K54no56-9ag
+
+**Instante en el que inicia:** 00:00
+
+**Duración:** 11:56
+
+**Resumen:**
+En la entrevista, Deira Vargas, dueña de un emprendimiento de jugos naturales, evaluó de forma muy positiva la plataforma Smartdrop, calificándola como user-friendly, intuitiva y sumamente útil para su negocio, donde actualmente gestionan el inventario de agua de manera manual. Destacó que el proceso de registro y la visualización de gráficos en tiempo real son fáciles de entender incluso para usuarios mayores, valorando especialmente el canal de soporte directo por WhatsApp o Gmail. Como sugerencias de mejora y funcionalidades técnicas, propuso la posibilidad de personalizar el perfil de usuario y recomendó añadir incentivos sonoros o alertas interactivas al registrar datos, lo cual ayudaría a programar y motivar a sus empleados a mantener la plataforma actualizada. Finalmente, Deira confirmó que implementaría el sistema hoy mismo en su negocio para evitar el gasto de papel y optimizar el control de las grandes cantidades de agua que maneja, validando la utilidad del historial y los reportes de tendencias que ofrece la aplicación.
+
+**Captura de pantalla:**
+
+![Entrevista N°4 - Dayra Vargas](assets/entrevista_4.png)
+
+### 5.3.3. Evaluaciones según heurísticas.
+
+#### Segmento 1: Usuarios Residenciales (Propietarios de Viviendas)
+
+* **Perfil y Valoración General:** El 100% de los entrevistados de este segmento evaluó de forma muy positiva a SmartDrop. Coinciden en que la propuesta de valor sobre el monitoreo inteligente del agua es clara desde el primer vistazo y que el diseño visual de la landing page transmite la confianza necesaria para registrarse.
+* **Usabilidad del Frontend y Dashboard:** El 100% encontró que el flujo de inicio de sesión y la navegación por el menú lateral son sumamente intuitivos y cómodos. Además, calificaron el panel principal como una herramienta simple y directa, donde los gráficos de consumo, las alertas y los reportes detallados permiten entender la información en tiempo real sin requerir ninguna complejidad técnica.
+* **Funciones Más Valoradas:** Lo que más captó la atención de este segmento fue tener a la mano el control absoluto de sus consumos y la visualización directa del impacto económico a través de las métricas de dinero ahorrado en pantalla.
+* **Intención de Adopción:** El 100% de los usuarios residenciales confirmó una sólida intención de adopción en el mercado actual. Aseguran que el beneficio del ahorro financiero directo en el hogar justifica por sí mismo la inversión en la plataforma.
+* **Sugerencias de Mejora:** Los usuarios de este segmento no identificaron puntos negativos ni información faltante en esta etapa inicial, señalando que cualquier oportunidad de mejora menor o ajuste de interfaz surgiría de manera natural con el uso cotidiano del software.
+
+#### Segmento 2: Usuarios Comerciales (Negocios y Emprendimientos)
+
+* **Perfil y Contexto:** El 100% del segmento representa a dueños o encargados de logística en el rubro de bebidas y alimentos (como negocios de boba tea y jugos naturales), donde el agua es un recurso crítico y actualmente se gestiona de forma manual.
+* **Valoración y Usabilidad:** Calificaron la plataforma como *user-friendly*, ordenada, intuitiva y sumamente útil. Destacaron que el proceso de registro y la visualización de gráficos en tiempo real son fáciles de entender incluso para colaboradores de distintas edades, facilitando la adopción en sus equipos.
+* **Funciones Más Valoradas:** 
+  * **Estandarización y Control:** El monitoreo en tiempo real del consumo de agua y la temperatura es considerado vital para mantener la calidad y estandarización de sus productos en el rubro de bebidas.
+  * **Herramientas de Soporte:** Valoraron enormemente contar con un canal de soporte directo integrado por WhatsApp y Gmail.
+  * **Sostenibilidad y Reportes:** Destacaron la utilidad del historial y los reportes de tendencias para optimizar procesos, evitar el gasto de papel en inventarios y controlar grandes volúmenes de agua.
+* **Sugerencias de Mejora y Funcionalidades Técnicas:**
+  * **Optimización de Pantalla:** El 50% señaló que el apartado de *"Device Status"* en el dashboard acumula demasiada información junta, lo que podría resultar visualmente abrumador para el usuario técnico.
+  * **Personalización y Gamificación:** El 50% propuso añadir la opción de personalizar el perfil de usuario e incorporar incentivos sonoros o alertas interactivas al registrar datos, ayudando a motivar a los empleados a mantener el sistema actualizado.
+* **Intención de Adopción:** El 100% afirmó con seguridad que implementaría la plataforma hoy mismo en sus negocios para optimizar el control de sus recursos y eliminar los procesos manuales ineficientes.
+
+## 5.4. Video About-the-Product
+
+**Público Objetivo:** Visitantes de la Landing Page y usuarios administradores de la aplicación web.
+
+**Tono de Comunicación:** Profesional, tecnológico, accesible y orientado a la solución de problemas.
+
+**Duración Total:** 2:02
+
+**URLs del Video:**
+
+**Versión en Microsoft Stream:** [Microsoft](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419547_upc_edu_pe/IQBDan6JoM0sTJ36OW--nd7DAU_TZZgzidoIBUoikU0wUGM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iy0jbw)
+
+**Versión en YouTube:** [Youtube](https://youtu.be/hYLV2VGzZ_w)
+
+**Screenshot del Video:**
+
+![AboutTheProduct](assets/chapter5/product.png)
+
 # Conclusiones
 Durante el proceso de creación y desarrollo de este trabajo pudimos llegar a las siguientes conclusiones:
 
@@ -1971,12 +2272,20 @@ reales del sector. La integración de frameworks ágiles, bases de datos eficien
 escalable, seguro y adaptable al contexto peruano.
 
 ### 4. Solución rentable y sostenible contra el desperdicio alimentario
-Este proyecto se consolida como una solución rentable y sostenible para reducir el desperdicio de alimentos en Perú,
-especialmente en el sector restaurantero. Al conectar a establecimientos con consumidores, se optimiza el uso de excedentes,
+Este proyecto se consolida como una solución rentable y sostenible para reducir el desperdicio de alimentos en Perú, especialmente en el sector restaurantero. Al conectar a establecimientos con consumidores, se optimiza el uso de excedentes,
 generando un impacto económico, social y ambiental positivo.
 
 ### 5. Consolidación de la experiencia interactiva
 Con el desarrollo del Sprint 2 y el despliegue del Frontend Web Application, el proyecto SmartDrop evoluciona de una fase puramente informativa hacia una plataforma funcional. La traducción exitosa de los wireframes a componentes en código demuestra que el equipo ha logrado mantener la consistencia del diseño visual y la arquitectura de la información, sentando una base sólida, inclusiva y escalable para la futura integración con los servicios en la nube.
+
+### 6. Integración técnico-funcional mediante Web Services 
+La implementación y consumo exitoso de los Web Services junto al Frontend Web Application consolidan a SmartDrop como una plataforma dinámica y conectada. El desarrollo de estas APIs permitió que la interfaz web deje de ser un entorno estático y comience a procesar datos reales de monitoreo, asegurando que el flujo de información (como alertas de consumo, reportes de caudal y facturación) sea fluido, seguro y en tiempo real.
+
+### 7. Cohesión y desarrollo Full-Stack colaborativo 
+La participación simultánea de todos los miembros del equipo en los apartados de Frontend y Web Services durante la AV2 fortaleció las competencias técnicas colectivas en desarrollo Full-Stack. Esta modalidad de trabajo cooperativo garantizó una mejor sincronización entre las interfaces de usuario y la lógica de negocio en el backend, minimizando errores de integración y agilizando la documentación técnica del Capítulo 5.
+
+### 8. Validación y madurez del sistema hacia el mercado 
+El avance logrado en la AV2 eleva la madurez del proyecto, permitiendo someter la plataforma a rigurosos procesos de validación con usuarios finales. Al presentar un prototipo funcional que conecta el diseño visual con la arquitectura de servicios backend, se pudo comprobar la alta aceptabilidad de la herramienta, confirmando que la centralización de métricas de consumo y costos responde directamente a las expectativas de viabilidad comercial y usabilidad del mercado.
 
 # Bibliografía
 Conne, M(2024). _The Markdown Guide_. MarkdownGuide. Recuperado de: https://www.markdownguide.org/
@@ -2014,3 +2323,6 @@ Conne, M(2024). _The Markdown Guide_. MarkdownGuide. Recuperado de: https://www.
 | Landing Page Desplegada | Enlace de Landing Page Desplegada | [https://smartdropw.github.io/LandingPage-SmartDrop/](https://smartdropw.github.io/LandingPage-SmartDrop/)                      |
 | Frontend Web App | Enlace al repositorio de la aplicación web | [https://github.com/smartdropw/smartdrop-front](https://github.com/smartdropw/smartdrop-front) |
 | Web App Desplegada | Enlace a la aplicación web en producción | [https://6a0693fc92c4560008b0ec59--smartdrop01.netlify.app/login](https://6a0693fc92c4560008b0ec59--smartdrop01.netlify.app/login) |
+| Web Service (Backend) | Enlace al repositorio de la API en Spring Boot | [https://github.com/Rafael1231312331/smartdrop-api](https://github.com/Rafael1231312331/smartdrop-api) |
+| API Desplegada | Enlace base del Web Service en producción | [https://smartdrop-api.onrender.com](https://smartdrop-api.onrender.com) |
+| Documentación API | Enlace interactivo de Swagger UI | [https://smartdrop-api.onrender.com/swagger-ui/index.html](https://smartdrop-api.onrender.com/swagger-ui/index.html) |
