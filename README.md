@@ -930,26 +930,29 @@ En la entrevista, Valentín, encargado de la logística de un negocio de venta d
 
 **Captura de pantalla:**
 ![Entrevista N°3 - Valentin Mendoza](assets/entrevista_3.png)
-**Entrevistado N°4:** 
+**Entrevistado N°4:** Dayra Vargas
 
-**Sexo:** 
+**Sexo:** Femenino
 
-**Edad:**
+**Edad:**26
 
-**Ubicación en la que vive:** 
+**Ubicación en la que vive:** San miguel, Lima
 
 **Acerca de la entrevista:**
 
-**Link:** 
+**Link:** https://youtu.be/K54no56-9ag
 
-**Instante en el que inicia:**
+**Instante en el que inicia:** 00:00
 
-**Duración:** 
+**Duración:** 11:56
 
 **Resumen:**
 
+En la entrevista, Deira Vargas, dueña de un emprendimiento de jugos naturales, evaluó de forma muy positiva la plataforma Smartdrop, calificándola como user-friendly, intuitiva y sumamente útil para su negocio, donde actualmente gestionan el inventario de agua de manera manual. Destacó que el proceso de registro y la visualización de gráficos en tiempo real son fáciles de entender incluso para usuarios mayores, valorando especialmente el canal de soporte directo por WhatsApp o Gmail. Como sugerencias de mejora y funcionalidades técnicas, propuso la posibilidad de personalizar el perfil de usuario y recomendó añadir incentivos sonoros o alertas interactivas al registrar datos, lo cual ayudaría a programar y motivar a sus empleados a mantener la plataforma actualizada. Finalmente, Deira confirmó que implementaría el sistema hoy mismo en su negocio para evitar el gasto de papel y optimizar el control de las grandes cantidades de agua que maneja, validando la utilidad del historial y los reportes de tendencias que ofrece la aplicación.
+
 **Captura de pantalla:**
 
+![Entrevista N°4 - Dayra Vargas](assets/entrevista_4.png)
 **Entrevistado N°5:** 
 
 **Sexo:** 
