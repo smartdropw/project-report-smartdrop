@@ -845,11 +845,11 @@ Para la etapa final del proyecto (TB2), el equipo se concentró en la implementa
 Para este cuarto sprint, enfocado en el Backend, el diseño de la lógica de negocio (Application Services) y la planificación de la arquitectura fue liderada de manera centralizada. En este contexto, el desarrollo de controladores y lógica transaccional fue dirigido por el líder de Backend para asegurar la consistencia del código, mientras que el resto del equipo colaboró con la revisión y verificación de los Endpoints (Swagger/Postman).
 
 | Team Member (Last Name, First Name) | GitHub Username | Backend Application Leader (L) / Collaborator (C) | Documentation Leader (L) / Collaborator (C) | Deployment & Security Leader (L) / Collaborator (C) |
-| :--- | :--- | :--- | :--- | :--- |
-| **Pariona Chacca, Angel Jose** | angelitoso-opp | **L** | **L** | **L** |
-| Barrenechea Bustamante, Rafael André | Rafael1231312331 | C | C | C |
-| Otiniano Rosales, Camila Alizée | CamilaaAlizee | C | C | C |
-| Uribe Linares, Francisco Javier | FranciscoLinaresX | C | C | C |
+| :--- | :--- |:--------------------------------------------------|:--------------------------------------------|:----------------------------------------------------|
+| **Pariona Chacca, Angel Jose** | angelitoso-opp | L                                                 | C                                           | L                                                   |
+| Barrenechea Bustamante, Rafael André | Rafael1231312331 | C                                                 | L                                           | C                                                   |
+| Otiniano Rosales, Camila Alizée | CamilaaAlizee | C                                                 | L                                           | C                                                   |
+| Uribe Linares, Francisco Javier | FranciscoLinaresX | C                                                 | C                                           | L                                                   |
 
 #### 5.2.4.3. Sprint Backlog 4
 En base a los objetivos del sprint final, las tareas se centraron en materializar las funcionalidades críticas del Web Service, enfocándose en la persistencia de datos (JPA Entities), la gestión de excepciones de Spring Boot (`@Transactional`), y el manejo del flujo de autenticación.
