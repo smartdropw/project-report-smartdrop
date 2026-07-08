@@ -816,7 +816,7 @@ Plataforma utilizada: Netlify
 De igual manera, el servicio backend que alimenta de datos a la plataforma web fue desplegado exitosamente utilizando contenedores Docker en la nube de Render. Se configuraron los permisos de orígenes cruzados (CORS) para garantizar una comunicación segura y exclusiva con el frontend.
 
 **URL del Web Service desplegado:** [https://smartdrop-api.duckdns.org/swagger-ui/index.html](https://smartdrop-api.duckdns.org/swagger-ui/index.html)<br>
-**Plataforma utilizada:** Render (Entorno Docker)
+**Plataforma utilizada:** DuckDNS
 
 ### 5.2.3.8.Team Collaboration Insights during Sprint.
 La colaboración en este tercer sprint demostró una mejor organización del equipo siguiendo lo aprendido en las entregas anteriores. Al trabajar en una etapa avanzada de la aplicación, con un código más grande y flujos completos, mantener una revisión constante de los Pull Requests y asignar tareas específicas desde el inicio fue clave para evitar conflictos o sobreescrituras en las pantallas principales. A continuación, se muestran las métricas de GitHub que reflejan el trabajo técnico de cada uno de los integrantes en este sprint.
@@ -852,7 +852,7 @@ Para este cuarto sprint, enfocado en el Backend, el diseño de la lógica de neg
 | Uribe Linares, Francisco Javier | FranciscoLinaresX | C                                                 | C                                           | L                                                   |
 
 #### 5.2.4.3. Sprint Backlog 4
-En base a los objetivos del sprint final, las tareas se centraron en materializar las funcionalidades críticas del Web Service, enfocándose en la persistencia de datos (JPA Entities), la gestión de excepciones de Spring Boot (`@Transactional`), y el manejo del flujo de autenticación.
+Con base en los objetivos del sprint final, las tareas se centraron en materializar las funcionalidades críticas del Web Service, enfocándose en la persistencia de datos (JPA Entities), la gestión de excepciones de Spring Boot (`@Transactional`), y el manejo del flujo de autenticación.
 
 | Sprint # | Sprint 4 | | | | | | |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
