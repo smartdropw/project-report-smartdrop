@@ -824,6 +824,83 @@ La colaboración en este tercer sprint demostró una mejor organización del equ
 
 ![Insights de Colaboración Sprint 3 Frontend](assets/chapter5/insights3.png)
 
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+Para el Sprint 4, se consolidó el despliegue final de la Web Application de SmartDrop en una versión conectada con el backend. A diferencia de la versión previa, utilizada principalmente para validar la navegación general y las vistas funcionales del frontend, esta versión permite comprobar el flujo real de acceso a la plataforma mediante servicios backend desplegados.
+
+La aplicación web conectada fue publicada en Netlify y consume el Web Service desarrollado en Spring Boot, el cual se encuentra desplegado en Render. De esta manera, el frontend ya no funciona únicamente como una interfaz aislada, sino como una aplicación web integrada que permite registrar usuarios, iniciar sesión, recuperar acceso y visualizar el panel principal luego de la autenticación.
+
+- **URL de Web Application conectada con Backend:** [https://smartdrop01.netlify.app/login](https://smartdrop01.netlify.app/login)
+- **URL de Web Application previa:** [https://6a0693fc92c4560008b0ec59--smartdrop01.netlify.app/login](https://6a0693fc92c4560008b0ec59--smartdrop01.netlify.app/login)
+- **Plataforma utilizada para Frontend:** Netlify
+- **URL del Web Service desplegado:** [https://smartdrop-api.onrender.com](https://smartdrop-api.onrender.com)
+- **Plataforma utilizada para Backend:** Render
+- **Documentación de la API:** [https://smartdrop-api.onrender.com/swagger-ui/index.html](https://smartdrop-api.onrender.com/swagger-ui/index.html)
+
+Durante la revisión del despliegue, se validó que la versión conectada permite el inicio de sesión mediante una cuenta registrada y también la creación de nuevas cuentas desde el formulario de registro. Asimismo, se verificó el flujo de recuperación de contraseña, mediante el cual el usuario puede solicitar el restablecimiento de acceso usando su correo registrado y luego definir una nueva contraseña.
+
+Respecto a las funcionalidades internas, la versión final mantiene las pantallas trabajadas en los sprints anteriores: dashboard de monitoreo, alertas, reportes, negocio, soporte y facturación. La principal diferencia del Sprint 4 se encuentra en la integración final entre frontend y backend, especialmente en los procesos de autenticación, registro y recuperación de acceso. En el dashboard se observa que los valores dependen de la información asociada a los dispositivos registrados; por ello, cuando el usuario no tiene dispositivos vinculados, el sistema muestra métricas iniciales como consumo de `0 L` y `0/0` dispositivos activos, lo cual corresponde al estado actual de la cuenta utilizada para la prueba.
+
+**Evidencias del despliegue final:**
+
+**Vista de login de la versión conectada:**
+
+![Vista de login de la versión conectada](assets/chapter5/sprint4-login-connected.png)
+
+**Vista de registro de cuenta:**
+
+![Vista de registro de cuenta](assets/chapter5/sprint4-register-account.png)
+
+**Vista de recuperación de contraseña:**
+
+![Vista de recuperación de contraseña](assets/chapter5/sprint4-password-recovery.png)
+
+**Vista de restablecimiento de contraseña:**
+
+![Vista de restablecimiento de contraseña](assets/chapter5/sprint4-reset-password.png)
+
+**Vista del dashboard con sesión iniciada:**
+
+![Vista del dashboard con sesión iniciada](assets/chapter5/sprint4-dashboard-connected.png)
+
+**Evidencia del backend desplegado en Render:**
+
+![Evidencia del backend desplegado en Render](assets/chapter5/sprint4-render-api.png)
+
+**Evidencia de documentación Swagger del Web Service:**
+
+![Evidencia de documentación Swagger del Web Service](assets/chapter5/sprint4-swagger-documentation.png)
+
+Con este despliegue, SmartDrop alcanza una versión más cercana al producto final, ya que conserva las funcionalidades visuales desarrolladas previamente y, además, valida la comunicación entre la aplicación web y el backend. Esto permite presentar una solución integrada, disponible desde una URL pública y respaldada por un Web Service documentado mediante Swagger.
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 4, la colaboración del equipo se enfocó en cerrar la integración final de SmartDrop como una aplicación web conectada. A diferencia de los sprints anteriores, donde el trabajo se concentró principalmente en construir y completar las vistas del frontend, en este sprint la prioridad fue validar que la aplicación desplegada pudiera comunicarse correctamente con el Web Service y que los flujos de acceso funcionaran de forma consistente.
+
+El equipo mantuvo una dinámica de revisión conjunta, distribuyendo el trabajo en tres frentes principales: validación del frontend conectado, verificación del backend desplegado y actualización de evidencias dentro del informe. Esta organización permitió revisar el producto desde una perspectiva técnica y funcional, evitando que el cierre del sprint se limite solo a presentar pantallas terminadas.
+
+| Frente de colaboración | Actividades realizadas | Resultado obtenido |
+| :--- | :--- | :--- |
+| Frontend Web Application | Revisión de las vistas de login, registro, recuperación de contraseña, restablecimiento de contraseña y dashboard con sesión iniciada. | Se comprobó que el usuario puede acceder al sistema, crear una cuenta y visualizar el panel principal desde la versión desplegada. |
+| Web Service Backend | Verificación del backend desplegado en Render y revisión de la documentación Swagger asociada al Web Service. | Se confirmó que el servicio backend se encuentra disponible y documentado para respaldar el consumo desde la aplicación web. |
+| Integración frontend-backend | Validación del flujo de autenticación y recuperación de acceso usando la versión conectada de Netlify. | Se consolidó una versión más cercana al producto final, donde la interfaz ya depende de servicios backend y no solo de datos visuales o simulados. |
+| Documentación del proyecto | Organización de capturas, URLs y explicación del despliegue final dentro del Capítulo 5. | Se mantuvo trazabilidad entre la evidencia técnica y la explicación presentada en el informe. |
+
+Como parte de la colaboración, se revisaron los repositorios vinculados al proyecto para asegurar que la documentación del Sprint 4 conserve coherencia con la configuración técnica definida previamente. El repositorio del frontend se mantuvo como base de la aplicación desplegada en Netlify, mientras que el repositorio del backend permitió sostener el Web Service expuesto mediante Render y documentado con Swagger. En paralelo, el repositorio del informe fue usado para integrar las evidencias finales del capítulo.
+
+| Repositorio | Uso durante el Sprint 4 |
+| :--- | :--- |
+| `smartdropw/smartdrop-front` | Validación de la Web Application conectada, principalmente en los flujos de autenticación, registro, recuperación de contraseña y dashboard. |
+| `Rafael1231312331/smartdrop-api` | Revisión del Web Service desplegado, documentación Swagger y disponibilidad del backend para el consumo desde el frontend. |
+| `smartdropw/project-report-smartdrop` | Integración de evidencias, URLs, capturas y redacción final de las secciones correspondientes al Sprint 4. |
+
+El principal aprendizaje del sprint fue que la etapa de cierre no consiste únicamente en desplegar una nueva versión, sino en revisar que cada parte del sistema tenga sentido dentro del flujo completo del usuario. Por ello, el equipo validó el acceso desde la página publicada, comprobó la disponibilidad del backend y contrastó las evidencias antes de incorporarlas al informe.
+
+También se identificó que algunas mejoras visuales, como la unificación completa del idioma en las pantallas de recuperación de contraseña, pueden quedar como ajustes posteriores de interfaz. Sin embargo, estas observaciones no afectan el objetivo principal del Sprint 4, ya que el foco fue demostrar la conexión funcional entre frontend y backend, junto con la disponibilidad pública de la solución.
+
+En conclusión, la colaboración durante el Sprint 4 permitió consolidar el cierre técnico del proyecto. El equipo pasó de una aplicación con vistas funcionales a una versión integrada, validada y documentada, manteniendo continuidad con los sprints anteriores y dejando evidencia suficiente para sustentar la versión final de SmartDrop.
+
+
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
 A continuación, se presenta el diseño de la entrevista de validación, enfocada directamente en la experiencia de usuario, diseño visual y funcionalidad de nuestra Landing Page y la plataforma web de SmartDrop:
