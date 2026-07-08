@@ -919,6 +919,10 @@ Respecto a las funcionalidades internas, la versión final mantiene las pantalla
 
 ![Evidencia de documentación Swagger del Web Service](assets/sprint4-swagger-documentation.png)
 
+**Evidencia de documentación de endpoints mediante Swagger UI:**
+
+![Evidencia de documentación de endpoints mediante Swagger UI](assets/sprint4-swagger-endpoints-duckdns.png)
+
 Con este despliegue, SmartDrop alcanza una versión más cercana al producto final, ya que conserva las funcionalidades visuales desarrolladas previamente y, además, valida la comunicación entre la aplicación web y el backend. Esto permite presentar una solución integrada, disponible desde una URL pública y respaldada por un Web Service documentado mediante Swagger.
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
