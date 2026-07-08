@@ -351,7 +351,7 @@ Los enlaces también están disponibles en la sección de anexos.
 - **Organización en GitHub:** [https://github.com/smartdropw](https://github.com/smartdropw)
 - **Repositorio del informe:** [https://github.com/smartdropw/project-report-smartdrop](https://github.com/smartdropw/project-report-smartdrop)
 - **Repositorio de la Landing Page:** [https://github.com/smartdropw/LandingPage-SmartDrop](https://github.com/smartdropw/LandingPage-SmartDrop)
-- **Repositorio del Web Service (API):** [https://github.com/Rafael1231312331/smartdrop-api](https://github.com/Rafael1231312331/smartdrop-api)
+- **Repositorio del Web Service (API):** [https://github.com/smartdropw/smartdrop-backend](https://github.com/smartdropw/smartdrop-backend)
   
 #### Modelo de ramificación: GitFlow
 
@@ -479,10 +479,10 @@ El código fuente y las configuraciones del contenedor se subieron al repositori
 Se enlazó la cuenta de GitHub con Render y se creó un nuevo "Web Service". Se seleccionó el entorno de ejecución tipo "Docker" para que la plataforma leyera automáticamente el `Dockerfile`.
 
 **4. Despliegue y pruebas**
-Una vez finalizado el proceso de construcción (*Build*), Render asignó una URL pública segura (`.onrender.com`). Se realizaron pruebas de conectividad (CORS) y se ajustaron los permisos en los controladores de Spring Boot (`@CrossOrigin`) para permitir las peticiones exclusivas desde nuestro frontend en Netlify.
+Una vez finalizado el proceso de construcción (*Build*), Render asignó una URL pública segura (`DuckDNS.org`). Se realizaron pruebas de conectividad (CORS) y se ajustaron los permisos en los controladores de Spring Boot (`@CrossOrigin`) para permitir las peticiones exclusivas desde nuestro frontend en Netlify.
 
-**Repositorio:** [https://github.com/Rafael1231312331/smartdrop-api](https://github.com/Rafael1231312331/smartdrop-api)<br>
-**URL desplegada:** [https://smartdrop-api.onrender.com](https://smartdrop-api.onrender.com)<br>
+**Repositorio:** [https://github.com/smartdropw/smartdrop-backend](https://github.com/smartdropw/smartdrop-backend)<br>
+**URL desplegada:** [https://smartdrop-api.duckdns.org/swagger-ui/index.html](https://smartdrop-api.duckdns.org/swagger-ui/index.html)<br>
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
@@ -815,7 +815,7 @@ Plataforma utilizada: Netlify
 **Despliegue del Backend (API RESTful):**
 De igual manera, el servicio backend que alimenta de datos a la plataforma web fue desplegado exitosamente utilizando contenedores Docker en la nube de Render. Se configuraron los permisos de orígenes cruzados (CORS) para garantizar una comunicación segura y exclusiva con el frontend.
 
-**URL del Web Service desplegado:** [https://smartdrop-api.onrender.com](https://smartdrop-api.onrender.com)<br>
+**URL del Web Service desplegado:** [https://smartdrop-api.duckdns.org/swagger-ui/index.html](https://smartdrop-api.duckdns.org/swagger-ui/index.html)<br>
 **Plataforma utilizada:** Render (Entorno Docker)
 
 ### 5.2.3.8.Team Collaboration Insights during Sprint.
@@ -881,9 +881,9 @@ La aplicación web conectada fue publicada en Netlify y consume el Web Service d
 - **URL de Web Application conectada con Backend:** [https://smartdrop01.netlify.app/login](https://smartdrop01.netlify.app/login)
 - **URL de Web Application previa:** [https://6a0693fc92c4560008b0ec59--smartdrop01.netlify.app/login](https://6a0693fc92c4560008b0ec59--smartdrop01.netlify.app/login)
 - **Plataforma utilizada para Frontend:** Netlify
-- **URL del Web Service desplegado:** [https://smartdrop-api.onrender.com](https://smartdrop-api.onrender.com)
+- **URL del Web Service desplegado:** [https://smartdrop-api.duckdns.org](https://smartdrop-api.duckdns.org)
 - **Plataforma utilizada para Backend:** Render
-- **Documentación de la API:** [https://smartdrop-api.onrender.com/swagger-ui/index.html](https://smartdrop-api.onrender.com/swagger-ui/index.html)
+- **Documentación de la API:** [https://smartdrop-api.duckdns.org/swagger-ui/index.html](https://smartdrop-api.duckdns.org/swagger-ui/index.html)
 
 Durante la revisión del despliegue, se validó que la versión conectada permite el inicio de sesión mediante una cuenta registrada y también la creación de nuevas cuentas desde el formulario de registro. Asimismo, se verificó el flujo de recuperación de contraseña, mediante el cual el usuario puede solicitar el restablecimiento de acceso usando su correo registrado y luego definir una nueva contraseña.
 
@@ -939,7 +939,7 @@ Como parte de la colaboración, se revisaron los repositorios vinculados al proy
 | Repositorio | Uso durante el Sprint 4 |
 | :--- | :--- |
 | `smartdropw/smartdrop-front` | Validación de la Web Application conectada, principalmente en los flujos de autenticación, registro, recuperación de contraseña y dashboard. |
-| `Rafael1231312331/smartdrop-api` | Revisión del Web Service desplegado, documentación Swagger y disponibilidad del backend para el consumo desde el frontend. |
+| `smartdropw/smartdrop-backend` | Revisión del Web Service desplegado, documentación Swagger y disponibilidad del backend para el consumo desde el frontend. |
 | `smartdropw/project-report-smartdrop` | Integración de evidencias, URLs, capturas y redacción final de las secciones correspondientes al Sprint 4. |
 
 El principal aprendizaje del sprint fue que la etapa de cierre no consiste únicamente en desplegar una nueva versión, sino en revisar que cada parte del sistema tenga sentido dentro del flujo completo del usuario. Por ello, el equipo validó el acceso desde la página publicada, comprobó la disponibilidad del backend y contrastó las evidencias antes de incorporarlas al informe.
@@ -1190,6 +1190,6 @@ Conne, M(2024). _The Markdown Guide_. MarkdownGuide. Recuperado de: https://www.
 | Landing Page Desplegada | Enlace de Landing Page Desplegada | [https://smartdropw.github.io/LandingPage-SmartDrop/](https://smartdropw.github.io/LandingPage-SmartDrop/)                      |
 | Frontend Web App | Enlace al repositorio de la aplicación web | [https://github.com/smartdropw/smartdrop-front](https://github.com/smartdropw/smartdrop-front) |
 | Web App Desplegada | Enlace a la aplicación web en producción | [https://6a0693fc92c4560008b0ec59--smartdrop01.netlify.app/login](https://6a0693fc92c4560008b0ec59--smartdrop01.netlify.app/login) |
-| Web Service (Backend) | Enlace al repositorio de la API en Spring Boot | [https://github.com/Rafael1231312331/smartdrop-api](https://github.com/Rafael1231312331/smartdrop-api) |
-| API Desplegada | Enlace base del Web Service en producción | [https://smartdrop-api.onrender.com](https://smartdrop-api.onrender.com) |
-| Documentación API | Enlace interactivo de Swagger UI | [https://smartdrop-api.onrender.com/swagger-ui/index.html](https://smartdrop-api.onrender.com/swagger-ui/index.html) |
+| Web Service (Backend) | Enlace al repositorio de la API en Spring Boot | [https://github.com/smartdropw/smartdrop-backend](https://github.com/smartdropw/smartdrop-backend) |
+| API Desplegada | Enlace base del Web Service en producción | [https://smartdrop-api.duckdns.org](https://smartdrop-api.duckdns.org) |
+| Documentación API | Enlace interactivo de Swagger UI | [https://smartdrop-api.duckdns.org/swagger-ui/index.html](https://smartdrop-api.duckdns.org/swagger-ui/index.html) |
