@@ -823,6 +823,55 @@ La colaboración en este tercer sprint demostró una mejor organización del equ
 
 ![Insights de Colaboración Sprint 3 Frontend](assets/chapter5/insights3.png)
 
+### 5.2.4. Sprint 4
+Para la etapa final del proyecto (TB2), el equipo se concentró en la implementación del Web Service (Backend) mediante Spring Boot y su integración completa con el Frontend Web Application. En esta iteración se desarrollaron los controladores, repositorios, entidades y el flujo de autenticación, incluyendo la seguridad con códigos de doble factor (2FA) para proteger el acceso a los datos del perfil y consumo.
+
+#### 5.2.4.1. Sprint Planning 4
+**Background:** Tras consolidar la segunda versión del Frontend en el Sprint 3, fue necesario enfocar este sprint en dar vida a la aplicación web mediante el desarrollo del Web Service en Java y Spring Boot. El principal reto de esta iteración fue establecer los Endpoints, estructurar la persistencia de datos (JPA) y conectarlos correctamente con las vistas desarrolladas previamente.
+
+| Sprint # | Sprint 4 |
+| :--- | :--- |
+| **Date** | 10/05/2026 |
+| **Time** | 18:00 horas |
+| **Location** | Reunión virtual - Discord |
+| **Prepared By** | Pariona Chacca, Angel Jose |
+| **Attendees** | Angel Jose Pariona Chacca, Rafael André Barrenechea Bustamante, Camila Alizée Otiniano Rosales, Francisco Javier Uribe Linares |
+| **Sprint 3 Review Summary** | Se validó el frontend completo y se determinó que la estructura estaba lista para consumir datos reales. El enfoque inmediato fue levantar la base de datos y diseñar los controladores principales en el backend para manejar la autenticación, la modificación del perfil y el doble factor de seguridad (2FA). |
+| **Sprint Goal & User Stories** | **US08, US10, US11, US14, US18** <br><br> **Goal:** Completar el desarrollo del Backend Web Service de SmartDrop, implementar medidas de seguridad como el código 2FA, gestionar excepciones personalizadas y asegurar la correcta conexión mediante CORS con la Web Application desplegada. |
+| **Sprint 4 Velocity** | 24 |
+| **Sum of Story Points** | 24 |
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+Para este cuarto sprint, enfocado en el Backend, el diseño de la lógica de negocio (Application Services) y la planificación de la arquitectura fue liderada de manera centralizada. En este contexto, el desarrollo de controladores y lógica transaccional fue dirigido por el líder de Backend para asegurar la consistencia del código, mientras que el resto del equipo colaboró con la revisión y verificación de los Endpoints (Swagger/Postman).
+
+| Team Member (Last Name, First Name) | GitHub Username | Backend Application Leader (L) / Collaborator (C) | Documentation Leader (L) / Collaborator (C) | Deployment & Security Leader (L) / Collaborator (C) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Pariona Chacca, Angel Jose** | angelitoso-opp | **L** | **L** | **L** |
+| Barrenechea Bustamante, Rafael André | Rafael1231312331 | C | C | C |
+| Otiniano Rosales, Camila Alizée | CamilaaAlizee | C | C | C |
+| Uribe Linares, Francisco Javier | FranciscoLinaresX | C | C | C |
+
+#### 5.2.4.3. Sprint Backlog 4
+En base a los objetivos del sprint final, las tareas se centraron en materializar las funcionalidades críticas del Web Service, enfocándose en la persistencia de datos (JPA Entities), la gestión de excepciones de Spring Boot (`@Transactional`), y el manejo del flujo de autenticación.
+
+| Sprint # | Sprint 4 | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **User Story ID** | **Story Title** | **Work-Item ID** | **Task Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| US08 | Autenticación Segura | T01 | Configuración de Spring Security y JWT | Implementar la generación y validación de tokens JWT para proteger los endpoints privados del Web Service. | 5 | Angel Pariona | Done |
+| US10 | Verificación Doble Factor (2FA) | T02 | Lógica de envío y validación de código 2FA | Desarrollar el servicio que genera un código de 6 dígitos manejando excepciones transaccionales (`noRollbackFor`) sin borrar el código en DB. | 6 | Angel Pariona | Done |
+| US11 | Perfil de Usuario | T03 | Endpoints de cambio de nombre y contraseña | Crear métodos `PUT` para actualizar el perfil y la contraseña, así como validaciones de la contraseña actual del usuario. | 4 | Angel Pariona | Done |
+| US14 | Entidades de Dominio | T04 | Persistencia de SensorDevice y Tank | Construir modelos JPA, repositorios y adaptadores añadiendo campos de dominio avanzados como `phLevel` y `liquidType`. | 5 | Angel Pariona | Done |
+| US18 | Integración y CORS | T05 | Configuración de CORS para el Frontend | Configurar permisos cruzados y controladores (`@CrossOrigin`) para permitir consumo exclusivo desde Netlify. | 4 | Angel Pariona | Done |
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+*(Ver historial de commits en el repositorio del Web Service)*
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+*(Ver capturas del backend conectado y pruebas de Swagger)*
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+La documentación en OpenAPI de nuestros servicios RESTful ha sido actualizada para reflejar todos los nuevos endpoints de autenticación, perfiles y dominios.
+
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
 Para el Sprint 4, se consolidó el despliegue final de la Web Application de SmartDrop en una versión conectada con el backend. A diferencia de la versión previa, utilizada principalmente para validar la navegación general y las vistas funcionales del frontend, esta versión permite comprobar el flujo real de acceso a la plataforma mediante servicios backend desplegados.
