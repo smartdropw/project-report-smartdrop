@@ -845,31 +845,31 @@ Respecto a las funcionalidades internas, la versión final mantiene las pantalla
 
 **Vista de login de la versión conectada:**
 
-![Vista de login de la versión conectada](assets/chapter5/sprint4-login-connected.png)
+![Vista de login de la versión conectada](assets/sprint4-login-connected.png)
 
 **Vista de registro de cuenta:**
 
-![Vista de registro de cuenta](assets/chapter5/sprint4-register-account.png)
+![Vista de registro de cuenta](assets/sprint4-register-account.png)
 
 **Vista de recuperación de contraseña:**
 
-![Vista de recuperación de contraseña](assets/chapter5/sprint4-password-recovery.png)
+![Vista de recuperación de contraseña](assets/sprint4-password-recovery.png)
 
 **Vista de restablecimiento de contraseña:**
 
-![Vista de restablecimiento de contraseña](assets/chapter5/sprint4-reset-password.png)
+![Vista de restablecimiento de contraseña](assets/sprint4-reset-password.png)
 
 **Vista del dashboard con sesión iniciada:**
 
-![Vista del dashboard con sesión iniciada](assets/chapter5/sprint4-dashboard-connected.png)
+![Vista del dashboard con sesión iniciada](assets/sprint4-dashboard-connected.png)
 
 **Evidencia del backend desplegado en Render:**
 
-![Evidencia del backend desplegado en Render](assets/chapter5/sprint4-render-api.png)
+![Evidencia del backend desplegado en Render](assets/sprint4-render-api.png)
 
 **Evidencia de documentación Swagger del Web Service:**
 
-![Evidencia de documentación Swagger del Web Service](assets/chapter5/sprint4-swagger-documentation.png)
+![Evidencia de documentación Swagger del Web Service](assets/sprint4-swagger-documentation.png)
 
 Con este despliegue, SmartDrop alcanza una versión más cercana al producto final, ya que conserva las funcionalidades visuales desarrolladas previamente y, además, valida la comunicación entre la aplicación web y el backend. Esto permite presentar una solución integrada, disponible desde una URL pública y respaldada por un Web Service documentado mediante Swagger.
 
