@@ -882,7 +882,7 @@ La aplicación web conectada fue publicada en Netlify y consume el Web Service d
 - **URL de Web Application previa:** [https://6a0693fc92c4560008b0ec59--smartdrop01.netlify.app/login](https://6a0693fc92c4560008b0ec59--smartdrop01.netlify.app/login)
 - **Plataforma utilizada para Frontend:** Netlify
 - **URL del Web Service desplegado:** [https://smartdrop-api.duckdns.org](https://smartdrop-api.duckdns.org)
-- **Plataforma utilizada para Backend:** Render
+- **Plataforma utilizada para Backend:** DUCKDNS
 - **Documentación de la API:** [https://smartdrop-api.duckdns.org/swagger-ui/index.html](https://smartdrop-api.duckdns.org/swagger-ui/index.html)
 
 Durante la revisión del despliegue, se validó que la versión conectada permite el inicio de sesión mediante una cuenta registrada y también la creación de nuevas cuentas desde el formulario de registro. Asimismo, se verificó el flujo de recuperación de contraseña, mediante el cual el usuario puede solicitar el restablecimiento de acceso usando su correo registrado y luego definir una nueva contraseña.
