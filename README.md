@@ -864,13 +864,44 @@ Con base en los objetivos del sprint final, las tareas se centraron en materiali
 | US18 | Integración y CORS | T05 | Configuración de CORS para el Frontend | Configurar permisos cruzados y controladores (`@CrossOrigin`) para permitir consumo exclusivo desde Netlify. | 4 | Angel Pariona | Done |
 
 #### 5.2.4.4. Development Evidence for Sprint Review
-*(Ver historial de commits en el repositorio del Web Service)*
+
+Durante este sprint, el desarrollo completo de estas funcionalidades se llevó a cabo en el repositorio del servicio web (smartdropw/smartdrop-backend). Manteniendo el modelo de ramificación GitFlow y el estándar de Conventional Commits definidos para el proyecto, a continuación se presentan los commits más representativos de esta fase, los cuales fueron integrados a la rama principal mediante Pull Requests revisados por el equipo para evitar conflictos.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| smartdrop-backend | main | 2d8255b | The last final ultimate test | Ejecución y verificación final de las pruebas integradas en el entorno local. | 8/07/2026 |
+| smartdrop-backend | main | fc90112 | 2FA test final | Pruebas funcionales del flujo del código de doble factor de seguridad. | 8/07/2026 |
+| smartdrop-backend | main | a2db814 | fix(api): sincronizar actualizacion de nombre en users y profiles | Corrección en la persistencia para asegurar la consistencia entre colecciones/tablas. | 8/07/2026 |
+| smartdrop-backend | main | 36f6a13 | fix(api): agregar DTOs faltantes y endpoint de status para 2FA | Implementación de objetos de transferencia de datos y verificación del estado de seguridad. | 8/07/2026 |
+| smartdrop-backend | main | 6731507 | Test for BD | Pruebas de conectividad y persistencia con el motor de base de datos relacional. | 8/07/2026 |
+| smartdrop-backend | main | d662ae9 | feat(api): add profile security endpoints and inventory extensions | Creación de rutas protegidas para la gestión del perfil e infraestructura física. | 8/07/2026 |
+| smartdrop-backend | main | 4181607 | feat(core): add profile management, device pH, and tank liquid types | Incorporación del núcleo de dominio avanzado con variables de pH y tipos de líquidos. | 8/07/2026 |
+| smartdrop-backend | main | 4287066 | IAM endpoints updated | Actualización de las rutas de gestión de identidad y accesos de usuario. | 8/07/2026 |
+| smartdrop-backend | main | 9a45f1c | refactor: identity context changed to IAM | Reestructuración del contexto de identidad hacia un modelo estructurado de IAM. | 8/07/2026 |
+
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
-*(Ver capturas del backend conectado y pruebas de Swagger)*
+
+La verificación de la ejecución del sistema integrado se realizó mediante el monitoreo de peticiones en tiempo real desde la consola de desarrollo del navegador y la validación de la persistencia de datos directamente en el servidor de base de datos remoto.
+
+A continuación, se describen las pruebas de ejecución que demuestran el funcionamiento correcto de la API y el Frontend:
+
+1. **Prueba de Integración y Respuestas HTTP (Frontend-Backend):** Se validó la carga de datos dinámicos en el panel de control principal. Al inspeccionar el tráfico de red (*Network Tab*), se constató el intercambio correcto de cabeceras y la obtención de códigos de estado de éxito (`200 OK`), confirmando que las peticiones enviadas desde la interfaz en Angular son procesadas y devueltas de manera limpia por los controladores del Web Service.
+2. **Validación de Persistencia en el Servidor de Datos:** Se estableció una conexión segura vía SSH (`ssh userdrop@57.156.57.178`) hacia el entorno de despliegue para interactuar con el motor de base de datos relacional MySQL. Mediante consultas directas en la consola (`use drop_db; show tables;`), se verificó que las tablas de seguridad (IAM), usuarios y dispositivos IoT (`SensorDevice`, `Tank`) se estructuraron de forma correcta y guardan consistencia inmediata con las operaciones de la aplicación web.
+
+![Backend image](assets/chapter5/backend-img.jpeg)
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
-La documentación en OpenAPI de nuestros servicios RESTful ha sido actualizada para reflejar todos los nuevos endpoints de autenticación, perfiles y dominios.
+
+La documentación interactiva de nuestros servicios RESTful se estructuró utilizando la especificación OpenAPI (Swagger), la cual se expone de forma centralizada directamente desde el entorno de producción en Render. Esta interfaz expone de manera integrada los contratos técnicos formales (endpoints, verbos HTTP y esquemas) que permiten al Frontend en Angular consumir de manera segura toda la lógica del negocio distribuida en micro-servicios o controladores independientes.
+
+A continuación, se describen los principales módulos o controladores expuestos y validados para este cierre de ciclo:
+
+* **Módulo de Gestión de Usuarios y Accesos (`auth-controller`, `profile-controller`, `role-controller`):** Controladores encargados de la autenticación segura, la emisión y validación de tokens JWT, la lógica del doble factor de autenticación (2FA) y los endpoints para la actualización segura de perfiles y credenciales de acceso.
+* **Módulo de Infraestructura Física e IoT (`tank-controller`, `sensor-device-controller`, `irrigation-config-controller`):** Servicios críticos encargados de interactuar directamente con el ecosistema de hardware. Gestionan la persistencia y consulta del estado de los tanques, lecturas en tiempo real de los sensores (caudal, temperatura, niveles de pH) y la programación lógica de las electroválvulas para el control de riego inteligente.
+* **Módulo Operativo y de Negocio (`alert-controller`, `report-controller`, `consumption-controller`, `subscription-controller`):** Controladores dedicados al procesamiento analítico de los datos históricos. Se encargan de generar los resúmenes diarios de consumo de 24 horas, gatillar notificaciones o alertas críticas ante anomalías y gestionar el estado de los planes de facturación activos.
+
+![Backend image](assets/chapter5/swagger.png)
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
