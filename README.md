@@ -1149,7 +1149,7 @@ En la entrevista, Deira Vargas, dueña de un emprendimiento de jugos naturales, 
 
 **Versión en Microsoft Stream:** [Microsoft](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419547_upc_edu_pe/IQBDan6JoM0sTJ36OW--nd7DAU_TZZgzidoIBUoikU0wUGM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iy0jbw)
 
-**Versión en YouTube:** [Youtube](https://youtu.be/hYLV2VGzZ_w)
+**Versión en YouTube:** [Youtube](https://youtu.be/bXdzJ0JaH-Y)
 
 **Screenshot del Video:**
 
