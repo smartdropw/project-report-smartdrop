@@ -1584,7 +1584,7 @@ Los enlaces también están disponibles en la sección de anexos.
 - **Organización en GitHub:** [https://github.com/smartdropw](https://github.com/smartdropw)
 - **Repositorio del informe:** [https://github.com/smartdropw/project-report-smartdrop](https://github.com/smartdropw/project-report-smartdrop)
 - **Repositorio de la Landing Page:** [https://github.com/smartdropw/LandingPage-SmartDrop](https://github.com/smartdropw/LandingPage-SmartDrop)
-- **Repositorio del Web Service (API):** [https://github.com/Rafael1231312331/smartdrop-api](https://github.com/Rafael1231312331/smartdrop-api)
+- **Repositorio del Web Service (API):** [https://github.com/smartdropw/smartdrop-backend](https://github.com/smartdropw/smartdrop-backend)
   
 #### Modelo de ramificación: GitFlow
 
@@ -1712,10 +1712,10 @@ El código fuente y las configuraciones del contenedor se subieron al repositori
 Se enlazó la cuenta de GitHub con Render y se creó un nuevo "Web Service". Se seleccionó el entorno de ejecución tipo "Docker" para que la plataforma leyera automáticamente el `Dockerfile`.
 
 **4. Despliegue y pruebas**
-Una vez finalizado el proceso de construcción (*Build*), Render asignó una URL pública segura (`.onrender.com`). Se realizaron pruebas de conectividad (CORS) y se ajustaron los permisos en los controladores de Spring Boot (`@CrossOrigin`) para permitir las peticiones exclusivas desde nuestro frontend en Netlify.
+Una vez finalizado el proceso de construcción (*Build*), Render asignó una URL pública segura (`DuckDNS.org`). Se realizaron pruebas de conectividad (CORS) y se ajustaron los permisos en los controladores de Spring Boot (`@CrossOrigin`) para permitir las peticiones exclusivas desde nuestro frontend en Netlify.
 
-**Repositorio:** [https://github.com/Rafael1231312331/smartdrop-api](https://github.com/Rafael1231312331/smartdrop-api)<br>
-**URL desplegada:** [https://smartdrop-api.onrender.com](https://smartdrop-api.onrender.com)<br>
+**Repositorio:** [https://github.com/smartdropw/smartdrop-backend](https://github.com/smartdropw/smartdrop-backend)<br>
+**URL desplegada:** [https://smartdrop-api.duckdns.org/swagger-ui/index.html](https://smartdrop-api.duckdns.org/swagger-ui/index.html)<br>
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
@@ -1742,7 +1742,7 @@ A continuación, se presenta la planificación del sprint. En esta sección se e
 | **Sprint #**                       | **Sprint 1**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Sprint Planning Background**     | En el sprint decidimos reunirnos para verificar el progreso de cada uno de los participantes y el progreso desde el punto de vista grupal, luego de ello buscamos formas y acciones de mejora.                                                                                                                                                                                                                                                                                                                                                              |
-| **Date**                           | 13/09/25                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Date**                           | 01/04/2026                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | **Time**                           | 21:00 horas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | **Location**                       | Reunión virtual – Zoom                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | **Prepared By**                    | Angel Pariona Chacca                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
@@ -1908,7 +1908,6 @@ Para este sprint, la carga de trabajo se dividió entre la maquetación de vista
 
 Durante este sprint, el flujo de trabajo se centró en el repositorio del Frontend. Cada componente fue desarrollado en ramas separadas y fusionado tras la validación de código. A continuación, se detallan los commits más representativos de esta fase:
 
-nota: Acá ponemos 5 commits de lo que programaron para el frontend,en que rama,id del coomit, el mensaje que le pusieron y fecha
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 |---|---|---|---|---|---|
 | smartdropw/Frontend-SmartDrop | feature/auth-login | 7a8b9c0 | feat: | Implementación del componente de login y enrutamiento inicial | 16/04/2026 |
@@ -1938,7 +1937,7 @@ De acuerdo con el ciclo de vida del proyecto y los requerimientos de la rúbrica
 
 La primera versión del Frontend Web Application ha sido desplegada para asegurar su disponibilidad y realizar pruebas de experiencia de usuario en un entorno real. Se ha configurado una canalización automatizada conectada a la rama principal del repositorio.
 
-* **URL de Web Application desplegada:** [https://6a0693fc92c4560008b0ec59--smartdrop01.netlify.app/login]
+* **URL de Web Application desplegada:** [https://smartdrop01.netlify.app/]
 * **Plataforma utilizada:** Netlify 
 
 ![Evidencia de Despliegue del Frontend](assets/chapter5/despliegue.png)
@@ -2049,13 +2048,174 @@ Plataforma utilizada: Netlify
 **Despliegue del Backend (API RESTful):**
 De igual manera, el servicio backend que alimenta de datos a la plataforma web fue desplegado exitosamente utilizando contenedores Docker en la nube de Render. Se configuraron los permisos de orígenes cruzados (CORS) para garantizar una comunicación segura y exclusiva con el frontend.
 
-**URL del Web Service desplegado:** [https://smartdrop-api.onrender.com](https://smartdrop-api.onrender.com)<br>
-**Plataforma utilizada:** Render (Entorno Docker)
+**URL del Web Service desplegado:** [https://smartdrop-api.duckdns.org/swagger-ui/index.html](https://smartdrop-api.duckdns.org/swagger-ui/index.html)<br>
+**Plataforma utilizada:** DuckDNS
 
 ### 5.2.3.8.Team Collaboration Insights during Sprint.
 La colaboración en este tercer sprint demostró una mejor organización del equipo siguiendo lo aprendido en las entregas anteriores. Al trabajar en una etapa avanzada de la aplicación, con un código más grande y flujos completos, mantener una revisión constante de los Pull Requests y asignar tareas específicas desde el inicio fue clave para evitar conflictos o sobreescrituras en las pantallas principales. A continuación, se muestran las métricas de GitHub que reflejan el trabajo técnico de cada uno de los integrantes en este sprint.
 
 ![Insights de Colaboración Sprint 3 Frontend](assets/chapter5/insights3.png)
+
+### 5.2.4. Sprint 4
+Para la etapa final del proyecto (TB2), el equipo se concentró en la implementación del Web Service (Backend) mediante Spring Boot y su integración completa con el Frontend Web Application. En esta iteración se desarrollaron los controladores, repositorios, entidades y el flujo de autenticación, incluyendo la seguridad con códigos de doble factor (2FA) para proteger el acceso a los datos del perfil y consumo.
+
+#### 5.2.4.1. Sprint Planning 4
+**Background:** Tras consolidar la segunda versión del Frontend en el Sprint 3, fue necesario enfocar este sprint en dar vida a la aplicación web mediante el desarrollo del Web Service en Java y Spring Boot. El principal reto de esta iteración fue establecer los Endpoints, estructurar la persistencia de datos (JPA) y conectarlos correctamente con las vistas desarrolladas previamente.
+
+| Sprint # | Sprint 4 |
+| :--- | :--- |
+| **Date** | 10/05/2026 |
+| **Time** | 18:00 horas |
+| **Location** | Reunión virtual - Discord |
+| **Prepared By** | Pariona Chacca, Angel Jose |
+| **Attendees** | Angel Jose Pariona Chacca, Rafael André Barrenechea Bustamante, Camila Alizée Otiniano Rosales, Francisco Javier Uribe Linares |
+| **Sprint 3 Review Summary** | Se validó el frontend completo y se determinó que la estructura estaba lista para consumir datos reales. El enfoque inmediato fue levantar la base de datos y diseñar los controladores principales en el backend para manejar la autenticación, la modificación del perfil y el doble factor de seguridad (2FA). |
+| **Sprint Goal & User Stories** | **US08, US10, US11, US14, US18** <br><br> **Goal:** Completar el desarrollo del Backend Web Service de SmartDrop, implementar medidas de seguridad como el código 2FA, gestionar excepciones personalizadas y asegurar la correcta conexión mediante CORS con la Web Application desplegada. |
+| **Sprint 4 Velocity** | 24 |
+| **Sum of Story Points** | 24 |
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+Para este cuarto sprint, enfocado en el Backend, el diseño de la lógica de negocio (Application Services) y la planificación de la arquitectura fue liderada de manera centralizada. En este contexto, el desarrollo de controladores y lógica transaccional fue dirigido por el líder de Backend para asegurar la consistencia del código, mientras que el resto del equipo colaboró con la revisión y verificación de los Endpoints (Swagger/Postman).
+
+| Team Member (Last Name, First Name) | GitHub Username | Backend Application Leader (L) / Collaborator (C) | Documentation Leader (L) / Collaborator (C) | Deployment & Security Leader (L) / Collaborator (C) |
+| :--- | :--- |:--------------------------------------------------|:--------------------------------------------|:----------------------------------------------------|
+| **Pariona Chacca, Angel Jose** | angelitoso-opp | L                                                 | C                                           | L                                                   |
+| Barrenechea Bustamante, Rafael André | Rafael1231312331 | C                                                 | L                                           | C                                                   |
+| Otiniano Rosales, Camila Alizée | CamilaaAlizee | C                                                 | L                                           | C                                                   |
+| Uribe Linares, Francisco Javier | FranciscoLinaresX | C                                                 | C                                           | L                                                   |
+
+#### 5.2.4.3. Sprint Backlog 4
+Con base en los objetivos del sprint final, las tareas se centraron en materializar las funcionalidades críticas del Web Service, enfocándose en la persistencia de datos (JPA Entities), la gestión de excepciones de Spring Boot (`@Transactional`), y el manejo del flujo de autenticación.
+
+| Sprint # | Sprint 4 | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **User Story ID** | **Story Title** | **Work-Item ID** | **Task Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| US08 | Autenticación Segura | T01 | Configuración de Spring Security y JWT | Implementar la generación y validación de tokens JWT para proteger los endpoints privados del Web Service. | 5 | Angel Pariona | Done |
+| US10 | Verificación Doble Factor (2FA) | T02 | Lógica de envío y validación de código 2FA | Desarrollar el servicio que genera un código de 6 dígitos manejando excepciones transaccionales (`noRollbackFor`) sin borrar el código en DB. | 6 | Angel Pariona | Done |
+| US11 | Perfil de Usuario | T03 | Endpoints de cambio de nombre y contraseña | Crear métodos `PUT` para actualizar el perfil y la contraseña, así como validaciones de la contraseña actual del usuario. | 4 | Angel Pariona | Done |
+| US14 | Entidades de Dominio | T04 | Persistencia de SensorDevice y Tank | Construir modelos JPA, repositorios y adaptadores añadiendo campos de dominio avanzados como `phLevel` y `liquidType`. | 5 | Angel Pariona | Done |
+| US18 | Integración y CORS | T05 | Configuración de CORS para el Frontend | Configurar permisos cruzados y controladores (`@CrossOrigin`) para permitir consumo exclusivo desde Netlify. | 4 | Angel Pariona | Done |
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+Durante este sprint, el desarrollo completo de estas funcionalidades se llevó a cabo en el repositorio del servicio web (smartdropw/smartdrop-backend). Manteniendo el modelo de ramificación GitFlow y el estándar de Conventional Commits definidos para el proyecto, a continuación se presentan los commits más representativos de esta fase, los cuales fueron integrados a la rama principal mediante Pull Requests revisados por el equipo para evitar conflictos.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| smartdrop-backend | main | 2d8255b | The last final ultimate test | Ejecución y verificación final de las pruebas integradas en el entorno local. | 8/07/2026 |
+| smartdrop-backend | main | fc90112 | 2FA test final | Pruebas funcionales del flujo del código de doble factor de seguridad. | 8/07/2026 |
+| smartdrop-backend | main | a2db814 | fix(api): sincronizar actualizacion de nombre en users y profiles | Corrección en la persistencia para asegurar la consistencia entre colecciones/tablas. | 8/07/2026 |
+| smartdrop-backend | main | 36f6a13 | fix(api): agregar DTOs faltantes y endpoint de status para 2FA | Implementación de objetos de transferencia de datos y verificación del estado de seguridad. | 8/07/2026 |
+| smartdrop-backend | main | 6731507 | Test for BD | Pruebas de conectividad y persistencia con el motor de base de datos relacional. | 8/07/2026 |
+| smartdrop-backend | main | d662ae9 | feat(api): add profile security endpoints and inventory extensions | Creación de rutas protegidas para la gestión del perfil e infraestructura física. | 8/07/2026 |
+| smartdrop-backend | main | 4181607 | feat(core): add profile management, device pH, and tank liquid types | Incorporación del núcleo de dominio avanzado con variables de pH y tipos de líquidos. | 8/07/2026 |
+| smartdrop-backend | main | 4287066 | IAM endpoints updated | Actualización de las rutas de gestión de identidad y accesos de usuario. | 8/07/2026 |
+| smartdrop-backend | main | 9a45f1c | refactor: identity context changed to IAM | Reestructuración del contexto de identidad hacia un modelo estructurado de IAM. | 8/07/2026 |
+
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+La verificación de la ejecución del sistema integrado se realizó mediante el monitoreo de peticiones en tiempo real desde la consola de desarrollo del navegador y la validación de la persistencia de datos directamente en el servidor de base de datos remoto.
+
+A continuación, se describen las pruebas de ejecución que demuestran el funcionamiento correcto de la API y el Frontend:
+
+1. **Prueba de Integración y Respuestas HTTP (Frontend-Backend):** Se validó la carga de datos dinámicos en el panel de control principal. Al inspeccionar el tráfico de red (*Network Tab*), se constató el intercambio correcto de cabeceras y la obtención de códigos de estado de éxito (`200 OK`), confirmando que las peticiones enviadas desde la interfaz en Angular son procesadas y devueltas de manera limpia por los controladores del Web Service.
+2. **Validación de Persistencia en el Servidor de Datos:** Se estableció una conexión segura vía SSH (`ssh userdrop@57.156.57.178`) hacia el entorno de despliegue para interactuar con el motor de base de datos relacional MySQL. Mediante consultas directas en la consola (`use drop_db; show tables;`), se verificó que las tablas de seguridad (IAM), usuarios y dispositivos IoT (`SensorDevice`, `Tank`) se estructuraron de forma correcta y guardan consistencia inmediata con las operaciones de la aplicación web.
+
+![Backend image](assets/chapter5/backend-img.jpeg)
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+La documentación interactiva de nuestros servicios RESTful se estructuró utilizando la especificación OpenAPI (Swagger), la cual se expone de forma centralizada directamente desde el entorno de producción en Render. Esta interfaz expone de manera integrada los contratos técnicos formales (endpoints, verbos HTTP y esquemas) que permiten al Frontend en Angular consumir de manera segura toda la lógica del negocio distribuida en micro-servicios o controladores independientes.
+
+A continuación, se describen los principales módulos o controladores expuestos y validados para este cierre de ciclo:
+
+* **Módulo de Gestión de Usuarios y Accesos (`auth-controller`, `profile-controller`, `role-controller`):** Controladores encargados de la autenticación segura, la emisión y validación de tokens JWT, la lógica del doble factor de autenticación (2FA) y los endpoints para la actualización segura de perfiles y credenciales de acceso.
+* **Módulo de Infraestructura Física e IoT (`tank-controller`, `sensor-device-controller`, `irrigation-config-controller`):** Servicios críticos encargados de interactuar directamente con el ecosistema de hardware. Gestionan la persistencia y consulta del estado de los tanques, lecturas en tiempo real de los sensores (caudal, temperatura, niveles de pH) y la programación lógica de las electroválvulas para el control de riego inteligente.
+* **Módulo Operativo y de Negocio (`alert-controller`, `report-controller`, `consumption-controller`, `subscription-controller`):** Controladores dedicados al procesamiento analítico de los datos históricos. Se encargan de generar los resúmenes diarios de consumo de 24 horas, gatillar notificaciones o alertas críticas ante anomalías y gestionar el estado de los planes de facturación activos.
+
+![Backend image](assets/chapter5/swagger.png)
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+Para el Sprint 4, se consolidó el despliegue final de la Web Application de SmartDrop en una versión conectada con el backend. A diferencia de la versión previa, utilizada principalmente para validar la navegación general y las vistas funcionales del frontend, esta versión permite comprobar el flujo real de acceso a la plataforma mediante servicios backend desplegados.
+
+La aplicación web conectada fue publicada en Netlify y consume el Web Service desarrollado en Spring Boot, el cual se encuentra desplegado en Render. De esta manera, el frontend ya no funciona únicamente como una interfaz aislada, sino como una aplicación web integrada que permite registrar usuarios, iniciar sesión, recuperar acceso y visualizar el panel principal luego de la autenticación.
+
+- **URL de Web Application conectada con Backend:** [https://smartdrop01.netlify.app/login](https://smartdrop01.netlify.app/login)
+- **URL de Web Application previa:** [https://6a0693fc92c4560008b0ec59--smartdrop01.netlify.app/login](https://6a0693fc92c4560008b0ec59--smartdrop01.netlify.app/login)
+- **Plataforma utilizada para Frontend:** Netlify
+- **URL del Web Service desplegado:** [https://smartdrop-api.onrender.com](https://smartdrop-api.onrender.com)
+- **Plataforma utilizada para Backend:** Render
+- **Documentación de Endpoints - Swagger UI:** [https://smartdrop-api.duckdns.org/swagger-ui/index.html](https://smartdrop-api.duckdns.org/swagger-ui/index.html)
+
+Durante la revisión del despliegue, se validó que la versión conectada permite el inicio de sesión mediante una cuenta registrada y también la creación de nuevas cuentas desde el formulario de registro. Asimismo, se verificó el flujo de recuperación de contraseña, mediante el cual el usuario puede solicitar el restablecimiento de acceso usando su correo registrado y luego definir una nueva contraseña.
+
+Respecto a las funcionalidades internas, la versión final mantiene las pantallas trabajadas en los sprints anteriores: dashboard de monitoreo, alertas, reportes, negocio, soporte y facturación. La principal diferencia del Sprint 4 se encuentra en la integración final entre frontend y backend, especialmente en los procesos de autenticación, registro y recuperación de acceso. En el dashboard se observa que los valores dependen de la información asociada a los dispositivos registrados; por ello, cuando el usuario no tiene dispositivos vinculados, el sistema muestra métricas iniciales como consumo de `0 L` y `0/0` dispositivos activos, lo cual corresponde al estado actual de la cuenta utilizada para la prueba.
+
+**Evidencias del despliegue final:**
+
+**Vista de login de la versión conectada:**
+
+![Vista de login de la versión conectada](assets/sprint4-login-connected.png)
+
+**Vista de registro de cuenta:**
+
+![Vista de registro de cuenta](assets/sprint4-register-account.png)
+
+**Vista de recuperación de contraseña:**
+
+![Vista de recuperación de contraseña](assets/sprint4-password-recovery.png)
+
+**Vista de restablecimiento de contraseña:**
+
+![Vista de restablecimiento de contraseña](assets/sprint4-reset-password.png)
+
+**Vista del dashboard con sesión iniciada:**
+
+![Vista del dashboard con sesión iniciada](assets/sprint4-dashboard-connected.png)
+
+**Evidencia del backend desplegado en Render:**
+
+![Evidencia del backend desplegado en Render](assets/sprint4-render-api.png)
+
+**Evidencia de documentación Swagger del Web Service:**
+
+![Evidencia de documentación Swagger del Web Service](assets/sprint4-swagger-documentation.png)
+
+**Evidencia de documentación de endpoints mediante Swagger UI:**
+
+![Evidencia de documentación de endpoints mediante Swagger UI](assets/sprint4-swagger-endpoints-duckdns.png)
+
+Con este despliegue, SmartDrop alcanza una versión más cercana al producto final, ya que conserva las funcionalidades visuales desarrolladas previamente y, además, valida la comunicación entre la aplicación web y el backend. Esto permite presentar una solución integrada, disponible desde una URL pública y respaldada por un Web Service documentado mediante Swagger.
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 4, la colaboración del equipo se enfocó en cerrar la integración final de SmartDrop como una aplicación web conectada. A diferencia de los sprints anteriores, donde el trabajo se concentró principalmente en construir y completar las vistas del frontend, en este sprint la prioridad fue validar que la aplicación desplegada pudiera comunicarse correctamente con el Web Service y que los flujos de acceso funcionaran de forma consistente.
+
+El equipo mantuvo una dinámica de revisión conjunta, distribuyendo el trabajo en tres frentes principales: validación del frontend conectado, verificación del backend desplegado y actualización de evidencias dentro del informe. Esta organización permitió revisar el producto desde una perspectiva técnica y funcional, evitando que el cierre del sprint se limite solo a presentar pantallas terminadas.
+
+| Frente de colaboración | Actividades realizadas | Resultado obtenido |
+| :--- | :--- | :--- |
+| Frontend Web Application | Revisión de las vistas de login, registro, recuperación de contraseña, restablecimiento de contraseña y dashboard con sesión iniciada. | Se comprobó que el usuario puede acceder al sistema, crear una cuenta y visualizar el panel principal desde la versión desplegada. |
+| Web Service Backend | Verificación del backend desplegado en Render y revisión de la documentación Swagger asociada al Web Service. | Se confirmó que el servicio backend se encuentra disponible y documentado para respaldar el consumo desde la aplicación web. |
+| Integración frontend-backend | Validación del flujo de autenticación y recuperación de acceso usando la versión conectada de Netlify. | Se consolidó una versión más cercana al producto final, donde la interfaz ya depende de servicios backend y no solo de datos visuales o simulados. |
+| Documentación del proyecto | Organización de capturas, URLs y explicación del despliegue final dentro del Capítulo 5. | Se mantuvo trazabilidad entre la evidencia técnica y la explicación presentada en el informe. |
+
+Como parte de la colaboración, se revisaron los repositorios vinculados al proyecto para asegurar que la documentación del Sprint 4 conserve coherencia con la configuración técnica definida previamente. El repositorio del frontend se mantuvo como base de la aplicación desplegada en Netlify, mientras que el repositorio del backend permitió sostener el Web Service expuesto mediante Render y documentado con Swagger. En paralelo, el repositorio del informe fue usado para integrar las evidencias finales del capítulo.
+
+| Repositorio | Uso durante el Sprint 4 |
+| :--- | :--- |
+| `smartdropw/smartdrop-front` | Validación de la Web Application conectada, principalmente en los flujos de autenticación, registro, recuperación de contraseña y dashboard. |
+| `smartdropw/smartdrop-backend` | Revisión del Web Service desplegado, documentación Swagger y disponibilidad del backend para el consumo desde el frontend. |
+| `smartdropw/project-report-smartdrop` | Integración de evidencias, URLs, capturas y redacción final de las secciones correspondientes al Sprint 4. |
+
+El principal aprendizaje del sprint fue que la etapa de cierre no consiste únicamente en desplegar una nueva versión, sino en revisar que cada parte del sistema tenga sentido dentro del flujo completo del usuario. Por ello, el equipo validó el acceso desde la página publicada, comprobó la disponibilidad del backend y contrastó las evidencias antes de incorporarlas al informe.
+
+También se identificó que algunas mejoras visuales, como la unificación completa del idioma en las pantallas de recuperación de contraseña, pueden quedar como ajustes posteriores de interfaz. Sin embargo, estas observaciones no afectan el objetivo principal del Sprint 4, ya que el foco fue demostrar la conexión funcional entre frontend y backend, junto con la disponibilidad pública de la solución.
+
+En conclusión, la colaboración durante el Sprint 4 permitió consolidar el cierre técnico del proyecto. El equipo pasó de una aplicación con vistas funcionales a una versión integrada, validada y documentada, manteniendo continuidad con los sprints anteriores y dejando evidencia suficiente para sustentar la versión final de SmartDrop.
+
 
 ## 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
@@ -2222,7 +2382,7 @@ En la entrevista, Deira Vargas, dueña de un emprendimiento de jugos naturales, 
 
 **Versión en Microsoft Stream:** [Microsoft](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419547_upc_edu_pe/IQBDan6JoM0sTJ36OW--nd7DAU_TZZgzidoIBUoikU0wUGM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=iy0jbw)
 
-**Versión en YouTube:** [Youtube](https://youtu.be/hYLV2VGzZ_w)
+**Versión en YouTube:** [Youtube](https://youtu.be/bXdzJ0JaH-Y)
 
 **Screenshot del Video:**
 
@@ -2298,6 +2458,6 @@ Conne, M(2024). _The Markdown Guide_. MarkdownGuide. Recuperado de: https://www.
 | Landing Page Desplegada | Enlace de Landing Page Desplegada | [https://smartdropw.github.io/LandingPage-SmartDrop/](https://smartdropw.github.io/LandingPage-SmartDrop/)                      |
 | Frontend Web App | Enlace al repositorio de la aplicación web | [https://github.com/smartdropw/smartdrop-front](https://github.com/smartdropw/smartdrop-front) |
 | Web App Desplegada | Enlace a la aplicación web en producción | [https://6a0693fc92c4560008b0ec59--smartdrop01.netlify.app/login](https://6a0693fc92c4560008b0ec59--smartdrop01.netlify.app/login) |
-| Web Service (Backend) | Enlace al repositorio de la API en Spring Boot | [https://github.com/Rafael1231312331/smartdrop-api](https://github.com/Rafael1231312331/smartdrop-api) |
-| API Desplegada | Enlace base del Web Service en producción | [https://smartdrop-api.onrender.com](https://smartdrop-api.onrender.com) |
-| Documentación API | Enlace interactivo de Swagger UI | [https://smartdrop-api.onrender.com/swagger-ui/index.html](https://smartdrop-api.onrender.com/swagger-ui/index.html) |
+| Web Service (Backend) | Enlace al repositorio de la API en Spring Boot | [https://github.com/smartdropw/smartdrop-backend](https://github.com/smartdropw/smartdrop-backend) |
+| API Desplegada | Enlace base del Web Service en producción | [https://smartdrop-api.duckdns.org](https://smartdrop-api.duckdns.org) |
+| Documentación API | Enlace interactivo de Swagger UI | [https://smartdrop-api.duckdns.org/swagger-ui/index.html](https://smartdrop-api.duckdns.org/swagger-ui/index.html) |
