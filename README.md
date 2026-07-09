@@ -74,6 +74,11 @@
 |         |       20/06/2026       |       Angel Pariona          |               Desarrollo del capítulo 5     |
 |         |   20/06/2026         |        Uribe Linares Francisco    |   Desarrollo del capítulo 5      |
 |         |    20/06/2026  |   Camila Otiniano   |  Desarrollo del capítulo 5 |
+|    TB2   |      8/07/2026      |            Rafael Barrenechea             |                  Desarrollo del capítulo 5|
+|         |       8/07/2026       |       Angel Pariona          |               Desarrollo del capítulo 5     |
+|         |       8/07/2026       |       Angel Pariona          |               Mejoras en el Web Service     |
+|         |   8/07/2026         |        Uribe Linares Francisco    |   Realización del video About-The-Product      |
+|         |    8/07/2026  |   Camila Otiniano   |  Desarrollo del capítulo 5 |
 
 # Project Report Collaboration Insights
 
@@ -115,6 +120,19 @@ Para la tercera entrega (AV2), el equipo se enfocó de manera conjunta en el des
 | **Uribe Linares Francisco Javier** | Desarrollo de Frontend Web Application, Web Services y documentación en el Capítulo 5. |
 | **Barrenechea Bustamante Rafael** | Desarrollo de Frontend Web Application, Web Services y documentación en el Capítulo 5. |
 | **Otiniano Rosales Camila Alizée** | Desarrollo de Frontend Web Application, Web Services y documentación en el Capítulo 5. |
+
+TB2
+
+Para la entrega final del proyecto (TB2), el equipo concentró sus esfuerzos en la integración definitiva del ecosistema de software, logrando conectar de manera exitosa el Web Service en Spring Boot con la Frontend Web Application en Angular. Asimismo, se consolidaron las evidencias de ejecución técnica, el despliegue en entornos de producción y la documentación final de las iteraciones en el Capítulo 5.
+
+| Integrante | Tareas Asignadas |
+| :--- | :--- |
+| **Pariona Chacca, Angel Jose** | Integración final del API (Backend) con el Frontend, despliegue de servicios y desarrollo de la documentación en el Capítulo 5. |
+| **Uribe Linares, Francisco Javier** | Planificación, producción, edición y despliegue del video  About-the-Product. |
+| **Barrenechea Bustamante, Rafael André** | Desarrollo, revisión y consolidación de la documentación  en el Capítulo 5. |
+| **Otiniano Rosales, Camila Alizée** | Desarrollo, revisión y consolidación de la documentación  en el Capítulo 5. |
+
+
 
 ---
 # Contenido
